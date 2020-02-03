@@ -1,0 +1,5 @@
+node_modules/*
+src/**/*.svg
+src/**/*.png
+src/**/*.css
+src/react-app-env.d.ts

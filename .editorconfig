@@ -1,0 +1,36 @@
+[*]
+charset=utf-8
+end_of_line=lf
+insert_final_newline=true
+indent_style=space
+indent_size=4
+
+[{.babelrc,.stylelintrc,jest.config,.eslintrc,*.json,*.jsb3,*.jsb2,*.bowerrc}]
+indent_style=space
+indent_size=2
+
+[{Makefile.*,makefile,Makefile,GNUmakefile,*.mk}]
+indent_style=tab
+tab_width=4
+
+[tsconfig.json]
+indent_style=space
+indent_size=2
+
+[*.js.map]
+indent_style=space
+indent_size=2
+
+[{*.ts,*.vue}]
+indent_style=space
+indent_size=2
+
+[{*.yml,*.yaml}]
+indent_style=space
+indent_size=2
+
+[*.{js,jsx,ts,tsx,vue}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
