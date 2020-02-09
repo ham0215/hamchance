@@ -5,13 +5,15 @@ const MarunouchiLunch = lazy(() =>
   import(/* webpackChunkName: 'marunouchi-lunch' */ './MarunouchiLunch'),
 );
 const Login = lazy(() => import(/* webpackChunkName: 'login' */ './Login'));
+const Top = lazy(() => import(/* webpackChunkName: 'top' */ './Top'));
 
 export default function RootRouter() {
   return (
     <Suspense fallback={null}>
       <Switch>
         <Route path="/marunouchi-lunch" exact component={MarunouchiLunch} />
-        <Route component={Login} />
+        <Route path="/login" exact component={Login} />
+        <Route component={Top} />
       </Switch>
     </Suspense>
   );
