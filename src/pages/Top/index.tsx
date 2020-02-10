@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function MarunouchiLunch() {
+export default function Top() {
   return <div>top</div>;
 }
