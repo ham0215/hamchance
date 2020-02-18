@@ -6,6 +6,9 @@ const MarunouchiLunch = lazy(() =>
 );
 const Login = lazy(() => import(/* webpackChunkName: 'login' */ './Login'));
 const Top = lazy(() => import(/* webpackChunkName: 'top' */ './Top'));
+const Sendgrid = lazy(() =>
+  import(/* webpackChunkName: 'sendgrid' */ './Sendgrid'),
+);
 
 export default function RootRouter() {
   return (
@@ -13,6 +16,7 @@ export default function RootRouter() {
       <Switch>
         <Route path="/marunouchi-lunch" exact component={MarunouchiLunch} />
         <Route path="/login" exact component={Login} />
+        <Route path="/sendgrid" exact component={Sendgrid} />
         <Route component={Top} />
       </Switch>
     </Suspense>
