@@ -20,17 +20,17 @@ export default function Login() {
         },
       },
       signInFlow: 'popup',
-      signInSuccessUrl: 'https://www.hamchance.com',
+      signInSuccessUrl: '/',
       signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-      tosUrl: 'https://www.hamchance.com/terms-of-service',
-      privacyPolicyUrl: 'https://www.hamchance.com/privacy-policy',
+      tosUrl: '/terms-of-service',
+      privacyPolicyUrl: '/privacy-policy',
     };
     ui.start('#firebaseui-auth-container', uiConfig);
   });
 
   return (
     <div>
-      <h1>Welcome to My Awesome App</h1>
+      <h1>Welcome to Hamchance.com</h1>
       <div id="firebaseui-auth-container" />
       <div id="loader">Loading...</div>
     </div>
