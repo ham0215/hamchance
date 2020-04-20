@@ -11,7 +11,7 @@ export default function Login() {
     }
     const uiConfig = {
       callbacks: {
-        signInSuccessWithAuthResult: (authResult: any, redirectUrl: any) => {
+        signInSuccessWithAuthResult: () => {
           return true;
         },
         uiShown: () => {
