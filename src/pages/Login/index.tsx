@@ -21,7 +21,7 @@ export default function Login() {
       },
       signInFlow: 'popup',
       signInSuccessUrl: '/',
-      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+      signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
       tosUrl: '/terms-of-service',
       privacyPolicyUrl: '/privacy-policy',
     };
