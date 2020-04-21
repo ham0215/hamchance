@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Top() {
-  return <div>top</div>;
+  return (
+    <div>
+      <div>TOP</div>
+    </div>
+  );
 }
