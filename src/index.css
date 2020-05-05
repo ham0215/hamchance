@@ -8,16 +8,7 @@ html {
 }
 
 body {
-    background: #151515 url('/images/yarigadake.jpg') no-repeat fixed left
-        bottom;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
+    margin: 0px;
     font-size: 1.4rem;
     font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
 }

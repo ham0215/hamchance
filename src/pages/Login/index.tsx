@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import * as firebaseui from 'firebaseui';
 import firebase from 'components/Firebase';
 import 'firebaseui/dist/firebaseui.css';
+import TopContents from 'components/TopContents';
 
 export default function Login() {
   useEffect(() => {
@@ -29,10 +30,10 @@ export default function Login() {
   });
 
   return (
-    <div>
+    <TopContents>
       <h1>Welcome to Hamchance.com</h1>
       <div id="firebaseui-auth-container" />
       <div id="loader">Loading...</div>
-    </div>
+    </TopContents>
   );
 }
