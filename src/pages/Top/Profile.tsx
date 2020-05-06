@@ -7,10 +7,10 @@ const Section = styled.section`
   padding: 80px 0;
 `;
 
-export default function Contact() {
+export default function Profile() {
   return (
-    <Section id="contact">
-      <SectionHeading>CONTACT</SectionHeading>
+    <Section id="profile">
+      <SectionHeading>PROFILE</SectionHeading>
       <SectionText>開発中...!!</SectionText>
     </Section>
   );

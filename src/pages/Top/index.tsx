@@ -4,7 +4,7 @@ import Header from 'pages/Top/Header';
 import About from 'pages/Top/About';
 import Contents from 'pages/Top/Contents';
 import Skills from 'pages/Top/Skills';
-import Contact from 'pages/Top/Contact';
+import Profile from 'pages/Top/Profile';
 
 export default function Top() {
   return (
@@ -13,7 +13,7 @@ export default function Top() {
       <About />
       <Contents />
       <Skills />
-      <Contact />
+      <Profile />
     </TopContents>
   );
 }

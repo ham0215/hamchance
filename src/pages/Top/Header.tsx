@@ -39,7 +39,7 @@ const SiteTitle = styled.h1`
 
 const SiteDiscription = styled.p`
   margin-bottom: 50px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 `;
 
 export default function Header() {
@@ -50,14 +50,16 @@ export default function Header() {
       <SiteSubTitle>ham&apos;s sandbox</SiteSubTitle>
       <SiteTitle>Hamchance.com</SiteTitle>
       <SiteDiscription>
-        登山とジョギング、子育てと株取引とお酒の合間に気になる技術を試すページ
+        登山とジョギング、子育てと株取引とお酒で忙しいWeb engneerが
+        <br />
+        たまに気になる技術を試すページ
       </SiteDiscription>
       <div className={classes.root}>
         <Button variant="contained" href="#about">
           ABOUT
         </Button>
-        <Button variant="contained" color="primary" href="#contact">
-          SEMD MESSAGE
+        <Button variant="contained" color="primary" href="#profile">
+          PROFILE
         </Button>
       </div>
     </SiteHeader>
