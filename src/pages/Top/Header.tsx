@@ -50,7 +50,7 @@ export default function Header() {
       <SiteSubTitle>ham&apos;s sandbox</SiteSubTitle>
       <SiteTitle>Hamchance.com</SiteTitle>
       <SiteDiscription>
-        登山とジョギング、お酒と株の合間に気になる技術を試すページ
+        登山とジョギング、子育てと株取引とお酒の合間に気になる技術を試すページ
       </SiteDiscription>
       <div className={classes.root}>
         <Button variant="contained" href="#about">
