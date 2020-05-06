@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 import Link from '@material-ui/core/Link';
 
 const Footer = styled.footer`
-  padding: 20px 0 30px;
+  padding: 10px 0 10px;
   font-size: 0.8rem;
   background-color: #3f51b5;
   color: #fff;

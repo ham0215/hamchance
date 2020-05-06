@@ -56,7 +56,7 @@ export default function Header() {
         <Button variant="contained" href="#about">
           ABOUT
         </Button>
-        <Button variant="contained" color="primary" href="#contanct">
+        <Button variant="contained" color="primary" href="#contact">
           SEMD MESSAGE
         </Button>
       </div>
