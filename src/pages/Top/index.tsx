@@ -1,71 +1,96 @@
 import React from 'react';
 import TopContents from 'components/TopContents';
 import styled from 'styled-components/macro';
-import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
+import TopHeader from 'pages/Top/TopHeader';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-    },
-  },
-}));
-
-const TopHeader = styled.header`
-  padding: 170px 30px 80px;
+const WhiteSection = styled.section`
+  padding: 80px 0;
+  background-color: #fff;
+  color: #333;
 `;
 
-const SiteSubTitle = styled.p`
-  margin: 0 0 30px;
-  letter-spacing: 1px;
-  font-size: 1.6rem;
+const BlackSection = styled.section`
+  padding: 80px 0;
+  background-color: #383634;
+`;
 
+const SectionHeading = styled.h2`
+  position: relative;
+  display: inline-block;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
   ::before,
   ::after {
     content: '';
-    display: inline-block;
-    width: 140px;
-    height: 2px;
-    margin: 0 30px;
-    background-color: #fff;
-    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #999;
+  }
+  ::before {
+    bottom: 5px;
   }
 `;
 
-const SiteTitle = styled.h1`
-  margin: 50px 0 40px;
-  font-fize: 7.6rem;
+const SectionText = styled.p`
+  margin: 30px 0;
+  line-height: 2.5;
 `;
 
-const SiteDiscription = styled.p`
-  margin-bottom: 50px;
-  color: #808080;
-  font-size: 1.6rem;
+const SectionSubText = styled.p`
+  margin: 30px 0;
+  line-height: 2.5;
+  font-size: small;
 `;
 
 export default function Top() {
-  const classes = useStyles();
-
   return (
     <TopContents>
-      <TopHeader>
-        <SiteSubTitle>Web engineer&apos;s sandbox</SiteSubTitle>
-        <SiteTitle>Hamchance.com</SiteTitle>
-        <SiteDiscription>
-          登山とジョギングとお酒の合間に色々試すための実験ページ
-        </SiteDiscription>
-        <div className={classes.root}>
-          <Button variant="contained" href="#about">
-            ABOUT
-          </Button>
-          <Button variant="contained" color="primary" href="#contanct">
-            SEMD MESSAGE
-          </Button>
-        </div>
-      </TopHeader>
-      <section id="about">about</section>
-      <section>contents</section>
+      <TopHeader />
+      <WhiteSection id="about">
+        <SectionHeading>ABOUT</SectionHeading>
+        <SectionText>
+          Webエンジニアをしているhamが趣味の合間に気になる技術を試すためのページです。
+        </SectionText>
+        <SectionSubText>
+          各機能に特に意味はないのでご注意ください。
+          <br />
+          例えばヘッダーにログイン機能がありますがログインしても何もできませんw
+          (firebaseのログインを試したかっただけです)
+          <br />
+          雑に試すため、機能が急に増減したり、表示できなくなったりするかもしれません。
+        </SectionSubText>
+        <SectionSubText>
+          トップページの構成は
+          <a
+            href="https://www.shoeisha.co.jp/book/detail/9784798141572"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            『HTML5/CSS3モダンコーディング』
+          </a>
+          を参考にしています。
+          <br />
+          コンポーネントは
+          <a
+            href="https://material-ui.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            material-ui
+          </a>
+          を使っています。
+          <br />
+          cssはめっぽう弱いのでとても参考になりました！
+        </SectionSubText>
+      </WhiteSection>
+      <BlackSection>
+        <SectionHeading>CONTENTS</SectionHeading>
+        <SectionText>開発中...!!</SectionText>
+      </BlackSection>
       <section>skills</section>
       <section id="contact">contact</section>
       <footer>footer</footer>
