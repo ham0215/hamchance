@@ -40,7 +40,7 @@ export default function About() {
         </a>
         を使っています。
         <br />
-        cssはめっぽう弱いのでとても参考になりました！
+        cssはめっぽう弱いのでとても参考になりました！ありがとうございます！！
       </SectionSubText>
     </WhiteSection>
   );
