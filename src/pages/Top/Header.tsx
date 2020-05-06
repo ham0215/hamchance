@@ -42,7 +42,7 @@ const SiteDiscription = styled.p`
   font-size: 1.6rem;
 `;
 
-export default function TopHeader() {
+export default function Header() {
   const classes = useStyles();
 
   return (
