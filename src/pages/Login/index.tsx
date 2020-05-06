@@ -3,6 +3,7 @@ import * as firebaseui from 'firebaseui';
 import firebase from 'components/Firebase';
 import styled from 'styled-components/macro';
 import 'firebaseui/dist/firebaseui.css';
+import TopContents from 'components/TopContents';
 
 const SiteTitle = styled.p`
   margin: 30px 0;
@@ -10,12 +11,7 @@ const SiteTitle = styled.p`
   font-size: 2rem;
 `;
 
-const Contents = styled.div`
-  background: #151515 url('/images/yarigadake.jpg') no-repeat fixed center
-    bottom;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
+const Contents = styled(TopContents)`
   padding: 130px 0;
 `;
 
