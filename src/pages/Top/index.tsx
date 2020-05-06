@@ -5,7 +5,6 @@ import About from 'pages/Top/About';
 import Contents from 'pages/Top/Contents';
 import Skills from 'pages/Top/Skills';
 import Contact from 'pages/Top/Contact';
-import Footer from 'pages/Top/Footer';
 
 export default function Top() {
   return (
@@ -15,7 +14,6 @@ export default function Top() {
       <Contents />
       <Skills />
       <Contact />
-      <Footer />
     </TopContents>
   );
 }

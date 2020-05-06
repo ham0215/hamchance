@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import firebase from 'components/Firebase';
 import { User } from 'firebase/app';
+import Footer from 'components/Footer';
 
 const MarunouchiLunch = lazy(() =>
   import(/* webpackChunkName: 'marunouchi-lunch' */ './MarunouchiLunch'),
@@ -88,6 +89,7 @@ export default function RootRouter() {
         <Route path="/privacy-policy" exact component={PrivacyPolicy} />
         <Route component={Top} />
       </Switch>
+      <Footer />
     </Suspense>
   );
 }
