@@ -10,7 +10,7 @@ export default function Twitter() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={QiitaIcon} alt="qiita" height="50px" />
+        <img src={QiitaIcon} alt="qiita" height="30px" />
       </IconButton>
     </div>
   );

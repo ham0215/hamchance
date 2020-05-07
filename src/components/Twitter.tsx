@@ -1,11 +1,6 @@
 import React from 'react';
 import IconButton from '@material-ui/core/IconButton';
-import styled from 'styled-components/macro';
 import TwitterIcon from 'images/twitter.svg';
-
-const ImageText = styled.p`
-  color: white;
-`;
 
 export default function Twitter() {
   return (
@@ -15,8 +10,7 @@ export default function Twitter() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={TwitterIcon} alt="twitter" width="50px" />
-        <ImageText>ham (@hamchance0215)</ImageText>
+        <img src={TwitterIcon} alt="twitter" width="30px" />
       </IconButton>
     </div>
   );

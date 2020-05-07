@@ -10,7 +10,7 @@ export default function Twitter() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={SpeakerDeckIcon} alt="speakerdeck" width="50px" />
+        <img src={SpeakerDeckIcon} alt="speakerdeck" height="30px" />
       </IconButton>
     </div>
   );
