@@ -23,7 +23,7 @@ export default function About() {
         Errorで何もできなくなったりするかもしれません。
       </SectionSubText>
       <SectionSubText>
-        トップページの構成は
+        デザインスキルやCSSはめっぽう弱いのでトップページの構成は
         <a
           href="https://www.shoeisha.co.jp/book/detail/9784798141572"
           target="_blank"
@@ -31,7 +31,9 @@ export default function About() {
         >
           『HTML5/CSS3モダンコーディング』
         </a>
-        を参考にしています。
+        をベースに作成しました。
+        <br />
+        もうちょっと勉強しないとな。。。
         <br />
         コンポーネントは
         <a
@@ -43,7 +45,6 @@ export default function About() {
         </a>
         を使っています。
         <br />
-        cssはめっぽう弱いのでとても参考になりました！ありがとうございます！！
       </SectionSubText>
     </WhiteSection>
   );
