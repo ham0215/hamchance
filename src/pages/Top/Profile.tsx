@@ -55,13 +55,19 @@ export default function Profile() {
             <Grid item xs={12} sm container>
               <Grid item xs container direction="column" spacing={2}>
                 <Typography gutterBottom variant="subtitle1">
-                  Naoto Hamada(Twitter: @hamchance0215)
+                  Naoto Hamada (Twitter: @hamchance0215)
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                  経歴
+                </Typography>
+                <Typography variant="body2" color="textSecondary">
+                  SIer → Web Engineer
                 </Typography>
                 <Typography variant="body2" gutterBottom>
                   趣味
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  登山
+                  登山 / ジョギング / 株 / お酒 / 競馬 / 子育て
                 </Typography>
               </Grid>
             </Grid>

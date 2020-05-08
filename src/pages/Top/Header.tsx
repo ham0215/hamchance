@@ -50,7 +50,7 @@ export default function Header() {
       <SiteSubTitle>ham&apos;s sandbox</SiteSubTitle>
       <SiteTitle>Hamchance.com</SiteTitle>
       <SiteDiscription>
-        登山とジョギング、子育てと株取引とお酒で忙しいWeb engneerが
+        登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアが
         <br />
         たまに気になる技術を試すページ
       </SiteDiscription>
