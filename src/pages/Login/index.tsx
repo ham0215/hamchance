@@ -1,7 +1,19 @@
 import React, { useEffect } from 'react';
 import * as firebaseui from 'firebaseui';
 import firebase from 'components/Firebase';
+import styled from 'styled-components/macro';
 import 'firebaseui/dist/firebaseui.css';
+import TopContents from 'components/TopContents';
+
+const SiteTitle = styled.p`
+  margin: 30px 0;
+  line-height: 2.5;
+  font-size: 2rem;
+`;
+
+const Contents = styled(TopContents)`
+  padding: 130px 0;
+`;
 
 export default function Login() {
   useEffect(() => {
@@ -29,10 +41,10 @@ export default function Login() {
   });
 
   return (
-    <div>
-      <h1>Welcome to Hamchance.com</h1>
+    <Contents>
+      <SiteTitle>Welcome to hamchance.com</SiteTitle>
       <div id="firebaseui-auth-container" />
       <div id="loader">Loading...</div>
-    </div>
+    </Contents>
   );
 }
