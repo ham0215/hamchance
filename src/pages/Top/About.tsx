@@ -48,9 +48,8 @@ export default function About() {
       <SectionSubText>
         デザインスキルやCSSはめっぽう弱いのでトップページの構成は『
         <Link
-          href="https://www.shoeisha.co.jp/book/detail/9784798141572"
+          href="https://www.amazon.co.jp/gp/product/4798141577/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798141577&linkCode=as2&tag=hamchance0215-22&linkId=6a6e4551d2657be755bde09ab7b7f14e"
           target="_blank"
-          rel="noopener noreferrer"
         >
           HTML5/CSS3モダンコーディング
         </Link>
