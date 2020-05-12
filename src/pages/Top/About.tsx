@@ -56,8 +56,8 @@ export default function About() {
         』をベースに<Link href="https://ja.reactjs.org/">React</Link>
         で作成しました。
         <Topics>
-          <Typography variant="h6" component="h6">
-            Topics
+          <Typography variant="subtitle1" component="span">
+            Technical keywords used in this site
           </Typography>
           <Card>
             <CardContent className={classes.contents}>
