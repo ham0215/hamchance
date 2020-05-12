@@ -3,7 +3,7 @@ import TopContents from 'components/TopContents';
 import Header from 'pages/Top/Header';
 import About from 'pages/Top/About';
 import Contents from 'pages/Top/Contents';
-import Skills from 'pages/Top/Skills';
+import Interests from 'pages/Top/Interests';
 import Profile from 'pages/Top/Profile';
 
 export default function Top() {
@@ -12,7 +12,7 @@ export default function Top() {
       <Header />
       <About />
       <Contents />
-      <Skills />
+      <Interests />
       <Profile />
     </TopContents>
   );
