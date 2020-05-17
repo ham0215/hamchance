@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -6,8 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import firebase from 'components/Firebase';
-import { User } from 'firebase/app';
 import HeaderMenu from 'components/HeaderMenu';
+import { UserContext } from 'App';
 
 const useStyles = makeStyles(theme => ({
   menuButton: {
@@ -21,16 +21,18 @@ const useStyles = makeStyles(theme => ({
 
 export default function Header() {
   const classes = useStyles();
-  const [currentUser, setUser] = useState<User | null>(null);
+  const { user, setUser } = useContext(UserContext);
 
   useEffect(() => {
-    firebase.auth().onAuthStateChanged(user => {
-      setUser(user);
+    firebase.auth().onAuthStateChanged(currentUser => {
+      if (setUser) {
+        setUser(currentUser);
+      }
     });
   });
 
   let loginButton;
-  if (currentUser) {
+  if (user) {
     loginButton = (
       <Button color="inherit" onClick={() => firebase.auth().signOut()}>
         Logout
