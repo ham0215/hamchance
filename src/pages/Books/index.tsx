@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import firebase from 'components/Firebase';
 import { User } from 'firebase/app';
 
-export default function MarunouchiLunch() {
+export default function Books() {
   const [currentUser, setUser] = useState<User | null>(null);
 
   useEffect(() => {
