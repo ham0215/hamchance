@@ -1,31 +1,48 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import firebase from 'components/Firebase';
-import { User } from 'firebase/app';
+import React from 'react';
+import styled from 'styled-components/macro';
+
+const Contents = styled.div`
+  background: #151515 url('/images/tundoku.png') no-repeat center;
+  background-size: contain;
+  color: #fff;
+  text-align: center;
+`;
 
 export default function Books() {
-  const [currentUser, setUser] = useState<User | null>(null);
-
-  useEffect(() => {
-    firebase.auth().onAuthStateChanged(user => {
-      setUser(user);
-    });
-  });
-
-  if (currentUser) {
-    return (
-      <div>
-        <div>Logged in</div>
-        <button type="button" onClick={() => firebase.auth().signOut()}>
-          signOut
-        </button>
-      </div>
-    );
-  }
   return (
-    <div>
-      <div>Not logged in</div>
-      <Link to="/login">Login</Link>
-    </div>
+    <Contents>
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+      Books
+      <br />
+    </Contents>
   );
 }
