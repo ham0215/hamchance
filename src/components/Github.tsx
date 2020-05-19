@@ -2,7 +2,7 @@ import React from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import GithubIcon from 'images/github.png';
 
-export default function Twitter() {
+export default function Github() {
   return (
     <div>
       <IconButton
