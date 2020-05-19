@@ -18,7 +18,7 @@ export default function RootRouter() {
     <Suspense fallback={null}>
       <Header />
       <Switch>
-        <Route path="/books" exact component={Books} />
+        <Route path="/books" component={Books} />
         <Route path="/login" exact component={Login} />
         <Route path="/terms-of-service" exact component={TermsOfService} />
         <Route path="/privacy-policy" exact component={PrivacyPolicy} />

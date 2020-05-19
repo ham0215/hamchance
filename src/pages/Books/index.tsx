@@ -1,48 +1,14 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React, { lazy } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-const Contents = styled.div`
-  background: #151515 url('/images/tundoku.png') no-repeat center;
-  background-size: contain;
-  color: #fff;
-  text-align: center;
-`;
+const Top = lazy(() => import(/* webpackChunkName: 'top' */ './Top'));
+const Edit = lazy(() => import(/* webpackChunkName: 'top' */ './Edit'));
 
 export default function Books() {
   return (
-    <Contents>
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-      Books
-      <br />
-    </Contents>
+    <Switch>
+      <Route path="/books/edit" exact component={Edit} />
+      <Route component={Top} />
+    </Switch>
   );
 }
