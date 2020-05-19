@@ -40,11 +40,32 @@ const Book = styled.li`
   );
   background-size: 4px 4px;
   list-style-type: none;
-  border-top: 3px solid green;
-  border-bottom: 3px solid green;
-  border-left: 3px solid green;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+
+  :nth-child(4n + 1) {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    border-left: 3px solid green;
+  }
+
+  :nth-child(4n + 2) {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+  }
+
+  :nth-child(4n + 3) {
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+  }
+
+  :nth-child(4n + 4) {
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+  }
 `;
 
 export default function Top() {
