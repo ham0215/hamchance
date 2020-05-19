@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
+import SiteTitle from 'components/SiteTitle';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -30,11 +31,6 @@ const SiteSubTitle = styled.p`
     background-color: #fff;
     vertical-align: middle;
   }
-`;
-
-const SiteTitle = styled.h1`
-  margin: 50px 0 40px;
-  font-size: 7.6rem;
 `;
 
 const SiteDiscription = styled.p`
