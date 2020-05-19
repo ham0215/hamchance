@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import SectionHeading from 'components/SectionHeading';
+import firebase from 'components/Firebase';
 
 const Contents = styled.div`
   text-align: center;
@@ -69,6 +70,19 @@ const Book = styled.li`
 `;
 
 export default function Top() {
+  const db = firebase.firestore();
+  db.collection('books')
+    .get()
+    .then(querySnapshot => {
+      querySnapshot.forEach(doc => {
+        // doc.data() is never undefined for query doc snapshots
+        console.log(doc.id, ' => ', doc.data());
+      });
+    })
+    .catch(error => {
+      console.log('Error getting documents: ', error);
+    });
+
   return (
     <Contents>
       <Header>
