@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components/macro';
 import SectionHeading from 'components/SectionHeading';
 import firebase from 'components/Firebase';
@@ -69,20 +69,26 @@ const Book = styled.li`
   }
 `;
 
+type Books = {
+  [key: string]: firebase.firestore.DocumentData;
+};
+
 export default function Top() {
   const db = firebase.firestore();
-  db.collection('books')
-    .get()
-    .then(querySnapshot => {
-      querySnapshot.forEach(doc => {
-        // doc.data() is never undefined for query doc snapshots
-        console.log(doc.id, ' => ', doc.data());
-      });
-    })
-    .catch(error => {
-      console.log('Error getting documents: ', error);
-    });
+  const [books, setBooks] = useState<Books>({});
 
+  useEffect(() => {
+    (async () => {
+      const querySnapshot = await db.collection('books').get();
+      const hash: Books = {};
+      querySnapshot.forEach(doc => {
+        hash[doc.id] = doc.data();
+      });
+      setBooks(hash);
+    })();
+  }, [db, setBooks]);
+
+  console.log(books);
   return (
     <Contents>
       <Header>
