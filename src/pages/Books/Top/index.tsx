@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components/macro';
 import SectionHeading from 'components/SectionHeading';
 import firebase from 'components/Firebase';
+import Book from 'pages/Books/Top/Book';
 
 const Contents = styled.div`
   text-align: center;
@@ -19,89 +20,55 @@ const Books = styled.div`
   margin: 20px 0;
 `;
 
-const Book = styled.li`
-  position: relative;
-  width: 240px;
-  margin: 1px auto;
-  padding: 15px;
-  font-size: 16px;
-  line-height: 1.3;
-  text-align: center;
-  letter-spacing: 0.05em;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    0deg,
-    #fff 25%,
-    #8e8e8e 25%,
-    #8e8e8e 50%,
-    #fff 50%,
-    #fff 75%,
-    #8e8e8e 75%,
-    #8e8e8e
-  );
-  background-size: 4px 4px;
-  list-style-type: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-
-  :nth-child(4n + 1) {
-    border-top: 3px solid green;
-    border-bottom: 3px solid green;
-    border-left: 3px solid green;
-  }
-
-  :nth-child(4n + 2) {
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
-    border-left: 3px solid red;
-  }
-
-  :nth-child(4n + 3) {
-    border-top: 3px solid blue;
-    border-bottom: 3px solid blue;
-    border-left: 3px solid blue;
-  }
-
-  :nth-child(4n + 4) {
-    border-top: 3px solid orange;
-    border-bottom: 3px solid orange;
-    border-left: 3px solid orange;
-  }
-`;
-
 type Books = {
   [key: string]: firebase.firestore.DocumentData;
 };
 
+type Tsumihon = {
+  books: Books;
+  bookOrder: firebase.firestore.DocumentData | undefined;
+};
+
 export default function Top() {
   const db = firebase.firestore();
-  const [books, setBooks] = useState<Books>({});
+  const [tsumihon, setTsumihon] = useState<Tsumihon>({
+    books: {},
+    bookOrder: [],
+  });
 
   useEffect(() => {
     (async () => {
-      const querySnapshot = await db.collection('books').get();
-      const hash: Books = {};
-      querySnapshot.forEach(doc => {
-        hash[doc.id] = doc.data();
+      const queryBooks = await db.collection('books').get();
+      const queryOrder = await db
+        .collection('orders')
+        .doc('book_order')
+        .get();
+      const bs: Books = {};
+      queryBooks.forEach(doc => {
+        bs[doc.id] = doc.data();
       });
-      setBooks(hash);
+      setTsumihon({
+        books: bs,
+        bookOrder: queryOrder.data()?.book_order,
+      });
     })();
-  }, [db, setBooks]);
+  }, [db, setTsumihon]);
 
-  console.log(books);
+  let books = [];
+  if (tsumihon.bookOrder) {
+    books = tsumihon.bookOrder.map((key: string) => {
+      const { title, url } = tsumihon.books[key];
+      return <Book key={key} title={title} url={url} />;
+    });
+  }
+
   return (
     <Contents>
       <Header>
         <SectionHeading>積み本</SectionHeading>
       </Header>
       <Books>
-        <ul>
-          <Book>hoge</Book>
-          <Book>hoge</Book>
-          <Book>hoge</Book>
-          <Book>hoge</Book>
-          <Book>hoge</Book>
-        </ul>
+        <ul>{books}</ul>
       </Books>
     </Contents>
   );
