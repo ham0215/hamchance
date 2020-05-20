@@ -7,8 +7,8 @@ import TopContents from 'components/TopContents';
 
 const SiteTitle = styled.p`
   margin: 30px 0;
-  line-height: 2.5;
   font-size: 2rem;
+  line-height: 2.5;
 `;
 
 const Contents = styled(TopContents)`

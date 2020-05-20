@@ -4,14 +4,14 @@ import Link from '@material-ui/core/Link';
 
 const Footer = styled.footer`
   padding: 10px 0 10px;
-  font-size: 0.8rem;
   background-color: #3f51b5;
   color: #fff;
+  font-size: 0.8rem;
 `;
 
 const Copyright = styled.p`
-  text-align: center;
   letter-spacing: 1px;
+  text-align: center;
 `;
 
 const FooterList = styled.ul`

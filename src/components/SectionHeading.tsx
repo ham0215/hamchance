@@ -1,12 +1,13 @@
 import styled from 'styled-components/macro';
 
 const SectionHeading = styled.h2`
-  position: relative;
   display: inline-block;
+  position: relative;
   margin: 30px 0 15px;
   padding-bottom: 15px;
-  letter-spacing: 2px;
   font-size: 4rem;
+  letter-spacing: 2px;
+
   ::before,
   ::after {
     content: '';
@@ -16,6 +17,7 @@ const SectionHeading = styled.h2`
     left: 0;
     border-bottom: 1px solid #999;
   }
+
   ::before {
     bottom: 5px;
   }
