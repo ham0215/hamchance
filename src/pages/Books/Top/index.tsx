@@ -9,8 +9,8 @@ const Contents = styled.div`
 `;
 
 const Header = styled.div`
-  background: #151515 url('/images/tundoku.png') no-repeat center;
-  background-size: 200px;
+  background: #151515 url('/images/tundoku.png') center;
+  background-size: contain;
   color: #fff;
   height: 250px;
   padding: 50px 0;
