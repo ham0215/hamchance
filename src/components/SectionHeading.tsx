@@ -5,7 +5,7 @@ const SectionHeading = styled.h2`
   position: relative;
   margin: 30px 0 15px;
   padding-bottom: 15px;
-  font-size: 4rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
 
   ::before,
