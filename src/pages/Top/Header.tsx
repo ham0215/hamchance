@@ -13,24 +13,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const SiteHeader = styled.header`
-  padding: 170px 30px 80px;
-`;
-
-const SiteSubTitle = styled.p`
-  margin: 0 0 30px;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-
-  ::before,
-  ::after {
-    content: '';
-    display: inline-block;
-    width: 140px;
-    height: 2px;
-    margin: 0 30px;
-    background-color: #fff;
-    vertical-align: middle;
-  }
+  padding: 60px 30px 80px;
 `;
 
 const SiteDiscription = styled.p`
@@ -43,7 +26,6 @@ export default function Header() {
 
   return (
     <SiteHeader>
-      <SiteSubTitle>ham&apos;s sandbox</SiteSubTitle>
       <SiteTitle>Hamchance.com</SiteTitle>
       <SiteDiscription>
         登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアが
