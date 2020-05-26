@@ -40,7 +40,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Push to the master branch of github and it will be deployed to zeit now.
 
-Open [https://www.hamchance.com](https://www.hamchance.com) to view it in the browser.
+Open [https://hamchance.com](https://hamchance.com) to view it in the browser.
 
 Use vercel(zeit) now. https://vercel.com/dashboard
 
