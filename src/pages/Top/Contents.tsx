@@ -38,8 +38,10 @@ const ContentsDescription = styled.div`
   position: absolute;
   top: 50%;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 50%;
+  overflow-y: auto;
 `;
 
 const ContentsDescriptionInner = styled.div`
