@@ -10,7 +10,7 @@ const ContentsWrapper = styled.div`
   table-layout: fixed;
 `;
 
-const ContentsBox = styled.div`
+const ContentsBox = styled.div<{ img: string }>`
   position: relative;
   display: table-cell;
 
@@ -21,7 +21,8 @@ const ContentsBox = styled.div`
     left: 0;
     width: 100%;
     height: 50%;
-    background: url('/images/contents/hamchance.png') no-repeat;
+    /* background: url('/images/contents/hamchance.png') no-repeat; */
+    background: url(${({ img }) => img}) no-repeat;
     background-size: 100% 100%;
     opacity: 0.2;
     transform: scaleY(-1);
@@ -58,11 +59,12 @@ const ContentsText = styled.p`
   line-height: 2;
 `;
 
-const ContentsButton = styled.a`
+const ContentsButton = styled.button`
   width: 60%;
   margin-top: 20px;
-  padding: 3px;
+  padding: 9px;
   border: 1px solid #fff;
+  color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
 `;
 
@@ -71,7 +73,7 @@ export default function About() {
     <BlackSection>
       <SectionHeading>CONTENTS</SectionHeading>
       <ContentsWrapper>
-        <ContentsBox>
+        <ContentsBox img="/images/contents/hamchance.png">
           <ContentsImage
             src="/images/contents/hamchance.png"
             alt="hamchance.com"
@@ -83,12 +85,12 @@ export default function About() {
                 <br />
                 説明
                 <br />
-                <ContentsButton href="/">READ MORE</ContentsButton>
+                <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
             </ContentsDescriptionInner>
           </ContentsDescription>
         </ContentsBox>
-        <ContentsBox>
+        <ContentsBox img="/images/contents/hamkabu.png">
           <ContentsImage src="/images/contents/hamkabu.png" alt="ハム株" />
           <ContentsDescription>
             <ContentsDescriptionInner>
@@ -97,12 +99,12 @@ export default function About() {
                 <br />
                 説明
                 <br />
-                <ContentsButton href="/">READ MORE</ContentsButton>
+                <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
             </ContentsDescriptionInner>
           </ContentsDescription>
         </ContentsBox>
-        <ContentsBox>
+        <ContentsBox img="/images/contents/tajiri-tozan.png">
           <ContentsImage
             src="/images/contents/tajiri-tozan.png"
             alt="Tajiri Tozan"
@@ -114,12 +116,12 @@ export default function About() {
                 <br />
                 説明
                 <br />
-                <ContentsButton href="/">READ MORE</ContentsButton>
+                <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
             </ContentsDescriptionInner>
           </ContentsDescription>
         </ContentsBox>
-        <ContentsBox>
+        <ContentsBox img="/images/contents/yamanotenki.jpg">
           <ContentsImage
             src="/images/contents/yamanotenki.jpg"
             alt="Tajiri Tozan"
@@ -131,7 +133,7 @@ export default function About() {
                 <br />
                 説明
                 <br />
-                <ContentsButton href="/">READ MORE</ContentsButton>
+                <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
             </ContentsDescriptionInner>
           </ContentsDescription>
