@@ -1,23 +1,13 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import Link from '@material-ui/core/Link';
-import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import SectionHeading from 'components/SectionHeading';
 import SectionText from 'components/SectionText';
 import SectionSubText from 'components/SectionSubText';
 import WhiteSection from 'components/WhiteSection';
-
-const useStyles = makeStyles(theme => ({
-  contents: {
-    '& > *': {
-      margin: theme.spacing(0.5),
-    },
-  },
-}));
+import Keywords from 'components/Keywords';
 
 const Topics = styled.div`
   max-width: 500px;
@@ -26,8 +16,6 @@ const Topics = styled.div`
 `;
 
 export default function About() {
-  const classes = useStyles();
-
   return (
     <WhiteSection id="about">
       <SectionHeading>ABOUT</SectionHeading>
@@ -60,13 +48,15 @@ export default function About() {
             Keywords of the technology used on this site
           </Typography>
           <Card>
-            <CardContent className={classes.contents}>
-              <Chip size="small" label="React" />
-              <Chip size="small" label="Typescript" />
-              <Chip size="small" label="Vercel" />
-              <Chip size="small" label="Firebase" />
-              <Chip size="small" label="material-ui" />
-            </CardContent>
+            <Keywords
+              keywords={[
+                'React',
+                'Typescript',
+                'Vercel',
+                'Firebase',
+                'material-ui',
+              ]}
+            />
           </Card>
         </Topics>
       </SectionSubText>
