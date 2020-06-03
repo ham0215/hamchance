@@ -57,7 +57,7 @@ export default function About() {
         で作成しました。
         <Topics>
           <Typography variant="subtitle1" component="span">
-            Technical keywords used in this site
+            Keywords of the technology used on this site
           </Typography>
           <Card>
             <CardContent className={classes.contents}>
