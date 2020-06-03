@@ -10,7 +10,7 @@ import WhiteSection from 'components/WhiteSection';
 import Keywords from 'components/Keywords';
 
 const Topics = styled.div`
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
   text-align: left;
 `;
@@ -53,7 +53,8 @@ export default function About() {
                 'React',
                 'Typescript',
                 'Vercel',
-                'Firebase',
+                'Cloud Firestore',
+                'Firebase Authentication',
                 'material-ui',
               ]}
             />

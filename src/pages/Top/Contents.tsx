@@ -25,7 +25,8 @@ export default function Contents() {
             'React',
             'Typescript',
             'Vercel',
-            'Firebase',
+            'Cloud Firestore',
+            'Firebase Authentication',
             'material-ui',
           ]}
         />
@@ -34,26 +35,14 @@ export default function Contents() {
           title="ハムちゃんの投資日記"
           summary="投資についての雑多な日記"
           description="投資についての雑多な日記"
-          keywords={[
-            'React',
-            'Typescript',
-            'Vercel',
-            'Firebase',
-            'material-ui',
-          ]}
+          keywords={['netlify', 'netlify-cms', 'gatsby']}
         />
         <ContentsBox
           img="/images/contents/tajiri-tozan.png"
           title="Tajiri Tozan"
           summary="登山に行った記録"
           description="登山に行った記録"
-          keywords={[
-            'React',
-            'Typescript',
-            'Vercel',
-            'Firebase',
-            'material-ui',
-          ]}
+          keywords={['React', 'Typescript', 'Firebase Hosting']}
         />
         <ContentsBox
           img="/images/contents/yamanotenki.jpg"
@@ -61,11 +50,13 @@ export default function Contents() {
           summary="山の天気を教えてくれるLineBot"
           description="山の天気を教えてくれるLineBot"
           keywords={[
-            'React',
-            'Typescript',
-            'Vercel',
-            'Firebase',
-            'material-ui',
+            'Ruby',
+            'Rails',
+            'Heroku',
+            'Postgres',
+            'Cloud Build',
+            'Docker',
+            'Line Messaging API',
           ]}
         />
       </ContentsWrapper>
