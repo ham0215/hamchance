@@ -81,9 +81,9 @@ export default function About() {
           <ContentsDescription>
             <ContentsDescriptionInner>
               <ContentsText>
-                一つ目の事例
+                Hamchance.com
                 <br />
-                説明
+                ham&apos;s ポータルページ
                 <br />
                 <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
@@ -95,9 +95,9 @@ export default function About() {
           <ContentsDescription>
             <ContentsDescriptionInner>
               <ContentsText>
-                一つ目の事例
+                ハムちゃんの投資日記
                 <br />
-                説明
+                投資についての雑多な日記
                 <br />
                 <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
@@ -112,9 +112,9 @@ export default function About() {
           <ContentsDescription>
             <ContentsDescriptionInner>
               <ContentsText>
-                一つ目の事例
+                Tajiri Tozan
                 <br />
-                説明
+                登山に行った記録
                 <br />
                 <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
@@ -129,9 +129,9 @@ export default function About() {
           <ContentsDescription>
             <ContentsDescriptionInner>
               <ContentsText>
-                一つ目の事例
+                山の天気LineBot
                 <br />
-                説明
+                山の天気を教えてくれるLineBot
                 <br />
                 <ContentsButton>READ MORE</ContentsButton>
               </ContentsText>
