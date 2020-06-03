@@ -21,7 +21,6 @@ const ContentsBox = styled.div<{ img: string }>`
     left: 0;
     width: 100%;
     height: 50%;
-    /* background: url('/images/contents/hamchance.png') no-repeat; */
     background: url(${({ img }) => img}) no-repeat;
     background-size: 100% 100%;
     opacity: 0.2;
