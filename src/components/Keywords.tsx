@@ -19,7 +19,9 @@ export default (props: Props) => {
   const classes = useStyles();
 
   const { keywords } = props;
-  const chips = keywords.map(keyword => <Chip size="small" label={keyword} />);
+  const chips = keywords.map(keyword => (
+    <Chip key={keyword} size="small" label={keyword} />
+  ));
 
   return <CardContent className={classes.contents}>{chips}</CardContent>;
 };

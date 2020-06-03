@@ -4,6 +4,8 @@ import Modal from '@material-ui/core/Modal';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+import Keywords from 'components/Keywords';
+import ExternalLink from 'components/ExternalLink';
 
 const ContentsBox = styled.div<{ img: string }>`
   position: relative;
@@ -75,13 +77,21 @@ const useStyles = makeStyles((theme: Theme) =>
       boxShadow: theme.shadows[5],
       padding: theme.spacing(2, 4, 3),
     },
+    linkWrapper: {
+      textAlign: 'right',
+    },
+    link: {
+      marginLeft: '20px',
+    },
   }),
 );
 
 type Props = {
   img: string;
   title: string;
+  summary: string;
   description: string;
+  keywords: Array<string>;
 };
 
 export default (props: Props) => {
@@ -96,7 +106,7 @@ export default (props: Props) => {
     setOpen(false);
   };
 
-  const { img, title, description } = props;
+  const { img, title, summary, description, keywords } = props;
 
   return (
     <ContentsBox img={img}>
@@ -106,7 +116,7 @@ export default (props: Props) => {
           <ContentsText>
             {title}
             <br />
-            {description}
+            {summary}
             <br />
             <ContentsButton onClick={handleOpen}>READ MORE</ContentsButton>
             <Modal
@@ -123,10 +133,19 @@ export default (props: Props) => {
             >
               <Fade in={open}>
                 <div className={classes.paper}>
-                  <h2 id="transition-modal-title">Transition modal</h2>
-                  <p id="transition-modal-description">
-                    react-transition-group animates me.
-                  </p>
+                  <h2 id="transition-modal-title">{title}</h2>
+                  <div id="transition-modal-description">
+                    <p>{description}</p>
+                    <Keywords keywords={keywords} />
+                    <div className={classes.linkWrapper}>
+                      <span className={classes.link}>
+                        <ExternalLink href="/" name="Go to Homepage" />
+                      </span>
+                      <span className={classes.link}>
+                        <ExternalLink href="/" name="Go to GitHub" />
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </Fade>
             </Modal>
