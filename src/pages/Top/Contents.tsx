@@ -29,6 +29,8 @@ export default function Contents() {
             'Firebase Authentication',
             'material-ui',
           ]}
+          url="/"
+          githubUrl="https://github.com/ham0215/hamchance"
         />
         <ContentsBox
           img="/images/contents/hamkabu.png"
@@ -36,6 +38,8 @@ export default function Contents() {
           summary="投資についての雑多な日記"
           description="投資についての雑多な日記"
           keywords={['netlify', 'netlify-cms', 'gatsby']}
+          url="https://kabu.hamchance.com/"
+          githubUrl="https://github.com/ham0215/kabu-blog"
         />
         <ContentsBox
           img="/images/contents/tajiri-tozan.png"
@@ -43,6 +47,8 @@ export default function Contents() {
           summary="登山に行った記録"
           description="登山に行った記録"
           keywords={['React', 'Typescript', 'Firebase Hosting']}
+          url="https://tajiri-tozan.web.app/"
+          githubUrl="https://github.com/tajiri-tozan/tajiri-tozan"
         />
         <ContentsBox
           img="/images/contents/yamanotenki.jpg"
@@ -58,6 +64,7 @@ export default function Contents() {
             'Docker',
             'Line Messaging API',
           ]}
+          githubUrl="https://github.com/ham0215/line_message_yamanotenki"
         />
       </ContentsWrapper>
     </BlackSection>

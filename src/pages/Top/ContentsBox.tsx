@@ -92,6 +92,8 @@ type Props = {
   summary: string;
   description: string;
   keywords: Array<string>;
+  url?: string;
+  githubUrl?: string;
 };
 
 export default (props: Props) => {
@@ -106,7 +108,7 @@ export default (props: Props) => {
     setOpen(false);
   };
 
-  const { img, title, summary, description, keywords } = props;
+  const { img, title, summary, description, keywords, url, githubUrl } = props;
 
   return (
     <ContentsBox img={img}>
@@ -138,12 +140,16 @@ export default (props: Props) => {
                     <p>{description}</p>
                     <Keywords keywords={keywords} />
                     <div className={classes.linkWrapper}>
-                      <span className={classes.link}>
-                        <ExternalLink href="/" name="Go to Homepage" />
-                      </span>
-                      <span className={classes.link}>
-                        <ExternalLink href="/" name="Go to GitHub" />
-                      </span>
+                      {url && (
+                        <span className={classes.link}>
+                          <ExternalLink href={url} name="Go to Homepage" />
+                        </span>
+                      )}
+                      {githubUrl && (
+                        <span className={classes.link}>
+                          <ExternalLink href={githubUrl} name="Go to GitHub" />
+                        </span>
+                      )}
                     </div>
                   </div>
                 </div>
