@@ -9,6 +9,10 @@ const ContentsWrapper = styled.div`
   width: 100%;
   margin-top: 60px;
   table-layout: fixed;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `;
 
 export default function Contents() {

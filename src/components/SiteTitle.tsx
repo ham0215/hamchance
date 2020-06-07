@@ -6,7 +6,7 @@ const SiteTitle = styled.h1`
   word-wrap: break-word;
 
   @media (max-width: 768px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 `;
 

@@ -23,12 +23,27 @@ const ContentsBox = styled.div<{ img: string }>`
     opacity: 0.2;
     transform: scaleY(-1);
   }
+
+  @media (max-width: 768px) {
+    display: block;
+
+    ::after {
+      top: 0;
+      height: 100%;
+      background-size: cover;
+      transform: none;
+    }
+  }
 `;
 
 const ContentsImage = styled.img`
   display: block;
   width: 100%;
   margin: 0 0 60%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const ContentsDescription = styled.div`
@@ -39,6 +54,10 @@ const ContentsDescription = styled.div`
   width: 100%;
   height: 50%;
   overflow-y: auto;
+
+  @media (max-width: 768px) {
+    position: relative;
+  }
 `;
 
 const ContentsDescriptionInner = styled.div`
@@ -135,7 +154,7 @@ export default (props: Props) => {
             >
               <Fade in={open}>
                 <div className={classes.paper}>
-                  <h2 id="transition-modal-title">{title}</h2>
+                  <h3 id="transition-modal-title">{title}</h3>
                   <div id="transition-modal-description">
                     <p>{description}</p>
                     <Keywords keywords={keywords} />

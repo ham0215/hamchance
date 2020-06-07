@@ -74,7 +74,7 @@ export default function Profile() {
           </Grid>
         </Paper>
       </div>
-      <Grid container spacing={2} justify="center">
+      <Grid container justify="center">
         <Grid item>
           <Twitter />
         </Grid>
