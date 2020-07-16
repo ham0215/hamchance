@@ -10,13 +10,7 @@ export default function PrivacyPolicy() {
           <br />
           最終更新日：2020/04/20
         </Text>
-        <Box
-          border-radius="15px"
-          margin="20px 0"
-          background="#eff5f6"
-          border="5px solid #e5eeef"
-          padding="20px"
-        >
+        <Box border-radius="15px" margin="20px 0" background="#eff5f6" border="5px solid #e5eeef" padding="20px">
           <Text fontSize="4xl">プライバシーポリシー</Text>
           <Text fontSize="md">
             hamchance（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
@@ -30,29 +24,19 @@ export default function PrivacyPolicy() {
             当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当社の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。
           </Text>
           <Text fontSize="3xl">第3条（個人情報を収集・利用する目的）</Text>
-          <Text fontSize="md">
-            当社が個人情報を収集・利用する目的は，以下のとおりです。
-          </Text>
+          <Text fontSize="md">当社が個人情報を収集・利用する目的は，以下のとおりです。</Text>
           <List as="ol" styleType="decimal">
             <ListItem>当社サービスの提供・運営のため</ListItem>
-            <ListItem>
-              ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）
-            </ListItem>
+            <ListItem>ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）</ListItem>
             <ListItem>
               ユーザーが利用中のサービスの新機能，更新情報，キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため
             </ListItem>
-            <ListItem>
-              メンテナンス，重要なお知らせなど必要に応じたご連絡のため
-            </ListItem>
+            <ListItem>メンテナンス，重要なお知らせなど必要に応じたご連絡のため</ListItem>
             <ListItem>
               利用規約に違反したユーザーや，不正・不当な目的でサービスを利用しようとするユーザーの特定をし，ご利用をお断りするため
             </ListItem>
-            <ListItem>
-              ユーザーにご自身の登録情報の閲覧や変更，削除，ご利用状況の閲覧を行っていただくため
-            </ListItem>
-            <ListItem>
-              有料サービスにおいて，ユーザーに利用料金を請求するため
-            </ListItem>
+            <ListItem>ユーザーにご自身の登録情報の閲覧や変更，削除，ご利用状況の閲覧を行っていただくため</ListItem>
+            <ListItem>有料サービスにおいて，ユーザーに利用料金を請求するため</ListItem>
             <ListItem>上記の利用目的に付随する目的</ListItem>
           </List>
           <Text fontSize="3xl">第4条（利用目的の変更）</Text>
@@ -84,9 +68,7 @@ export default function PrivacyPolicy() {
                     <ListItem>利用目的に第三者への提供を含むこと</ListItem>
                     <ListItem>第三者に提供されるデータの項目</ListItem>
                     <ListItem>第三者への提供の手段または方法</ListItem>
-                    <ListItem>
-                      本人の求めに応じて個人情報の第三者への提供を停止すること
-                    </ListItem>
+                    <ListItem>本人の求めに応じて個人情報の第三者への提供を停止すること</ListItem>
                     <ListItem>本人の求めを受け付ける方法</ListItem>
                   </List>
                 </ListItem>
@@ -98,9 +80,7 @@ export default function PrivacyPolicy() {
                 <ListItem>
                   当社が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合
                 </ListItem>
-                <ListItem>
-                  合併その他の事由による事業の承継に伴って個人情報が提供される場合
-                </ListItem>
+                <ListItem>合併その他の事由による事業の承継に伴って個人情報が提供される場合</ListItem>
                 <ListItem>
                   個人情報を特定の者との間で共同して利用する場合であって，その旨並びに共同して利用される個人情報の項目，共同して利用する者の範囲，利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について，あらかじめ本人に通知し，または本人が容易に知り得る状態に置いた場合
                 </ListItem>
@@ -112,12 +92,8 @@ export default function PrivacyPolicy() {
             <ListItem>
               当社は，本人から個人情報の開示を求められたときは，本人に対し，遅滞なくこれを開示します。ただし，開示することにより次のいずれかに該当する場合は，その全部または一部を開示しないこともあり，開示しない決定をした場合には，その旨を遅滞なく通知します。なお，個人情報の開示に際しては，1件あたり1，000円の手数料を申し受けます。
               <List as="ol" styleType="decimal">
-                <ListItem>
-                  本人または第三者の生命，身体，財産その他の権利利益を害するおそれがある場合
-                </ListItem>
-                <ListItem>
-                  当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合
-                </ListItem>
+                <ListItem>本人または第三者の生命，身体，財産その他の権利利益を害するおそれがある場合</ListItem>
+                <ListItem>当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合</ListItem>
                 <ListItem>その他法令に違反することとなる場合</ListItem>
               </List>
             </ListItem>

@@ -19,15 +19,15 @@ const AmazonImg = styled.img`
 `;
 
 const AmazonImgTag = styled.img`
-  border: none !important;
   margin: 0px !important;
+  border: none !important;
 `;
 
 const Header = styled.div`
   background: #151515 url('/images/tundoku.png') center;
   background-size: contain;
-  color: #fff;
   height: 150px;
+  color: #fff;
   padding: 30px 0;
 `;
 
@@ -59,7 +59,7 @@ export default function Top() {
         .doc('book_order')
         .get();
       const bs: Books = {};
-      queryBooks.forEach(doc => {
+      queryBooks.forEach((doc) => {
         bs[doc.id] = doc.data();
       });
       setTsumihon({

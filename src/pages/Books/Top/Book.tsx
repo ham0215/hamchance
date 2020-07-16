@@ -9,21 +9,12 @@ const BookLi = styled.li`
   padding: 15px;
   font-size: 16px;
   line-height: 1.3;
-  text-align: center;
-  letter-spacing: 0.05em;
   border-radius: 8px;
-  background-image: linear-gradient(
-    0deg,
-    #fff 25%,
-    #8e8e8e 25%,
-    #8e8e8e 50%,
-    #fff 50%,
-    #fff 75%,
-    #8e8e8e 75%,
-    #8e8e8e
-  );
-  background-size: 4px 4px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background-image: linear-gradient(0deg, #fff 25%, #8e8e8e 25%, #8e8e8e 50%, #fff 50%, #fff 75%, #8e8e8e 75%, #8e8e8e);
   list-style-type: none;
+  background-size: 4px 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 

@@ -22,10 +22,9 @@
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "yarn lint:es && yarn lint:tsc && yarn lint:style && yarn lint:prettier",
+    "lint": "yarn lint:es && yarn lint:tsc && yarn lint:style",
     "lint:es": "yarn eslint src/**/*.{ts,tsx}",
     "lint:style": "stylelint './src/**/*.tsx'",
-    "lint:prettier": "prettier --check './src/**/*.{ts,tsx}'",
     "lint:tsc": "tsc --noEmit"
   },
   "eslintConfig": {
@@ -66,9 +65,9 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "prettier": "^1.19.1",
     "stylelint": "^13.0.0",
     "stylelint-config-property-sort-order-smacss": "^5.2.0",
+    "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.9.0",

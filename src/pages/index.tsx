@@ -6,12 +6,8 @@ import Footer from 'components/Footer';
 const Books = lazy(() => import(/* webpackChunkName: 'books' */ './Books'));
 const Login = lazy(() => import(/* webpackChunkName: 'login' */ './Login'));
 const Top = lazy(() => import(/* webpackChunkName: 'top' */ './Top'));
-const TermsOfService = lazy(() =>
-  import(/* webpackChunkName: 'terms-of-service' */ './TermsOfService'),
-);
-const PrivacyPolicy = lazy(() =>
-  import(/* webpackChunkName: 'privacy-policy' */ './PrivacyPolicy'),
-);
+const TermsOfService = lazy(() => import(/* webpackChunkName: 'terms-of-service' */ './TermsOfService'));
+const PrivacyPolicy = lazy(() => import(/* webpackChunkName: 'privacy-policy' */ './PrivacyPolicy'));
 
 export default function RootRouter() {
   return (

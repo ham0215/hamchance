@@ -9,7 +9,7 @@ import firebase from 'components/Firebase';
 import HeaderMenu from 'components/HeaderMenu';
 import { UserContext } from 'App';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -24,7 +24,7 @@ export default function Header() {
   const { user, setUser } = useContext(UserContext);
 
   useEffect(() => {
-    firebase.auth().onAuthStateChanged(currentUser => {
+    firebase.auth().onAuthStateChanged((currentUser) => {
       if (setUser) {
         setUser(currentUser);
       }

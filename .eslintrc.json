@@ -1,22 +1,7 @@
 {
-  "extends": [
-    "react-app",
-    "airbnb",
-    "prettier",
-    "prettier/react",
-    "plugin:@typescript-eslint/recommended"
-  ],
+  "extends": ["react-app", "airbnb"],
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "react",
-    "prettier",
-    "eslint-plugin-jsx-a11y",
-    "eslint-plugin-flowtype",
-    "eslint-plugin-import",
-    "eslint-plugin-react",
-    "eslint-plugin-react-hooks",
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "settings": {
     "import/resolver": {
       "node": {
@@ -26,16 +11,31 @@
     }
   },
   "rules": {
+    "import/extensions": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ],
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }],
+    "react/state-in-constructor": [2, "never"],
+    "no-unused-vars": 1,
+    "react/no-unused-prop-types": "off",
+    "object-curly-newline": "off",
     "react/jsx-filename-extension": "off",
-    "@typescript-eslint/explicit-function-return-type": "off"
-  },
-  "globals": {
-    "window": true,
-    "document": true,
-    "localStorage": true,
-    "FormData": true,
-    "FileReader": true,
-    "Blob": true,
-    "navigator": true
+    "jsx-a11y/label-has-for": [2, { "required": { "some": ["nesting", "id"] } }],
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "consistent-return": "off",
+    "no-use-before-define": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "object-property-newline": "off",
+    "react/jsx-props-no-spreading": "off",
+    "comma-dangle": "off"
   }
 }

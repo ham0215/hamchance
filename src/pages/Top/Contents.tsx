@@ -25,14 +25,7 @@ export default function Contents() {
           title="Hamchance.com"
           summary="ham's ポータルページ"
           description="ham's ポータルページ"
-          keywords={[
-            'React',
-            'Typescript',
-            'Vercel',
-            'Cloud Firestore',
-            'Firebase Authentication',
-            'material-ui',
-          ]}
+          keywords={['React', 'Typescript', 'Vercel', 'Cloud Firestore', 'Firebase Authentication', 'material-ui']}
           url="/"
           githubUrl="https://github.com/ham0215/hamchance"
         />
@@ -59,15 +52,7 @@ export default function Contents() {
           title="山の天気LineBot"
           summary="山の天気を教えてくれるLineBot"
           description="山の天気を教えてくれるLineBot"
-          keywords={[
-            'Ruby',
-            'Rails',
-            'Heroku',
-            'Postgres',
-            'Cloud Build',
-            'Docker',
-            'Line Messaging API',
-          ]}
+          keywords={['Ruby', 'Rails', 'Heroku', 'Postgres', 'Cloud Build', 'Docker', 'Line Messaging API']}
           githubUrl="https://github.com/ham0215/line_message_yamanotenki"
         />
       </ContentsWrapper>

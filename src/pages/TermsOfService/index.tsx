@@ -10,13 +10,7 @@ export default function TermsOfService() {
           <br />
           最終更新日：2020/04/20
         </Text>
-        <Box
-          border-radius="15px"
-          margin="20px 0"
-          background="#eff5f6"
-          border="5px solid #e5eeef"
-          padding="20px"
-        >
+        <Box border-radius="15px" margin="20px 0" background="#eff5f6" border="5px solid #e5eeef" padding="20px">
           <Text fontSize="4xl">利用規約</Text>
           <Text fontSize="md">
             この利用規約（以下，「本規約」といいます。）は，hamchance（以下，「当社」といいます。）がこのウェブサイト上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。
@@ -41,15 +35,9 @@ export default function TermsOfService() {
             <ListItem>
               当社は，利用登録の申請者に以下の事由があると判断した場合，利用登録の申請を承認しないことがあり，その理由については一切の開示義務を負わないものとします。
               <List as="ol" styleType="decimal">
-                <ListItem>
-                  利用登録の申請に際して虚偽の事項を届け出た場合
-                </ListItem>
-                <ListItem>
-                  本規約に違反したことがある者からの申請である場合
-                </ListItem>
-                <ListItem>
-                  その他，当社が利用登録を相当でないと判断した場合
-                </ListItem>
+                <ListItem>利用登録の申請に際して虚偽の事項を届け出た場合</ListItem>
+                <ListItem>本規約に違反したことがある者からの申請である場合</ListItem>
+                <ListItem>その他，当社が利用登録を相当でないと判断した場合</ListItem>
               </List>
             </ListItem>
           </List>
@@ -82,14 +70,10 @@ export default function TermsOfService() {
               当社，本サービスの他のユーザー，または第三者のサーバーまたはネットワークの機能を破壊したり，妨害したりする行為
             </ListItem>
             <ListItem>当社のサービスの運営を妨害するおそれのある行為</ListItem>
-            <ListItem>
-              他のユーザーに関する個人情報等を収集または蓄積する行為
-            </ListItem>
+            <ListItem>他のユーザーに関する個人情報等を収集または蓄積する行為</ListItem>
             <ListItem>不正アクセスをし，またはこれを試みる行為</ListItem>
             <ListItem>他のユーザーに成りすます行為</ListItem>
-            <ListItem>
-              当社のサービスに関連して，反社会的勢力に対して直接または間接に利益を供与する行為
-            </ListItem>
+            <ListItem>当社のサービスに関連して，反社会的勢力に対して直接または間接に利益を供与する行為</ListItem>
             <ListItem>
               当社，本サービスの他のユーザーまたは第三者の知的財産権，肖像権，プライバシー，名誉その他の権利または利益を侵害する行為
             </ListItem>
@@ -98,36 +82,22 @@ export default function TermsOfService() {
               <List as="ol" styleType="decimal">
                 <ListItem>過度に暴力的な表現</ListItem>
                 <ListItem>露骨な性的表現</ListItem>
-                <ListItem>
-                  人種，国籍，信条，性別，社会的身分，門地等による差別につながる表現
-                </ListItem>
-                <ListItem>
-                  自殺，自傷行為，薬物乱用を誘引または助長する表現
-                </ListItem>
-                <ListItem>
-                  その他反社会的な内容を含み他人に不快感を与える表現
-                </ListItem>
+                <ListItem>人種，国籍，信条，性別，社会的身分，門地等による差別につながる表現</ListItem>
+                <ListItem>自殺，自傷行為，薬物乱用を誘引または助長する表現</ListItem>
+                <ListItem>その他反社会的な内容を含み他人に不快感を与える表現</ListItem>
               </List>
             </ListItem>
             <ListItem>
               以下を目的とし，または目的とすると当社が判断する行為
               <List as="ol" styleType="decimal">
-                <ListItem>
-                  営業，宣伝，広告，勧誘，その他営利を目的とする行為（当社の認めたものを除きます。）
-                </ListItem>
+                <ListItem>営業，宣伝，広告，勧誘，その他営利を目的とする行為（当社の認めたものを除きます。）</ListItem>
                 <ListItem>性行為やわいせつな行為を目的とする行為</ListItem>
-                <ListItem>
-                  面識のない異性との出会いや交際を目的とする行為
-                </ListItem>
-                <ListItem>
-                  他のユーザーに対する嫌がらせや誹謗中傷を目的とする行為
-                </ListItem>
+                <ListItem>面識のない異性との出会いや交際を目的とする行為</ListItem>
+                <ListItem>他のユーザーに対する嫌がらせや誹謗中傷を目的とする行為</ListItem>
                 <ListItem>
                   当社，本サービスの他のユーザー，または第三者に不利益，損害または不快感を与えることを目的とする行為
                 </ListItem>
-                <ListItem>
-                  その他本サービスが予定している利用目的と異なる目的で本サービスを利用する行為
-                </ListItem>
+                <ListItem>その他本サービスが予定している利用目的と異なる目的で本サービスを利用する行為</ListItem>
               </List>
             </ListItem>
             <ListItem>宗教活動または宗教団体への勧誘行為</ListItem>
@@ -138,18 +108,12 @@ export default function TermsOfService() {
             <ListItem>
               当社は，以下のいずれかの事由があると判断した場合，ユーザーに事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。
               <List as="ol" styleType="decimal">
-                <ListItem>
-                  本サービスにかかるコンピュータシステムの保守点検または更新を行う場合
-                </ListItem>
+                <ListItem>本サービスにかかるコンピュータシステムの保守点検または更新を行う場合</ListItem>
                 <ListItem>
                   地震，落雷，火災，停電または天災などの不可抗力により，本サービスの提供が困難となった場合
                 </ListItem>
-                <ListItem>
-                  コンピュータまたは通信回線等が事故により停止した場合
-                </ListItem>
-                <ListItem>
-                  その他，当社が本サービスの提供が困難と判断した場合
-                </ListItem>
+                <ListItem>コンピュータまたは通信回線等が事故により停止した場合</ListItem>
+                <ListItem>その他，当社が本サービスの提供が困難と判断した場合</ListItem>
               </List>
             </ListItem>
             <ListItem>
@@ -174,22 +138,12 @@ export default function TermsOfService() {
               当社は，ユーザーが以下のいずれかに該当する場合には，事前の通知なく，投稿データを削除し，ユーザーに対して本サービスの全部もしくは一部の利用を制限しまたはユーザーとしての登録を抹消することができるものとします。
               <List as="ol" styleType="decimal">
                 <ListItem>本規約のいずれかの条項に違反した場合</ListItem>
-                <ListItem>
-                  登録事項に虚偽の事実があることが判明した場合
-                </ListItem>
-                <ListItem>
-                  決済手段として当該ユーザーが届け出たクレジットカードが利用停止となった場合
-                </ListItem>
+                <ListItem>登録事項に虚偽の事実があることが判明した場合</ListItem>
+                <ListItem>決済手段として当該ユーザーが届け出たクレジットカードが利用停止となった場合</ListItem>
                 <ListItem>料金等の支払債務の不履行があった場合</ListItem>
-                <ListItem>
-                  当社からの連絡に対し，一定期間返答がない場合
-                </ListItem>
-                <ListItem>
-                  本サービスについて，最終の利用から一定期間利用がない場合
-                </ListItem>
-                <ListItem>
-                  その他，当社が本サービスの利用を適当でないと判断した場合
-                </ListItem>
+                <ListItem>当社からの連絡に対し，一定期間返答がない場合</ListItem>
+                <ListItem>本サービスについて，最終の利用から一定期間利用がない場合</ListItem>
+                <ListItem>その他，当社が本サービスの利用を適当でないと判断した場合</ListItem>
               </List>
             </ListItem>
             <ListItem>
@@ -200,9 +154,7 @@ export default function TermsOfService() {
             </ListItem>
           </List>
           <Text fontSize="3xl">第9条（退会）</Text>
-          <Text fontSize="md">
-            ユーザーは，当社の定める退会手続により，本サービスから退会できるものとします。
-          </Text>
+          <Text fontSize="md">ユーザーは，当社の定める退会手続により，本サービスから退会できるものとします。</Text>
           <Text fontSize="3xl">第10条（保証の否認および免責事項）</Text>
           <List as="ol" styleType="decimal">
             <ListItem>
@@ -240,9 +192,7 @@ export default function TermsOfService() {
           </Text>
           <Text fontSize="3xl">第16条（準拠法・裁判管轄）</Text>
           <List as="ol" styleType="decimal">
-            <ListItem>
-              本規約の解釈にあたっては，日本法を準拠法とします。
-            </ListItem>
+            <ListItem>本規約の解釈にあたっては，日本法を準拠法とします。</ListItem>
             <ListItem>
               本サービスに関して紛争が生じた場合には，当社の本店所在地を管轄する裁判所を専属的合意管轄とします。
             </ListItem>
