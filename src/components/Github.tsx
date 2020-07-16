@@ -5,11 +5,7 @@ import GithubIcon from 'images/github.png';
 export default function Github() {
   return (
     <div>
-      <IconButton
-        href="https://github.com/ham0215"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <IconButton href="https://github.com/ham0215" target="_blank" rel="noopener noreferrer">
         <img src={GithubIcon} alt="github" width="30px" />
       </IconButton>
     </div>

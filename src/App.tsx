@@ -17,7 +17,7 @@ export const UserContext = React.createContext<UserContext>({
 
 export default function App() {
   const [currentUser, setUser] = useState<User | null>(null);
-  firebase.auth().onAuthStateChanged(user => {
+  firebase.auth().onAuthStateChanged((user) => {
     setUser(user);
   });
 

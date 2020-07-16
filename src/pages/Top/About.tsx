@@ -49,14 +49,7 @@ export default function About() {
           </Typography>
           <Card>
             <Keywords
-              keywords={[
-                'React',
-                'Typescript',
-                'Vercel',
-                'Cloud Firestore',
-                'Firebase Authentication',
-                'material-ui',
-              ]}
+              keywords={['React', 'Typescript', 'Vercel', 'Cloud Firestore', 'Firebase Authentication', 'material-ui']}
             />
           </Card>
         </Topics>

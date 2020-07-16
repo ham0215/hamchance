@@ -102,7 +102,7 @@ const useStyles = makeStyles((theme: Theme) =>
     link: {
       marginLeft: '20px',
     },
-  }),
+  })
 );
 
 type Props = {

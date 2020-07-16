@@ -13,13 +13,7 @@ const Contents = styled.div`
     margin: 1.6em 0;
     padding: 1em;
     position: relative;
-    background: linear-gradient(
-      to right,
-      #ffffcc 0%,
-      #f1f1c1 0.5%,
-      #f1f1c1 13%,
-      #ffffcc 16%
-    );
+    background: linear-gradient(to right, #ffffcc 0%, #f1f1c1 0.5%, #f1f1c1 13%, #ffffcc 16%);
   }
 
   ul li::after {
@@ -37,22 +31,10 @@ const Contents = styled.div`
   }
 
   ul li:nth-child(odd) {
-    background: linear-gradient(
-      to right,
-      #ffffcc 0%,
-      #f1f1c1 0.5%,
-      #f1f1c1 13%,
-      #ffffcc 16%
-    );
+    background: linear-gradient(to right, #ffffcc 0%, #f1f1c1 0.5%, #f1f1c1 13%, #ffffcc 16%);
   }
   ul li:nth-child(even) {
-    background: linear-gradient(
-      to right,
-      #fdf8e6 0%,
-      #f5ecda 0.5%,
-      #f5ecda 13%,
-      #fdf8e6 16%
-    );
+    background: linear-gradient(to right, #fdf8e6 0%, #f5ecda 0.5%, #f5ecda 13%, #fdf8e6 16%);
     margin: 1.6em 0em !important;
   }
 `;

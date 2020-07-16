@@ -16,7 +16,7 @@ const Section = styled.section`
   padding: 80px 0;
 `;
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     textAlign: 'left',
