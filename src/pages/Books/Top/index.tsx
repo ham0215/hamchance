@@ -60,7 +60,7 @@ export default function Top() {
       });
       setTsumihon({
         books: bs,
-        bookOrder: queryOrder.data()?.book_order,
+        bookOrder: queryOrder.data()?.bookOrder,
       });
     })();
   }, [db, setTsumihon]);
