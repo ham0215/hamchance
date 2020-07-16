@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components/macro';
 import SectionHeading from 'components/SectionHeading';
@@ -54,10 +53,7 @@ export default function Top() {
   useEffect(() => {
     (async () => {
       const queryBooks = await db.collection('books').get();
-      const queryOrder = await db
-        .collection('orders')
-        .doc('book_order')
-        .get();
+      const queryOrder = await db.collection('orders').doc('book_order').get();
       const bs: Books = {};
       queryBooks.forEach((doc) => {
         bs[doc.id] = doc.data();
@@ -86,6 +82,7 @@ export default function Top() {
       </Header>
       <Hondana>
         <a
+          // eslint-disable-next-line react/jsx-no-target-blank
           target="_blank"
           href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
         >
