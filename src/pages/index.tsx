@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
@@ -11,7 +12,7 @@ const PrivacyPolicy = lazy(() => import(/* webpackChunkName: 'privacy-policy' */
 
 export default function RootRouter() {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<CircularProgress />}>
       <Header />
       <Switch>
         <Route path="/books" component={Books} />

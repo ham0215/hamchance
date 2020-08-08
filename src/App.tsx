@@ -1,9 +1,11 @@
 import React, { useState, Dispatch } from 'react';
 import RootRouter from 'pages';
 import { BrowserRouter } from 'react-router-dom';
-import { ThemeProvider, ColorModeProvider } from '@chakra-ui/core';
+import { ThemeProvider } from 'styled-components';
 import firebase from 'components/Firebase';
 import { User } from 'firebase/app';
+import theme from 'styles/theme';
+import GlobalStyle from 'styles/global';
 
 type UserContext = {
   user: User | null;
@@ -23,12 +25,11 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <ThemeProvider>
-        <ColorModeProvider>
-          <UserContext.Provider value={{ user: currentUser, setUser }}>
-            <RootRouter />
-          </UserContext.Provider>
-        </ColorModeProvider>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <UserContext.Provider value={{ user: currentUser, setUser }}>
+          <RootRouter />
+        </UserContext.Provider>
       </ThemeProvider>
     </BrowserRouter>
   );
