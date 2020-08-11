@@ -23,9 +23,7 @@ export default function Login() {
     }
     const uiConfig = {
       callbacks: {
-        signInSuccessWithAuthResult: () => {
-          return true;
-        },
+        signInSuccessWithAuthResult: () => true,
         uiShown: () => {
           const loader = document.getElementById('loader');
           if (loader) loader.style.display = 'none';

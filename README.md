@@ -1,5 +1,8 @@
 This is ham's sandbox.
 
+![Run lint](https://github.com/ham0215/hamchance/workflows/Run%20lint/badge.svg)
+![CodeQL](https://github.com/ham0215/hamchance/workflows/CodeQL/badge.svg)
+
 # React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
