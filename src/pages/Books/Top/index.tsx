@@ -7,10 +7,8 @@ import BlackSection from 'components/BlackSection';
 // import Book from 'pages/Books/Top/Book';
 
 const Hondana = styled(Grid)`
-  background: #151515 url('/images/hondana.png') center;
-  background-size: contain;
-  text-align: center;
-  padding: 20px;
+  background: #151515 url('/images/hondana.png') repeat;
+  background-size: 230px, auto;
 `;
 
 const AmazonImg = styled.img`
@@ -28,8 +26,8 @@ const Header = styled.div`
   color: white;
 `;
 
-const Books = styled.div`
-  margin: 20px 0;
+const GridItem = styled(Grid)`
+  margin: 0 10px 0 10px;
 `;
 
 type Books = {
@@ -78,8 +76,8 @@ export default function Top() {
       <Header>
         <SectionHeading>積み本</SectionHeading>
       </Header>
-      <Grid container>
-        <Hondana item>
+      <Hondana container justify="center">
+        <GridItem item>
           <a
             // eslint-disable-next-line react/jsx-no-target-blank
             target="_blank"
@@ -97,8 +95,8 @@ export default function Top() {
             height="1"
             alt=""
           />
-        </Hondana>
-        <Hondana item>
+        </GridItem>
+        <GridItem item>
           <a
             // eslint-disable-next-line react/jsx-no-target-blank
             target="_blank"
@@ -116,8 +114,8 @@ export default function Top() {
             height="1"
             alt=""
           />
-        </Hondana>
-        <Hondana item>
+        </GridItem>
+        <GridItem item>
           <a
             // eslint-disable-next-line react/jsx-no-target-blank
             target="_blank"
@@ -135,8 +133,8 @@ export default function Top() {
             height="1"
             alt=""
           />
-        </Hondana>
-        <Hondana item>
+        </GridItem>
+        <GridItem item>
           <a
             // eslint-disable-next-line react/jsx-no-target-blank
             target="_blank"
@@ -154,8 +152,8 @@ export default function Top() {
             height="1"
             alt=""
           />
-        </Hondana>
-      </Grid>
+        </GridItem>
+      </Hondana>
     </BlackSection>
   );
 }
