@@ -1,26 +1,14 @@
 import React from 'react';
-import styled from 'styled-components/macro';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ContentPaper from 'components/ContentPaper';
-
-const Content = styled.div`
-  max-width: 760px;
-  margin: 0 auto 0 auto;
-`;
-
-const Sentence = styled.div`
-  padding: 17px;
-`;
-
-const NestedList = styled(List)`
-  margin-left: 17px;
-`;
+import ContentPaper from './ContentPaper';
+import Sentence from './Sentence';
+import NestedList from './NestedList';
 
 export default function TermsOfService() {
   return (
-    <Content>
+    <div>
       <Typography align="right">作成日：2020/04/20</Typography>
       <Typography align="right">最終更新日：2020/04/20</Typography>
       <ContentPaper>
@@ -371,6 +359,6 @@ export default function TermsOfService() {
         </List>
         <Typography align="right">以上</Typography>
       </ContentPaper>
-    </Content>
+    </div>
   );
 }
