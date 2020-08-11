@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { List, ListItem } from '@f/core';
+import { List, ListItem } from '@chakra-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
