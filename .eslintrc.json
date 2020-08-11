@@ -36,6 +36,7 @@
     "react/jsx-one-expression-per-line": "off",
     "object-property-newline": "off",
     "react/jsx-props-no-spreading": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "max-len": ["error", { "code": 120 }]
   }
 }
