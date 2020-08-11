@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components/macro';
+import Grid from '@material-ui/core/Grid';
 import SectionHeading from 'components/SectionHeading';
 import firebase from 'components/Firebase';
+import BlackSection from 'components/BlackSection';
 // import Book from 'pages/Books/Top/Book';
 
-const Contents = styled.div`
-  text-align: center;
-`;
-
-const Hondana = styled.div`
+const Hondana = styled(Grid)`
   background: #151515 url('/images/hondana.png') center;
   background-size: contain;
+  text-align: center;
+  padding: 20px;
 `;
 
 const AmazonImg = styled.img`
@@ -23,11 +23,9 @@ const AmazonImgTag = styled.img`
 `;
 
 const Header = styled.div`
-  background: #151515 url('/images/tundoku.png') center;
-  background-size: contain;
   height: 150px;
-  color: #fff;
-  padding: 30px 0;
+  text-align: center;
+  color: white;
 `;
 
 const Books = styled.div`
@@ -76,29 +74,88 @@ export default function Top() {
   */
 
   return (
-    <Contents>
+    <BlackSection>
       <Header>
         <SectionHeading>積み本</SectionHeading>
       </Header>
-      <Hondana>
-        <a
-          // eslint-disable-next-line react/jsx-no-target-blank
-          target="_blank"
-          href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
-        >
-          <AmazonImg
-            alt="hoge"
-            src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
+      <Grid container>
+        <Hondana item>
+          <a
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+            href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
+          >
+            <AmazonImg
+              alt="hoge"
+              src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
             ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hamchance0215-22"
+            />
+          </a>
+          <AmazonImgTag
+            src="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
+            width="1"
+            height="1"
+            alt=""
           />
-        </a>
-        <AmazonImgTag
-          src="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
-          width="1"
-          height="1"
-          alt=""
-        />
-      </Hondana>
-    </Contents>
+        </Hondana>
+        <Hondana item>
+          <a
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+            href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
+          >
+            <AmazonImg
+              alt="hoge"
+              src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
+            ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hamchance0215-22"
+            />
+          </a>
+          <AmazonImgTag
+            src="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
+            width="1"
+            height="1"
+            alt=""
+          />
+        </Hondana>
+        <Hondana item>
+          <a
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+            href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
+          >
+            <AmazonImg
+              alt="hoge"
+              src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
+            ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hamchance0215-22"
+            />
+          </a>
+          <AmazonImgTag
+            src="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
+            width="1"
+            height="1"
+            alt=""
+          />
+        </Hondana>
+        <Hondana item>
+          <a
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+            href="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
+          >
+            <AmazonImg
+              alt="hoge"
+              src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
+            ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hamchance0215-22"
+            />
+          </a>
+          <AmazonImgTag
+            src="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
+            width="1"
+            height="1"
+            alt=""
+          />
+        </Hondana>
+      </Grid>
+    </BlackSection>
   );
 }
