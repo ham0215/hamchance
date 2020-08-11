@@ -37,6 +37,8 @@
     "object-property-newline": "off",
     "react/jsx-props-no-spreading": "off",
     "comma-dangle": "off",
-    "max-len": ["error", { "code": 120 }]
+    "max-len": ["error", { "code": 120, "ignoreUrls": true }],
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off"
   }
 }
