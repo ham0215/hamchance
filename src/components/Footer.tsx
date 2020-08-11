@@ -34,12 +34,12 @@ export default function Skills() {
     <Footer>
       <FooterList>
         <FooterFirstItem>
-          <Link href="/terms-of-service" color="inherit" underline="none">
+          <Link href="/terms/terms-of-service" color="inherit" underline="none">
             Terms of Service
           </Link>
         </FooterFirstItem>
         <FooterItem>
-          <Link href="/privacy-policy" color="inherit" underline="none">
+          <Link href="/terms/privacy-policy" color="inherit" underline="none">
             Privacy Policy
           </Link>
         </FooterItem>
