@@ -1,60 +1,38 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import Link from '@material-ui/core/Link';
+import Grid from '@material-ui/core/Grid';
 
-const BookLi = styled.li`
-  position: relative;
-  width: 240px;
-  margin: 1px auto;
-  padding: 15px;
-  font-size: 16px;
-  line-height: 1.3;
-  border-radius: 8px;
-  letter-spacing: 0.05em;
-  text-align: center;
-  background-image: linear-gradient(0deg, #fff 25%, #8e8e8e 25%, #8e8e8e 50%, #fff 50%, #fff 75%, #8e8e8e 75%, #8e8e8e);
-  list-style-type: none;
-  background-size: 4px 4px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+const GridItem = styled(Grid)`
+  margin: 0 10px 0 10px;
+`;
 
-  :nth-child(4n + 1) {
-    border-top: 3px solid green;
-    border-bottom: 3px solid green;
-    border-left: 3px solid green;
-  }
+const AmazonImg = styled.img`
+  margin: 10px 10px 50px 10px;
+`;
 
-  :nth-child(4n + 2) {
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
-    border-left: 3px solid red;
-  }
-
-  :nth-child(4n + 3) {
-    border-top: 3px solid blue;
-    border-bottom: 3px solid blue;
-    border-left: 3px solid blue;
-  }
-
-  :nth-child(4n + 4) {
-    border-top: 3px solid orange;
-    border-bottom: 3px solid orange;
-    border-left: 3px solid orange;
-  }
+const AmazonImgTag = styled.img`
+  margin: 0px !important;
+  border: none !important;
 `;
 
 type Props = {
   title: string;
   url: string;
+  imgSrc: string;
+  imgTagSrc: string;
 };
 
-export default function Book(props: Props) {
-  const { title, url } = props;
+export default function Book({ title, url, imgSrc, imgTagSrc }: Props) {
   return (
-    <BookLi>
-      <Link href={url} color="inherit" underline="none" target="_blank">
-        {title}
-      </Link>
-    </BookLi>
+    <GridItem item>
+      <a
+        // eslint-disable-next-line react/jsx-no-target-blank
+        target="_blank"
+        href={url}
+      >
+        <AmazonImg alt={title} src={imgSrc} />
+      </a>
+      <AmazonImgTag src={imgTagSrc} width="1" height="1" alt={title} />
+    </GridItem>
   );
 }
