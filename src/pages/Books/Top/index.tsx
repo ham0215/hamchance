@@ -36,7 +36,7 @@ export default function Top() {
   useEffect(() => {
     (async () => {
       const queryBooks = await db.collection('books').get();
-      const queryOrder = await db.collection('orders').doc('book_order').get();
+      const queryOrder = await db.collection('orders').doc('bookOrder').get();
       const bs: Books = {};
       queryBooks.forEach((doc) => {
         bs[doc.id] = doc.data();
@@ -48,15 +48,13 @@ export default function Top() {
     })();
   }, [db, setTsumihon]);
 
-  /*
   let books = [];
   if (tsumihon.bookOrder) {
     books = tsumihon.bookOrder.map((key: string) => {
-      const { title, url } = tsumihon.books[key];
-      return <Book key={key} title={title} url={url} />;
+      const { title, url, imgSrc, imgTagSrc } = tsumihon.books[key];
+      return <Book key={key} title={title} url={url} imgSrc={imgSrc} imgTagSrc={imgTagSrc} />;
     });
   }
-  */
 
   return (
     <BlackSection>
@@ -64,13 +62,7 @@ export default function Top() {
         <SectionHeading>積み本</SectionHeading>
       </Header>
       <Hondana container justify="center">
-        <Book
-          url="https://www.amazon.co.jp/gp/product/B0836CF21D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B0836CF21D&linkCode=as2&tag=hamchance0215-22&linkId=aa1fec58053a774951acaadaade07605"
-          title="チームジャーニー"
-          imgSrc="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B0836CF21D&
-          ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hamchance0215-22"
-          imgTagSrc="//ir-jp.amazon-adsystem.com/e/ir?t=hamchance0215-22&l=am2&o=9&a=B0836CF21D"
-        />
+        {books}
       </Hondana>
     </BlackSection>
   );
