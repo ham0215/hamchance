@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v2.1.1
         with:
           node-version: '14.x'
-      - uses: actions/cache@v2.1.0
+      - uses: actions/cache@v2.1.1
         with:
           path: node_modules
           key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
