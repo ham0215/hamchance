@@ -4,6 +4,8 @@ on:
     branches:
       - feature/*
       - master
+    paths-ignore:
+      - README.md
 jobs:
   ci:
     name: run CI
