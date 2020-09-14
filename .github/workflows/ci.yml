@@ -1,12 +1,14 @@
-name: Run lint
+name: CI
 on:
   push:
     branches:
       - feature/*
       - master
+    paths-ignore:
+      - README.md
 jobs:
-  lint:
-    name: run lint
+  ci:
+    name: run CI
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,3 +23,5 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn lint
+      - run: yarn test:ci
+      - run: yarn build

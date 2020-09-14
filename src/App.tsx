@@ -7,12 +7,12 @@ import { User } from 'firebase/app';
 import theme from 'styles/theme';
 import GlobalStyle from 'styles/global';
 
-type UserContext = {
+type UserContextType = {
   user: User | null;
   setUser: Dispatch<User | null> | undefined;
 };
 
-export const UserContext = React.createContext<UserContext>({
+export const UserContext = React.createContext<UserContextType>({
   user: null,
   setUser: undefined,
 });

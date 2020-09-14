@@ -115,7 +115,7 @@ type Props = {
   githubUrl?: string;
 };
 
-export default (props: Props) => {
+const ContentsBoxComponent = (props: Props) => {
   const classes = useStyles();
   const [open, setOpen] = React.useState<boolean>(false);
 
@@ -180,3 +180,10 @@ export default (props: Props) => {
     </ContentsBox>
   );
 };
+
+ContentsBoxComponent.defaultProps = {
+  url: null,
+  githubUrl: null,
+};
+
+export default ContentsBoxComponent;
