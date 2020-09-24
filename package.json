@@ -14,8 +14,8 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "start": "EXTEND_ESLINT=true react-scripts start",
+    "build": "EXTEND_ESLINT=true GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --ci --coverage --runInBand",
     "eject": "react-scripts eject",
