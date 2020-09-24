@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -11,6 +11,7 @@ const Terms = lazy(() => import(/* webpackChunkName: 'terms' */ './Terms'));
 
 export default function RootRouter() {
   return (
+    <BrowserRouter>
     <Suspense fallback={<CircularProgress />}>
       <Header />
       <Switch>
@@ -21,5 +22,6 @@ export default function RootRouter() {
       </Switch>
       <Footer />
     </Suspense>
+    </BrowserRouter>
   );
 }
