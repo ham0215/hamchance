@@ -40,6 +40,7 @@
     "comma-dangle": "off",
     "max-len": ["error", { "code": 120, "ignoreUrls": true }],
     "implicit-arrow-linebreak": "off",
-    "function-paren-newline": "off"
+    "function-paren-newline": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/*.test.ts", "**/*.test.tsx"] }]
   }
 }
