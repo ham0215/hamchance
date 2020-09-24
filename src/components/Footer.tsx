@@ -29,22 +29,20 @@ const FooterItem = styled(FooterFirstItem)`
   border-left: 1px solid #bbb;
 `;
 
-export default function Skills() {
-  return (
-    <Footer>
-      <FooterList>
-        <FooterFirstItem>
-          <Link href="/terms/terms-of-service" color="inherit" underline="none">
-            Terms of Service
-          </Link>
-        </FooterFirstItem>
-        <FooterItem>
-          <Link href="/terms/privacy-policy" color="inherit" underline="none">
-            Privacy Policy
-          </Link>
-        </FooterItem>
-      </FooterList>
-      <Copyright>Copyright ©︎ 2020 Ham</Copyright>
-    </Footer>
-  );
-}
+export default () => (
+  <Footer>
+    <FooterList>
+      <FooterFirstItem>
+        <Link href="/terms/terms-of-service" color="inherit" underline="none">
+          Terms of Service
+        </Link>
+      </FooterFirstItem>
+      <FooterItem>
+        <Link href="/terms/privacy-policy" color="inherit" underline="none">
+          Privacy Policy
+        </Link>
+      </FooterItem>
+    </FooterList>
+    <Copyright>Copyright ©︎ 2020 Ham</Copyright>
+  </Footer>
+);

@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import firebase from 'components/Firebase';
-import HeaderMenu from 'components/HeaderMenu';
+import HeaderMenu from 'components/Header/HeaderMenu';
 import { UserContext } from 'App';
 
 const useStyles = makeStyles((theme) => ({
