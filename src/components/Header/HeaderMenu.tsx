@@ -28,11 +28,11 @@ export default function Header() {
         <MenuIcon />
       </MenuButton>
       <Menu id="simple-menu" anchorEl={menuButtonRef.current} keepMounted open={open} onClose={handleClose}>
-        <MenuItem component={Link} to="/books">
-          Books
-        </MenuItem>
         <MenuItem component={Link} to="/blogs">
           Blogs
+        </MenuItem>
+        <MenuItem component={Link} to="/books">
+          Books
         </MenuItem>
       </Menu>
     </div>
