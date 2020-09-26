@@ -3,6 +3,20 @@ This is ham's sandbox.
 ![Run lint](https://github.com/ham0215/hamchance/workflows/Run%20lint/badge.svg)
 ![CodeQL](https://github.com/ham0215/hamchance/workflows/CodeQL/badge.svg)
 
+# Blogs
+
+## How to write a blog
+
+Place the blog written in markdown in `public/mds/`.
+
+Run the script to create the index.
+
+```console
+node updateBlogIndex.js
+```
+
+Commit all files.
+
 # React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
