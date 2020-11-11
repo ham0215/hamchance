@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, ListItemText, Typography } from '@material-ui/core';
+import { List, ListItemText, Typography } from '@material-ui/core';
 import Contents from 'components/Contents';
 import InnerContents from 'components/InnerContents';
 import Blog from './Blog';
@@ -15,6 +15,7 @@ export default () => {
   //     <ListItemText primary={md} />
   //   </ListItem>
   // ));
+  const hoge = 'hoge';
   return (
     <Contents>
       <Typography variant="h4">Advent Calendar 2020</Typography>
