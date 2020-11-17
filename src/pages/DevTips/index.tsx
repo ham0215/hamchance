@@ -18,9 +18,15 @@ export default () => {
   const hoge = 'hoge';
   return (
     <Contents>
-      <Typography variant="h4">Advent Calendar 2020</Typography>
+      <Typography variant="h4">システム開発Tips 25</Typography>
       <InnerContents>
-        <Typography variant="subtitle1">システム開発のTipsが集まったAdvent Calendarです。</Typography>
+        <Typography variant="subtitle1">
+          システム開発のTips集です。
+          <br />
+          QiitaのAdvent Calendar 2020のネタとして、システム開発のTipsを集めたサイトを自作しました。
+          <br />
+          Advent Calendarに習ってTipsを25個集めています。
+        </Typography>
       </InnerContents>
     </Contents>
   );
