@@ -34,7 +34,7 @@ export default () => (
         </ExternalLink>
         の16日目のネタとして、システム開発のTipsを集めたサイトを自作しました。
         <br />
-        自分が心がけているTipsを中心に、Advent Calendarに合わせて25個集めてみました。
+        自分がシステム開発をする上で心がけているTipsを中心に、Advent Calendarにちなんで25個集めてみました。
       </Typography>
     </InnerContents>
     <Timeline align="alternate">
