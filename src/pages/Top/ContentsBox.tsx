@@ -161,12 +161,16 @@ const ContentsBoxComponent = (props: Props) => {
                     <div className={classes.linkWrapper}>
                       {url && (
                         <span className={classes.link}>
-                          <ExternalLink href={url} name="Go to Homepage" />
+                          <ExternalLink href={url} variant="body2">
+                            Go to Homepage
+                          </ExternalLink>
                         </span>
                       )}
                       {githubUrl && (
                         <span className={classes.link}>
-                          <ExternalLink href={githubUrl} name="Go to GitHub" />
+                          <ExternalLink href={githubUrl} variant="body2">
+                            Go to GitHub
+                          </ExternalLink>
                         </span>
                       )}
                     </div>

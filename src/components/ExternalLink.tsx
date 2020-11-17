@@ -1,17 +1,14 @@
-import React from 'react';
-import Link from '@material-ui/core/Link';
+import React, { ReactNode } from 'react';
+import { Link, TypographyVariant } from '@material-ui/core';
 
 type Props = {
+  children: ReactNode;
   href: string;
-  name: string;
+  variant: TypographyVariant;
 };
 
-export default (props: Props) => {
-  const { href, name } = props;
-
-  return (
-    <Link href={href} underline="none" variant="body2" target="_blank" rel="noopener noreferrer">
-      {name}
-    </Link>
-  );
-};
+export default ({ children, variant, href }: Props) => (
+  <Link href={href} underline="none" variant={variant} target="_blank" rel="noopener noreferrer">
+    {children}
+  </Link>
+);
