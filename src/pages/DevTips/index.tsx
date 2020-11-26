@@ -16,6 +16,8 @@ import ExternalLink from 'components/ExternalLink';
 import InternalLink from 'components/InternalLink';
 import InnerContents from 'components/InnerContents';
 
+import Item from './Item';
+
 const CustomPaper = styled(Paper)`
   padding: 6px 16px;
 `;
@@ -35,6 +37,13 @@ export default () => (
       </Typography>
     </InnerContents>
     <Timeline align="alternate">
+      <Item
+        section="ソフトウェア開発の章"
+        title="定期的にAgile宣言を思い出そう"
+        to="/devtips"
+        linkType="internal"
+        icon={<FastfoodIcon />}
+      />
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
