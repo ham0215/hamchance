@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
     "firebase": "^7.21.1",
     "firebaseui": "^4.6.1",
     "react": "^16.12.0",
@@ -46,6 +47,7 @@
     "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^3.0.0",
     "@typescript-eslint/parser": "^3.0.0",
+    "@typescript-eslint/scope-manager": "^4.7.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-react-app": "^5.2.0",

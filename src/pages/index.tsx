@@ -4,6 +4,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
+const DevTips = lazy(() => import(/* webpackChunkName: 'devtips' */ './DevTips'));
 const Blogs = lazy(() => import(/* webpackChunkName: 'blogs' */ './Blogs'));
 const Books = lazy(() => import(/* webpackChunkName: 'books' */ './Books'));
 const Login = lazy(() => import(/* webpackChunkName: 'login' */ './Login'));
@@ -16,6 +17,7 @@ export default function RootRouter() {
       <Suspense fallback={<CircularProgress />}>
         <Header />
         <Switch>
+          <Route path="/devtips" component={DevTips} />
           <Route path="/blogs" component={Blogs} />
           <Route path="/books" component={Books} />
           <Route path="/login" exact component={Login} />

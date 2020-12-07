@@ -28,6 +28,9 @@ export default function Header() {
         <MenuIcon />
       </MenuButton>
       <Menu id="simple-menu" anchorEl={menuButtonRef.current} keepMounted open={open} onClose={handleClose}>
+        <MenuItem component={Link} to="/devtips">
+          システム開発Tips集
+        </MenuItem>
         <MenuItem component={Link} to="/blogs">
           Blogs
         </MenuItem>
