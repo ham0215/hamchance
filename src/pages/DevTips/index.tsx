@@ -1,26 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Typography, Paper } from '@material-ui/core';
-import {
-  Timeline,
-  TimelineItem,
-  TimelineOppositeContent,
-  TimelineSeparator,
-  TimelineDot,
-  TimelineContent,
-  TimelineConnector,
-} from '@material-ui/lab';
+import { Typography } from '@material-ui/core';
+import { Timeline } from '@material-ui/lab';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import Contents from 'components/Contents';
 import ExternalLink from 'components/ExternalLink';
-import InternalLink from 'components/InternalLink';
 import InnerContents from 'components/InnerContents';
 
 import Item from './Item';
-
-const CustomPaper = styled(Paper)`
-  padding: 6px 16px;
-`;
 
 export default () => (
   <Contents>
@@ -44,151 +30,25 @@ export default () => (
         linkType="internal"
         icon={<FastfoodIcon />}
       />
-      <TimelineItem>
-        <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-            ソフトウェア開発の章
-          </Typography>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot>
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">定期的にAgile宣言を思い出そう</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="primary">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">yagniを都合よく使ってませんか？</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="primary" variant="outlined">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">シヨウとゲンジョウ</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="secondary">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">理想とそこまでのステップを定義しよう</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="primary" variant="outlined">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">難しく考えずとりあえずTDDを始めてみよう</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="secondary">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">仕様はテストで担保する</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="secondary">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">マスターデータ、まだDBに入れてるの？</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-            可読性の章
-          </Typography>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot>
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">可読性を上げることに全力を尽くす</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="primary">
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <CustomPaper elevation={3}>
-            <Typography variant="h6" component="h1">
-              <InternalLink to="/devtips">判定に複数条件を使う場合はメソッドを作る</InternalLink>
-            </Typography>
-          </CustomPaper>
-        </TimelineContent>
-      </TimelineItem>
+      <Item title="yagniを都合よく使ってませんか？" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item title="シヨウとゲンジョウ" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item title="理想とそこまでのステップを定義しよう" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item title="難しく考えずとりあえずTDDを始めてみよう" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item title="仕様はテストで担保する" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item title="マスターデータ、まだDBに入れてるの？" to="/devtips" linkType="internal" icon={<FastfoodIcon />} />
+      <Item
+        section="可読性の章"
+        title="可読性を上げることに全力を尽くす"
+        to="/devtips"
+        linkType="internal"
+        icon={<FastfoodIcon />}
+      />
+      <Item
+        title="判定に複数条件を使う場合はメソッドを作る"
+        to="/devtips"
+        linkType="internal"
+        icon={<FastfoodIcon />}
+      />
     </Timeline>
   </Contents>
 );

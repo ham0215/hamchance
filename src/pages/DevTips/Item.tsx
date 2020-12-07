@@ -17,14 +17,16 @@ const CustomPaper = styled(Paper)`
 `;
 
 type Props = {
-  section: string;
+  section?: string;
   title: string;
   to: string;
   linkType: 'internal' | 'external';
   icon: React.ReactElement;
 };
 
-export default ({ section, title, to, linkType, icon }: Props) => {
+Item.defaultProps = { section: null };
+
+export default function Item({ section, title, to, linkType, icon }: Props) {
   const link =
     linkType === 'internal' ? (
       <InternalLink to={to}>{title}</InternalLink>
@@ -37,9 +39,11 @@ export default ({ section, title, to, linkType, icon }: Props) => {
   return (
     <TimelineItem>
       <TimelineOppositeContent>
-        <Typography variant="body2" color="textSecondary">
-          {section}
-        </Typography>
+        {section && (
+          <Typography variant="body2" color="textSecondary">
+            {section}
+          </Typography>
+        )}
       </TimelineOppositeContent>
       <TimelineSeparator>
         <TimelineDot>{icon}</TimelineDot>
@@ -54,4 +58,4 @@ export default ({ section, title, to, linkType, icon }: Props) => {
       </TimelineContent>
     </TimelineItem>
   );
-};
+}
