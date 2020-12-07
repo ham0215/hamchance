@@ -29,9 +29,11 @@ Item.defaultProps = { section: null };
 export default function Item({ section, title, to, linkType, icon }: Props) {
   const link =
     linkType === 'internal' ? (
-      <InternalLink to={to}>{title}</InternalLink>
+      <InternalLink to={to} variant="body1">
+        {title}
+      </InternalLink>
     ) : (
-      <ExternalLink href={to} variant="body2">
+      <ExternalLink href={to} variant="body1">
         {title}
       </ExternalLink>
     );
