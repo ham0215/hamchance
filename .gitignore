@@ -12,3 +12,6 @@ node_modules/
 .env*
 *.swp
 .DS_Store
+
+# lint
+.eslintcache
