@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import styled from 'styled-components/macro';
 import Grid from '@material-ui/core/Grid';
@@ -25,11 +26,7 @@ type Props = {
 export default function Book({ title, url, imgSrc, imgTagSrc }: Props) {
   return (
     <GridItem item>
-      <a
-        // eslint-disable-next-line react/jsx-no-target-blank
-        target="_blank"
-        href={url}
-      >
+      <a target="_blank" href={url}>
         <AmazonImg alt={title} src={imgSrc} />
       </a>
       <AmazonImgTag src={imgTagSrc} width="1" height="1" alt={title} />

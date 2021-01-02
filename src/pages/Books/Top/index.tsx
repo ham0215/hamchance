@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 // import Grid from '@material-ui/core/Grid';
 import SectionHeading from 'components/SectionHeading';
-import firebase from 'components/Firebase';
+// import firebase from 'components/Firebase';
 import BlackSection from 'components/BlackSection';
 // import Book from './Book';
 
@@ -18,14 +18,14 @@ const Header = styled.div`
   color: white;
 `;
 
-type Books = {
-  [key: string]: firebase.firestore.DocumentData;
-};
+// type Books = {
+//   [key: string]: firebase.firestore.DocumentData;
+// };
 
-type Tsumihon = {
-  books: Books;
-  bookOrder: firebase.firestore.DocumentData | undefined;
-};
+// type Tsumihon = {
+//   books: Books;
+//   bookOrder: firebase.firestore.DocumentData | undefined;
+// };
 
 export default function Top() {
   // const db = firebase.firestore();
