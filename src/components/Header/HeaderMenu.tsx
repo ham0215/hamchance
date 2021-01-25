@@ -28,13 +28,13 @@ export default function Header() {
         <MenuIcon />
       </MenuButton>
       <Menu id="simple-menu" anchorEl={menuButtonRef.current} keepMounted open={open} onClose={handleClose}>
-        <MenuItem component={Link} to="/devtips">
+        <MenuItem component={Link} to="/devtips" onClick={handleClose}>
           システム開発Tips集
         </MenuItem>
-        <MenuItem component={Link} to="/blogs">
+        <MenuItem component={Link} to="/blogs" onClick={handleClose}>
           Blogs
         </MenuItem>
-        <MenuItem component={Link} to="/books">
+        <MenuItem component={Link} to="/books" onClick={handleClose}>
           Books
         </MenuItem>
       </Menu>
