@@ -4,6 +4,8 @@ import SectionHeading from 'components/SectionHeading';
 import Twitter from 'components/Twitter';
 import Github from 'components/Github';
 import Qiita from 'components/Qiita';
+import Zenn from 'components/Zenn';
+import Note from 'components/Note';
 import SpeakerDeck from 'components/SpeakerDeck';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -86,6 +88,12 @@ export default function Profile() {
         </Grid>
         <Grid item>
           <SpeakerDeck />
+        </Grid>
+        <Grid item>
+          <Zenn />
+        </Grid>
+        <Grid item>
+          <Note />
         </Grid>
       </Grid>
     </Section>
