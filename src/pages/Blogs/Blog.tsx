@@ -36,7 +36,9 @@ export default ({ mdPath }: Props) => {
         </MLink>
       </BackLink>
       <BlogArea>
-        <ReactMarkdown source={markdown} escapeHtml={false} />
+        <ReactMarkdown>
+          {markdown}
+        </ReactMarkdown>
       </BlogArea>
     </div>
   );
