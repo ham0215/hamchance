@@ -32,8 +32,8 @@ export default function Login() {
       signInFlow: 'popup',
       signInSuccessUrl: '/',
       signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
-      tosUrl: '/terms-of-service',
-      privacyPolicyUrl: '/privacy-policy',
+      tosUrl: '/terms/terms-of-service',
+      privacyPolicyUrl: '/terms/privacy-policy',
     };
     ui.start('#firebaseui-auth-container', uiConfig);
   });
