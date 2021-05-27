@@ -1,47 +1,35 @@
 {
-  "extends": ["react-app", "airbnb"],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"],
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    }
+  "env": {
+    "browser": true,
+    "es2021": true
   },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
   "rules": {
-    "no-undef": "off",
-    "import/extensions": "off",
-    "jsx-a11y/href-no-hash": "off",
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["to"]
-      }
-    ],
-    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }],
-    "react/state-in-constructor": [2, "never"],
-    "no-unused-vars": 1,
-    "react/no-unused-prop-types": "off",
-    "object-curly-newline": "off",
-    "react/jsx-filename-extension": "off",
-    "jsx-a11y/label-has-for": [2, { "required": { "some": ["nesting", "id"] } }],
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "consistent-return": "off",
-    "no-use-before-define": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "object-property-newline": "off",
-    "react/jsx-props-no-spreading": "off",
-    "comma-dangle": "off",
-    "max-len": ["error", { "code": 120, "ignoreUrls": true }],
-    "implicit-arrow-linebreak": "off",
-    "function-paren-newline": "off",
-    "operator-linebreak": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/*.test.ts", "**/*.test.tsx"] }]
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
