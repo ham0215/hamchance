@@ -6,8 +6,6 @@ import Footer from 'components/Footer';
 
 const DevTips = lazy(() => import(/* webpackChunkName: 'devtips' */ './DevTips'));
 const Blogs = lazy(() => import(/* webpackChunkName: 'blogs' */ './Blogs'));
-const Books = lazy(() => import(/* webpackChunkName: 'books' */ './Books'));
-const Login = lazy(() => import(/* webpackChunkName: 'login' */ './Login'));
 const Top = lazy(() => import(/* webpackChunkName: 'top' */ './Top'));
 const Terms = lazy(() => import(/* webpackChunkName: 'terms' */ './Terms'));
 
@@ -19,8 +17,6 @@ export default function RootRouter() {
         <Switch>
           <Route path="/devtips" component={DevTips} />
           <Route path="/blogs" component={Blogs} />
-          <Route path="/books" component={Books} />
-          <Route path="/login" exact component={Login} />
           <Route path="/terms" component={Terms} />
           <Route component={Top} />
         </Switch>

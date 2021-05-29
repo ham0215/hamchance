@@ -34,9 +34,6 @@ export default function Header() {
         <MenuItem component={Link} to="/blogs" onClick={handleClose}>
           Blogs
         </MenuItem>
-        <MenuItem component={Link} to="/books" onClick={handleClose}>
-          Books
-        </MenuItem>
       </Menu>
     </div>
   );
