@@ -20,7 +20,7 @@ export default function About() {
     <WhiteSection id="about">
       <SectionHeading>ABOUT</SectionHeading>
       <SectionText>
-        Webエンジニアの1
+        Webエンジニアの
         <Link href="#profile">ham</Link>
         が趣味の合間に気になる技術を試すためのページです。
       </SectionText>
