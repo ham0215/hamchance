@@ -16,6 +16,7 @@ import HamIcon from 'images/ham.jpg';
 
 const Section = styled.section`
   padding: 80px 0;
+  height: 100vh;
 `;
 
 const useStyles = makeStyles((theme) => ({

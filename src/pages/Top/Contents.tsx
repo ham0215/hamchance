@@ -25,7 +25,7 @@ export default function Contents() {
           title="Hamchance.com"
           summary="ham's ポータルページ"
           description="ham's ポータルページ"
-          keywords={['React', 'Typescript', 'Vercel', 'Cloud Firestore', 'Firebase Authentication', 'material-ui']}
+          keywords={['React', 'Typescript', 'Vercel', 'Cloud Firestore', 'material-ui']}
           url="/"
           githubUrl="https://github.com/ham0215/hamchance"
         />
