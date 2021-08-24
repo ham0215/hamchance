@@ -6,7 +6,7 @@ export default function ZennIconButton() {
   return (
     <div>
       <IconButton href="https://zenn.dev/hamchance" target="_blank" rel="noopener noreferrer">
-        <Zenn color="#3EA8FF" size={30} />;
+        <Zenn color="#3EA8FF" size={30} />
       </IconButton>
     </div>
   );

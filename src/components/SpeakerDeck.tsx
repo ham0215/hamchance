@@ -6,7 +6,7 @@ export default function SpeakerdeckIconButton() {
   return (
     <div>
       <IconButton href="https://speakerdeck.com/ham0215" target="_blank" rel="noopener noreferrer">
-        <Speakerdeck color="#009287" size={30} />;
+        <Speakerdeck color="#009287" size={30} />
       </IconButton>
     </div>
   );
