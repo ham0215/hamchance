@@ -5,6 +5,10 @@ module.exports = {
     '!**/node_modules/**',
   ],
   testEnvironment: 'jsdom',
+  moduleDirectories: [
+    "node_modules",
+    "<rootDir>/src/"
+  ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
     // https://jestjs.io/docs/webpack#mocking-css-modules
@@ -18,7 +22,8 @@ module.exports = {
     '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': `<rootDir>/__mocks__/fileMock.js`,
 
     // Handle module aliases
-    '^@/components/(.*)$': '<rootDir>/components/$1',
+    '^providers/(.*)$': '<rootDir>/src/providers/$1',
+    '^components/(.*)$': '<rootDir>/src/components/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],

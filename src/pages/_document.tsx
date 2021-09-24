@@ -37,10 +37,7 @@ export default class MyDocument extends Document {
           />
           <meta name="twitter:image" content="https://hamchance.com/images/yarigadake.jpg" />
           <meta name="twitter:image:alt" content="槍ヶ岳" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         </Head>
         <body>
           <Main />
