@@ -1,34 +1,43 @@
+# Hamchance.com
+
+This is ham's portfolio.
+
+[![Build](https://github.com/ham0215/hamchance/actions/workflows/build.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/build.yml)
+[![ESLint](https://github.com/ham0215/hamchance/actions/workflows/eslint.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/eslint.yml)
+[![Prettier](https://github.com/ham0215/hamchance/actions/workflows/prettier.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/prettier.yml)
+[![Test](https://github.com/ham0215/hamchance/actions/workflows/test.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/test.yml)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Blogs
+## How to write a blog
 
-First, run the development server:
+Place the blog written in markdown in `public/mds/`.
 
-```bash
-npm run dev
-# or
-yarn dev
+Run the script to create the index.
+
+```console
+node updateBlogIndex.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Commit all files.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# CI
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+`yarn build`, `yarn lint`, `yarn test:ci`, `yarn prettier` is running on GitHub Actions.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Deploy
 
-## Learn More
+Push to the main branch of github and it will be deployed to Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Open [https://hamchance.com](https://hamchance.com) to view it in the browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+See dashboard. https://vercel.com/dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# External services used on this site
 
-## Deploy on Vercel
+## Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Vercel is a cloud platform for static sites.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://vercel.com
