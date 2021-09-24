@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import ThemeProvider from 'providers/ThemeProvider';
+import PaletteModeProvider from 'providers/PaletteModeProvider';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import createEmotionCache from 'createEmotionCache';
@@ -19,10 +20,11 @@ export default function MyApp(props: MyAppProps) {
         <title>Hamchance.com</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-      <ThemeProvider>
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <PaletteModeProvider>
+        <ThemeProvider>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </PaletteModeProvider>
     </CacheProvider>
   );
 }
