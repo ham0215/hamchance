@@ -5,10 +5,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:jsx-a11y/recommended',
     'plugin:jest/recommended',
     'prettier',
     'next/core-web-vitals'
@@ -22,7 +19,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'jest', 'react', 'react-hooks', 'jsx-a11y'],
+  plugins: ['@typescript-eslint', 'jest'],
   settings: {
     react: {
       version: 'detect',
@@ -34,8 +31,6 @@ module.exports = {
     'eol-last': ['error', 'always'],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off',
     'jest/expect-expect': 'off',
     'jest/require-top-level-describe': 'error',
     'jest/no-disabled-tests': 'off',
