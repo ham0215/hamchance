@@ -6,7 +6,7 @@ import createEmotionCache from 'libs/createEmotionCache';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="ja">
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />

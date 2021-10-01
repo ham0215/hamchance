@@ -1,10 +1,9 @@
 import PageLayout from 'components/PageLayout';
-import Home from 'domains/Home';
 
-export default function HomePage() {
+export default function BlogPage() {
   return (
     <PageLayout>
-      <Home />
+      Blogs
     </PageLayout>
   );
 }
