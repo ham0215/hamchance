@@ -1,4 +1,4 @@
-import Home from '../../pages';
+import Home from '../../domains/Home';
 import { render, screen } from '@testing-library/react';
 
 describe('Home', () => {
