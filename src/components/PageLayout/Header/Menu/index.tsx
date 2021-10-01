@@ -17,14 +17,19 @@ export default function MenuComponent() {
 
   return (
     <>
-      <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={handleClick} ref={menuButtonRef}>
+      <IconButton
+        edge="start"
+        color="inherit"
+        aria-label="menu"
+        sx={{ mr: 2 }}
+        onClick={handleClick}
+        ref={menuButtonRef}
+      >
         <MenuIcon />
       </IconButton>
       <Menu id="simple-menu" anchorEl={menuButtonRef.current} keepMounted open={open} onClose={handleClose}>
         <MenuItem onClick={handleClose}>
-          <Link href='/blogs'>
-            Blogs
-          </Link>
+          <Link href="/blogs">Blogs</Link>
         </MenuItem>
       </Menu>
     </>

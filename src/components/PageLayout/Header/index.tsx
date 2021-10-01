@@ -16,9 +16,7 @@ export default function Header() {
       <Toolbar variant="dense">
         <Menu />
         <Typography variant="h6" color="inherit" component="div" sx={{ flexGrow: 1 }}>
-          <Link href="/">
-            Hamchance.com
-          </Link>
+          <Link href="/">Hamchance.com</Link>
         </Typography>
         <IconButton sx={{ ml: 1 }} color="inherit" onClick={togglePaletteMode}>
           {theme.palette.mode === 'dark' ? <Brightness4Icon /> : <Brightness7Icon />}
