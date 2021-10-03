@@ -5,9 +5,7 @@ export default function Home() {
   return (
     <Container>
       <Title>Hamchance.com</Title>
-      <div>
-        登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録
-      </div>
+      <div>登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録</div>
       <footer>
         <Button variant="contained" size="large" href="#profile">
           PROFILE

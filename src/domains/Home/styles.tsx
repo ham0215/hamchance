@@ -7,16 +7,16 @@ export const Container = styled('div')({
   textAlign: 'center',
   padding: '6rem 2rem 15rem',
 
-  'div': {
+  div: {
     fontSize: '1.2rem',
   },
 
-  'footer': {
+  footer: {
     marginTop: '2rem',
     '& > *': {
-      margin: '1rem'
-    }
-  }
+      margin: '1rem',
+    },
+  },
 });
 
 export const Title = styled('h1')({
@@ -25,6 +25,6 @@ export const Title = styled('h1')({
   wordWrap: 'break-word',
 
   '@media(max - width: 768px)': {
-    fontSize: '2rem'
-  }
+    fontSize: '2rem',
+  },
 });

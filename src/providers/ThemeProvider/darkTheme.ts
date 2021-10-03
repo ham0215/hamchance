@@ -5,7 +5,7 @@ const theme = createTheme({
     mode: 'dark',
     primary: {
       main: '#121212',
-    }
+    },
   },
 });
 
