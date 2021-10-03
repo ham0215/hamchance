@@ -1,10 +1,13 @@
 import Typography from '@mui/material/Typography';
+import { Container } from './styles';
 
 export default function Footer() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © Ham '}
-      {new Date().getFullYear()}.
-    </Typography>
+    <Container>
+      <Typography variant="body2">
+        {'Copyright © Ham '}
+        {new Date().getFullYear()}.
+      </Typography>
+    </Container>
   );
 }
