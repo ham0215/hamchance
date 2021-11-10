@@ -6,6 +6,7 @@ This is ham's portfolio.
 [![ESLint](https://github.com/ham0215/hamchance/actions/workflows/eslint.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/eslint.yml)
 [![Prettier](https://github.com/ham0215/hamchance/actions/workflows/prettier.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/prettier.yml)
 [![Test](https://github.com/ham0215/hamchance/actions/workflows/test.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/test.yml)
+[![StyleLint](https://github.com/ham0215/hamchance/actions/workflows/stylelint.yml/badge.svg)](https://github.com/ham0215/hamchance/actions/workflows/stylelint.yml)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
