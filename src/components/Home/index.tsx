@@ -1,9 +1,9 @@
+import Image from 'next/image';
 import { Container, Title } from './styles';
 import styled from '@emotion/styled';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import ButtonBase from '@mui/material/ButtonBase';
 import IconButton from '@mui/material/IconButton';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
 
@@ -17,7 +17,7 @@ const Card = styled(Paper)`
   max-width: 500px;
 `;
 
-const Image = styled.div`
+const ImageDiv = styled.div`
   width: 128px;
   height: 128px;
 `;
@@ -27,7 +27,7 @@ const Img = styled.img`
   display: block:
   max-width: 100%;
   max-height: 100%;
-`
+`;
 
 export default function Home() {
   return (
@@ -38,9 +38,9 @@ export default function Home() {
         <Card>
           <Grid container spacing={2}>
             <Grid item>
-              <Image>
+              <ImageDiv>
                 <Img alt="ham" src="/images/ham.jpg" />
-              </Image>
+              </ImageDiv>
             </Grid>
             <Grid item xs={12} sm container>
               <Grid item xs container direction="column" spacing={2}>
@@ -91,7 +91,7 @@ export default function Home() {
           </IconButton>
         </Grid>
         <IconButton href="https://note.com/hamchance" target="_blank" rel="noopener noreferrer">
-          <img src="images/note.svg" alt="note" width="30px" />
+          <Image src="images/note.svg" alt="note" width="30px" />
         </IconButton>
       </Grid>
     </Container>
