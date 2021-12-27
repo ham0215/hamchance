@@ -1,43 +1,28 @@
 import Image from 'next/image';
-import { Container, Title } from './styles';
-import styled from '@emotion/styled';
-import Paper from '@mui/material/Paper';
+import { Container, Title, Profile, SubTitle } from './styles';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Avatar from '@mui/material/Avatar';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
-
-const Profile = styled.div`
-  flex-grow: 1;
-  text-align: left;
-  margin: 120px auto 80px auto;
-`;
-
-const Card = styled(Paper)`
-  max-width: 500px;
-`;
 
 export default function Home() {
   return (
     <Container>
       <Title>Hamchance.com</Title>
-      <div>登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録</div>
+      <SubTitle>登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録</SubTitle>
       <Profile>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 500 }}>
           <CardHeader
-            avatar={
-              <Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 64, height: 64 }} />
-            }
+            avatar={<Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 128, height: 128 }} />}
             title="Naoto Hamada"
             subheader="Software Engineer"
           />
           <CardContent>
-            <Typography>
-              Links
-            </Typography>
+            <Typography>Links</Typography>
             <Grid container>
               <Grid item>
                 <IconButton href="https://twitter.com/hamchance0215" target="_blank" rel="noopener noreferrer">
