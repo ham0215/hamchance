@@ -31,21 +31,12 @@ export default function Home() {
             avatar={
               <Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 64, height: 64 }} />
             }
-            title="Naoto Hamada (Twitter: @hamchance0215)"
+            title="Naoto Hamada"
             subheader="Software Engineer"
           />
           <CardContent>
-            <Typography variant="body2" gutterBottom>
-              経歴
-            </Typography>
-            <Typography variant="body2" color="textSecondary">
-              SIer → Web Engineer
-            </Typography>
-            <Typography variant="body2" gutterBottom>
-              趣味
-            </Typography>
-            <Typography variant="body2" color="textSecondary">
-              登山 / ジョギング / 株 / お酒 / 競馬 / 子育て
+            <Typography>
+              Links
             </Typography>
             <Grid container>
               <Grid item>
