@@ -33,7 +33,7 @@
     "@babel/runtime": "^7.16.3",
     "@jest/types": "^27.2.5",
     "@stylelint/postcss-css-in-js": "^0.37.2",
-    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.7",
