@@ -10,19 +10,6 @@ This is ham's portfolio.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Blogs
-## How to write a blog
-
-Place the blog written in markdown in `public/mds/`.
-
-Run the script to create the index.
-
-```console
-node updateBlogIndex.js
-```
-
-Commit all files.
-
 # CI
 
 `yarn build`, `yarn lint`, `yarn test:ci`, `yarn prettier` is running on GitHub Actions.
