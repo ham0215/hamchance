@@ -5,7 +5,7 @@ import { PaletteModeContext } from 'providers/PaletteModeProvider';
 import darkTheme from './darkTheme';
 import lightTheme from './lightTheme';
 
-export default function P2RThemeProvider({ children }: { children: ReactNode }) {
+export default function HamThemeProvider({ children }: { children: ReactNode }) {
   const paletteMode = useContext(PaletteModeContext);
   const theme = paletteMode === 'dark' ? darkTheme : lightTheme;
 
