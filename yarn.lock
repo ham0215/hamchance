@@ -933,6 +933,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@icons-pack/react-simple-icons@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "@icons-pack/react-simple-icons@npm:4.6.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.13 || ^17
+  checksum: 6928025c7ce3a42c751fd1d440c326214a5c17bbfa9520c63d464bec1155859f34bb4125343d5ec7d89c60c6c194627e3461bd6922e68ff31d6d16b9af18835e
+  languageName: node
+  linkType: hard
+
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
@@ -4481,6 +4492,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.3.0
+    "@icons-pack/react-simple-icons": ^4.6.1
     "@jest/types": ^27.2.5
     "@mui/icons-material": ^5.1.0
     "@mui/material": ^5.1.0

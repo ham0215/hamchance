@@ -6,7 +6,7 @@ import createEmotionCache from 'libs/createEmotionCache';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="ja">
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
@@ -14,8 +14,8 @@ export default class MyDocument extends Document {
             name="description"
             content="登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのポートフォリオ"
           />
-          <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.jpg" />
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.jpg" />
+          <link rel="manifest" href="/manifest.json" />
           <meta property="og:title" content="Hamchance.com" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://hamchance.com/" />
