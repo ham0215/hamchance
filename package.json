@@ -9,6 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
+    "stylelint": "stylelint \"src/**/*.{ts,tsx}\"",
+    "stylelint:fix": "stylelint \"src/**/*.{ts,tsx}\" --fix",
     "prettier": "prettier --check \"src/**/*.{ts,tsx}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
     "test": "jest --watch",
@@ -29,6 +31,7 @@
   "devDependencies": {
     "@babel/runtime": "^7.16.3",
     "@jest/types": "^27.2.5",
+    "@stylelint/postcss-css-in-js": "^0.37.2",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
@@ -44,6 +47,10 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
     "prettier": "^2.4.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "4.4.4"
   }
 }
