@@ -5,7 +5,6 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { AppBar, IconButton, Toolbar, useTheme } from '@mui/material';
 import Link from 'components/Link';
 import { TogglePaletteModeContext } from 'providers/PaletteModeProvider';
-import Menu from './Menu';
 
 export default function Header() {
   const theme = useTheme();
@@ -14,7 +13,6 @@ export default function Header() {
   return (
     <AppBar position="static">
       <Toolbar variant="dense">
-        <Menu />
         <Typography variant="h6" color="inherit" component="div" sx={{ flexGrow: 1 }}>
           <Link href="/">Hamchance.com</Link>
         </Typography>
