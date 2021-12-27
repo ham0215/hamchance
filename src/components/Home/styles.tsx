@@ -30,5 +30,5 @@ export const Profile = styled('div')({
 
 export const Card = styled(CardBase)({
   margin: 'auto',
-  maxWidth: '31rem'
+  maxWidth: '31rem',
 });

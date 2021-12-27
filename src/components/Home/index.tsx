@@ -14,7 +14,7 @@ export default function Home() {
       <Title>Hamchance.com</Title>
       <SubTitle>登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録</SubTitle>
       <Profile>
-        <Card >
+        <Card>
           <CardHeader
             avatar={<Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 160, height: 160 }} />}
             title="Naoto Hamada"
@@ -128,6 +128,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </Profile>
-    </Container >
+    </Container>
   );
 }
