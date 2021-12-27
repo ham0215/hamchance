@@ -91,7 +91,7 @@ export default function Home() {
           </IconButton>
         </Grid>
         <IconButton href="https://note.com/hamchance" target="_blank" rel="noopener noreferrer">
-          <Image src="images/note.svg" alt="note" width="30px" />
+          <Image src="/images/note.svg" alt="note" width="30px" height="30px" />
         </IconButton>
       </Grid>
     </Container>
