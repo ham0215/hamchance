@@ -8,4 +8,9 @@ describe('Home', () => {
       name: /Hamchance\.com/i,
     });
   });
+
+  test('snapshot testing', () => {
+    const { asFragment } = render(<Home />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });
