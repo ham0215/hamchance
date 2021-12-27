@@ -14,6 +14,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 `yarn build`, `yarn lint`, `yarn test:ci`, `yarn prettier` is running on GitHub Actions.
 
+# StoryBook
+
+```
+yarn storybook
+```
+
 # Deploy
 
 Push to the main branch of github and it will be deployed to Vercel.
