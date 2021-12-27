@@ -1,13 +1,12 @@
 import Image from 'next/image';
-import { Container, Title, Profile, SubTitle } from './styles';
+import { Container, Title, Profile, SubTitle, Card } from './styles';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
 import Avatar from '@mui/material/Avatar';
-import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
+import ExternalLink from 'components/ExternalLink';
 
 export default function Home() {
   return (
@@ -15,107 +14,120 @@ export default function Home() {
       <Title>Hamchance.com</Title>
       <SubTitle>登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録</SubTitle>
       <Profile>
-        <Card sx={{ maxWidth: 500 }}>
+        <Card >
           <CardHeader
-            avatar={<Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 128, height: 128 }} />}
+            avatar={<Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 160, height: 160 }} />}
             title="Naoto Hamada"
             subheader="Software Engineer"
           />
-          <CardContent>
-            <Typography>Links</Typography>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://twitter.com/hamchance0215" target="_blank" rel="noopener noreferrer">
-                  <Twitter color="#1DA1F2" size={30} />
-                </IconButton>
+          <CardContent sx={{ p: 4 }}>
+            <Grid container spacing={4}>
+              <Grid item xs={12}>
+                <ExternalLink href="https://twitter.com/hamchance0215">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Twitter color="#1DA1F2" size={60} />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        Twitter
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        @hamchance0215
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  Twitter
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @hamchance0215
-                </Typography>
+              <Grid item xs={12}>
+                <ExternalLink href="https://github.com/ham0215">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Github color="black" size={60} />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        GitHub
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        ham0215
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://github.com/ham0215" target="_blank" rel="noopener noreferrer">
-                  <Github color="black" size={30} />
-                </IconButton>
+              <Grid item xs={12}>
+                <ExternalLink href="https://qiita.com/ham0215">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Qiita color="#55C500" size={60} />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        Qiita
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        @ham0215
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  GitHub
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @ham0215
-                </Typography>
+              <Grid item xs={12}>
+                <ExternalLink href="https://speakerdeck.com/ham0215">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Speakerdeck color="#009287" size={60} />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        Speaker Deck
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        ham0215
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://qiita.com/ham0215" target="_blank" rel="noopener noreferrer">
-                  <Qiita color="#55C500" size={30} />
-                </IconButton>
+              <Grid item xs={12}>
+                <ExternalLink href="https://zenn.dev/hamchance">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Zenn color="#3EA8FF" size={60} />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        Zenn
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        @hamchance
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  Qiita
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @ham0215
-                </Typography>
-              </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://speakerdeck.com/ham0215" target="_blank" rel="noopener noreferrer">
-                  <Speakerdeck color="#009287" size={30} />
-                </IconButton>
-              </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  Speakerdeck
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @ham0215
-                </Typography>
-              </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://zenn.dev/hamchance" target="_blank" rel="noopener noreferrer">
-                  <Zenn color="#3EA8FF" size={30} />
-                </IconButton>
-              </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  Zenn
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @hamchance
-                </Typography>
-              </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item>
-                <IconButton href="https://note.com/hamchance" target="_blank" rel="noopener noreferrer">
-                  <Image src="/images/note.svg" alt="note" width="30px" height="30px" />
-                </IconButton>
-              </Grid>
-              <Grid item>
-                <Typography variant="body2" color="text.secondary">
-                  Note
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  @hamchance
-                </Typography>
+              <Grid item xs={12}>
+                <ExternalLink href="https://note.com/hamchance">
+                  <Grid container spacing={4}>
+                    <Grid item>
+                      <Image src="/images/note.svg" alt="note" width="60px" height="60px" />
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="body2" color="text.secondary">
+                        Note
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        @hamchance
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </ExternalLink>
               </Grid>
             </Grid>
           </CardContent>
         </Card>
       </Profile>
-    </Container>
+    </Container >
   );
 }

@@ -1,4 +1,5 @@
 import { styled } from '@mui/material/styles';
+import CardBase from '@mui/material/Card';
 
 export const Container = styled('div')({
   background: '#151515 url("/images/yarigadake.jpg") no-repeat fixed center bottom',
@@ -25,4 +26,9 @@ export const SubTitle = styled('div')({
 export const Profile = styled('div')({
   textAlign: 'left',
   margin: '8rem auto',
+});
+
+export const Card = styled(CardBase)({
+  margin: 'auto',
+  maxWidth: '31rem'
 });
