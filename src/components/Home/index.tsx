@@ -24,7 +24,7 @@ const ImageDiv = styled.div`
 
 const Img = styled.img`
   margin: auto;
-  display: block:
+  display: block;
   max-width: 100%;
   max-height: 100%;
 `;
