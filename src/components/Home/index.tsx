@@ -16,7 +16,7 @@ export default function Home() {
       <Profile>
         <Card>
           <CardHeader
-            avatar={<Avatar alt="ham" src="/images/ham.jpg" sx={{ width: 160, height: 160 }} />}
+            avatar={<Avatar alt="ham" src="/images/ham.png" sx={{ width: 160, height: 160 }} />}
             title="Naoto Hamada"
             subheader="Software Engineer"
           />
