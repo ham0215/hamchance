@@ -1,6 +1,7 @@
 name: Publish StoryBook
 on:
   push:
+    branches: [ main ]
 jobs:
   test:
     name: Publish StoryBook
@@ -12,10 +13,10 @@ jobs:
           node-version: '16.x'
           cache: yarn
       - run: yarn install
-      - run: yarn build-storybook -o ./public/storybook
+      - run: yarn build-storybook -o ./.dist/storybook
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public/storybook
+          publish_dir: ./.dist/storybook
           allow_empty_commit: true
