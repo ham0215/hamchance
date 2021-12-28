@@ -20,6 +20,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 yarn storybook
 ```
 
+https://ham0215.github.io/hamchance/storybook/
+
 # Deploy
 
 Push to the main branch of github and it will be deployed to Vercel.
