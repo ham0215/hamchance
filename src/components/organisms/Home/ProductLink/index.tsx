@@ -1,7 +1,6 @@
 import { ReactNode } from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { Icon } from '@icons-pack/react-simple-icons';
 import ExternalLink from 'components/atoms/ExternalLink';
 
 type Props = {
@@ -9,16 +8,14 @@ type Props = {
   productName: string;
   name: string;
   children: ReactNode;
-}
+};
 
 export default function ProductLayout({ href, productName, name, children }: Props) {
   return (
     <Grid item xs={12}>
       <ExternalLink href={href}>
         <Grid container spacing={4}>
-          <Grid item>
-            {children}
-          </Grid>
+          <Grid item>{children}</Grid>
           <Grid item>
             <Typography variant="body2" color="text.secondary">
               {productName}
