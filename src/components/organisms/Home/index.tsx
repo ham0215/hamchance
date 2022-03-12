@@ -6,7 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
-import ExternalLink from 'components/ExternalLink';
+import ExternalLink from 'components/atoms/ExternalLink';
 
 export default function Home() {
   return (

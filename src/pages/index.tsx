@@ -1,5 +1,5 @@
 import PageLayout from 'components/PageLayout';
-import Home from 'components/Home';
+import Home from 'components/organisms/Home';
 
 export default function HomePage() {
   return (
