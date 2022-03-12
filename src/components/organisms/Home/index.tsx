@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
+import { Twitter, Github, Qiita, Speakerdeck, Zenn, Linkedin } from '@icons-pack/react-simple-icons';
 import ProductLink from './ProductLink';
 
 export default function Home() {
@@ -38,6 +38,21 @@ export default function Home() {
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
                 <Image src="/images/note.svg" alt="note" width="60px" height="60px" />
+              </ProductLink>
+              <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
+                <Linkedin color="#2867B2" size={60} />
+              </ProductLink>
+              <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
+                <Image src="/images/wantedly.svg" alt="wantedly" width="60px" height="60px" />
+              </ProductLink>
+              <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
+                <Image src="/images/youtrust.avif" alt="youtrust" width="60px" height="60px" />
+              </ProductLink>
+              <ProductLink href="https://connpass.com/user/ham0215/" productName="connpass" name="ham0215">
+                <Image src="/images/connpass.png" alt="connpass" width="60px" height="60px" />
+              </ProductLink>
+              <ProductLink href="https://lapras.com/public/ham" productName="LAPRAS" name="ham">
+                <Image src="/images/lapras.png" alt="lapras" width="60px" height="60px" />
               </ProductLink>
             </Grid>
           </CardContent>
