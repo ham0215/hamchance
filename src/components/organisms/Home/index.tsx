@@ -7,6 +7,7 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
 import ExternalLink from 'components/atoms/ExternalLink';
+import ProductLink from './ProductLink';
 
 export default function Home() {
   return (
@@ -22,108 +23,24 @@ export default function Home() {
           />
           <CardContent sx={{ p: 4 }}>
             <Grid container spacing={4}>
-              <Grid item xs={12}>
-                <ExternalLink href="https://twitter.com/hamchance0215">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Twitter color="#1DA1F2" size={60} />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        Twitter
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        @hamchance0215
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
-              <Grid item xs={12}>
-                <ExternalLink href="https://github.com/ham0215">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Github color="black" size={60} />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        GitHub
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        ham0215
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
-              <Grid item xs={12}>
-                <ExternalLink href="https://qiita.com/ham0215">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Qiita color="#55C500" size={60} />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        Qiita
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        @ham0215
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
-              <Grid item xs={12}>
-                <ExternalLink href="https://speakerdeck.com/ham0215">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Speakerdeck color="#009287" size={60} />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        Speaker Deck
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        ham0215
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
-              <Grid item xs={12}>
-                <ExternalLink href="https://zenn.dev/hamchance">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Zenn color="#3EA8FF" size={60} />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        Zenn
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        @hamchance
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
-              <Grid item xs={12}>
-                <ExternalLink href="https://note.com/hamchance">
-                  <Grid container spacing={4}>
-                    <Grid item>
-                      <Image src="/images/note.svg" alt="note" width="60px" height="60px" />
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="text.secondary">
-                        Note
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        @hamchance
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </ExternalLink>
-              </Grid>
+              <ProductLink href="https://twitter.com/hamchance0215" productName="Twitter" name="@hamchance0215">
+                <Twitter color="#1DA1F2" size={60} />
+              </ProductLink>
+              <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
+                <Github color="black" size={60} />
+              </ProductLink>
+              <ProductLink href="https://qiita.com/ham0215" productName="Qiita" name="@ham0215">
+                <Qiita color="#55C500" size={60} />
+              </ProductLink>
+              <ProductLink href="https://speakerdeck.com/ham0215" productName="Speaker Deck" name="ham0215">
+                <Speakerdeck color="#009287" size={60} />
+              </ProductLink>
+              <ProductLink href="https://zenn.dev/hamchance" productName="Zenn" name="@hamchance">
+                <Zenn color="#3EA8FF" size={60} />
+              </ProductLink>
+              <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
+                <Image src="/images/note.svg" alt="note" width="60px" height="60px" />
+              </ProductLink>
             </Grid>
           </CardContent>
         </Card>
