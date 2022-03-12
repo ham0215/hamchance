@@ -1,12 +1,10 @@
 import Image from 'next/image';
 import { Container, Title, Profile, SubTitle, Card } from './styles';
 import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn } from '@icons-pack/react-simple-icons';
-import ExternalLink from 'components/atoms/ExternalLink';
 import ProductLink from './ProductLink';
 
 export default function Home() {
