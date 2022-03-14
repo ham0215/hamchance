@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import Link from '@mui/material/Link';
 
-type Props = { href: string; prefetch?: boolean; children: ReactNode };
+type Props = { href: string; children: ReactNode };
 
 export default function ExternalLink({ href, children }: Props) {
   return (
