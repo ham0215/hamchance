@@ -2,8 +2,6 @@ import ThemeProvider from 'providers/ThemeProvider';
 import PaletteModeProvider from 'providers/PaletteModeProvider';
 import * as nextImage from 'next/image';
 
-import { withThemes } from "@react-theming/storybook-addon"
-
 Object.defineProperty(nextImage, 'default', {
   configurable: true,
   value: props => <img {...props} />
