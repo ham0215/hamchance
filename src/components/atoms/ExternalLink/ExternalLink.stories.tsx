@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import ExternalLink from '.';
 
 export default {
-  title: 'ExternalLink',
+  title: 'atoms/ExternalLink',
   component: ExternalLink,
 } as ComponentMeta<typeof ExternalLink>;
 
