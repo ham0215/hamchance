@@ -15,7 +15,7 @@ export default function Home() {
       <Profile>
         <Card>
           <CardHeader
-            avatar={<Avatar alt="ham" src="/images/ham.png" sx={{ width: 160, height: 160 }} />}
+            avatar={<Avatar alt="ham" src="/static/images/ham.png" sx={{ width: 160, height: 160 }} />}
             title="Naoto Hamada"
             subheader="Software Engineer"
           />
@@ -37,22 +37,22 @@ export default function Home() {
                 <Zenn color="#3EA8FF" size={60} />
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
-                <Image src="/images/note.svg" alt="note" width="60px" height="60px" />
+                <Image src="/static/images/note.svg" alt="note" width="60px" height="60px" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
                 <Linkedin color="#2867B2" size={60} />
               </ProductLink>
               <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
-                <Image src="/images/wantedly.svg" alt="wantedly" width="60px" height="60px" />
+                <Image src="/static/images/wantedly.svg" alt="wantedly" width="60px" height="60px" />
               </ProductLink>
               <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
-                <Image src="/images/youtrust.avif" alt="youtrust" width="60px" height="60px" />
+                <Image src="/static/images/youtrust.avif" alt="youtrust" width="60px" height="60px" />
               </ProductLink>
               <ProductLink href="https://connpass.com/user/ham0215/" productName="connpass" name="ham0215">
-                <Image src="/images/connpass.png" alt="connpass" width="60px" height="60px" />
+                <Image src="/static/images/connpass.png" alt="connpass" width="60px" height="60px" />
               </ProductLink>
               <ProductLink href="https://lapras.com/public/ham" productName="LAPRAS" name="ham">
-                <Image src="/images/lapras.png" alt="lapras" width="60px" height="60px" />
+                <Image src="/static/images/lapras.png" alt="lapras" width="60px" height="60px" />
               </ProductLink>
             </Grid>
           </CardContent>

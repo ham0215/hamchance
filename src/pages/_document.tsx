@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Hamchance.com" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://hamchance.com/" />
-          <meta property="og:image" content="https://hamchance.com/images/yarigadake.jpg" />
+          <meta property="og:image" content="https://hamchance.com/static/images/yarigadake.jpg" />
           <meta property="og:image:alt" content="槍ヶ岳" />
           <meta property="og:site_name" content="Hamchance.com" />
           <meta
@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
             name="twitter:description"
             content="登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのポートフォリオ"
           />
-          <meta name="twitter:image" content="https://hamchance.com/images/yarigadake.jpg" />
+          <meta name="twitter:image" content="https://hamchance.com/static/images/yarigadake.jpg" />
           <meta name="twitter:image:alt" content="槍ヶ岳" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         </Head>

@@ -33,7 +33,7 @@ exports[`Home snapshot testing 1`] = `
               <img
                 alt="ham"
                 class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-                src="/images/ham.png"
+                src="/static/images/ham.png"
               />
             </div>
           </div>
