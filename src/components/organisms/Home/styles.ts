@@ -2,7 +2,7 @@ import { styled } from '@mui/material/styles';
 import CardBase from '@mui/material/Card';
 
 export const Container = styled('div')({
-  background: '#151515 url("/images/yarigadake.jpg") no-repeat fixed center bottom',
+  background: '#151515 url("/static/images/yarigadake.jpg") no-repeat fixed center bottom',
   backgroundSize: 'cover',
   color: '#fff',
   textAlign: 'center',
