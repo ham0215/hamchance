@@ -51,7 +51,7 @@
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jest": "26.1.5",
-    "eslint-plugin-storybook": "0.5.7",
+    "eslint-plugin-storybook": "0.5.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.5.1",
     "prettier": "2.6.2",

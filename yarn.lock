@@ -8741,16 +8741,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:0.5.7":
-  version: 0.5.7
-  resolution: "eslint-plugin-storybook@npm:0.5.7"
+"eslint-plugin-storybook@npm:0.5.11":
+  version: 0.5.11
+  resolution: "eslint-plugin-storybook@npm:0.5.11"
   dependencies:
     "@storybook/csf": ^0.0.1
     "@typescript-eslint/experimental-utils": ^5.3.0
     requireindex: ^1.1.0
   peerDependencies:
     eslint: ">=6"
-  checksum: fa42e7148c587c66a80ad655a540c1d654a2fc3ffc715dab7c0b5c4d372fbc9932e033cc197f526dbb4267d435e6f18f423810eeb009b6debb029374bf47f512
+  checksum: 8a3c8913dbf0f7063046f3eadeab64958679e175448d3a155eb2928fa227c6f5b67e0fb5ea4f0fb4c6578d06350c501808085332126986b8e4f9def614cc3357
   languageName: node
   linkType: hard
 
@@ -9927,7 +9927,7 @@ fsevents@^1.2.7:
     eslint-config-next: 12.1.6
     eslint-config-prettier: 8.5.0
     eslint-plugin-jest: 26.1.5
-    eslint-plugin-storybook: 0.5.7
+    eslint-plugin-storybook: 0.5.11
     identity-obj-proxy: 3.0.0
     jest: 27.5.1
     next: 12.1.6
