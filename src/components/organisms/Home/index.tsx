@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import { Twitter, Github, Qiita, Speakerdeck, Zenn, Linkedin } from '@icons-pack/react-simple-icons';
+import { Twitter, Github, Qiita, Speakerdeck, Zenn, Linkedin, Facebook } from '@icons-pack/react-simple-icons';
 import ProductLink from './ProductLink';
 
 export default function Home() {
@@ -44,6 +44,9 @@ export default function Home() {
               </ProductLink>
               <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
                 <Image src="/static/images/wantedly.svg" alt="wantedly" width="60px" height="60px" />
+              </ProductLink>
+              <ProductLink href="https://www.facebook.com/naoto.hamada.9" productName="Facebook" name="naoto.hamada">
+                <Facebook color="#3b5998" size={60} />
               </ProductLink>
               <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
                 <Image src="/static/images/youtrust.avif" alt="youtrust" width="60px" height="60px" />
