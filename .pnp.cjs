@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:6.5.6"],\
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:13.3.0"],\
-            ["@types/jest", "npm:27.5.1"],\
+            ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:17.0.31"],\
             ["@types/react", "npm:18.0.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.27.0"],\
@@ -8863,10 +8863,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:27.5.1", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-27.5.1-853338350a-be20e39f7a.zip/node_modules/@types/jest/",\
+        ["npm:27.5.2", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-27.5.2-f8ba570ba6-7e11c6826a.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:27.5.1"],\
+            ["@types/jest", "npm:27.5.2"],\
             ["jest-matcher-utils", "npm:27.5.1"],\
             ["pretty-format", "npm:27.2.0"]\
           ],\
@@ -14006,7 +14006,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-plugin-jest", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:26.4.6"],\
             ["@types/eslint", null],\
-            ["@types/jest", "npm:27.5.1"],\
+            ["@types/jest", "npm:27.5.2"],\
             ["@types/typescript-eslint__eslint-plugin", null],\
             ["@typescript-eslint/eslint-plugin", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.27.0"],\
             ["@typescript-eslint/utils", "virtual:34fb190e581b23e4b220c9a201099015945211ae7733b68683b03ef80368571ba39cfadefa70a4ef002398b6cbbd74156bed1fef5a5a0a12d03f42effb70185c#npm:5.14.0"],\
@@ -15496,7 +15496,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:6.5.6"],\
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:13.3.0"],\
-            ["@types/jest", "npm:27.5.1"],\
+            ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:17.0.31"],\
             ["@types/react", "npm:18.0.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.27.0"],\
