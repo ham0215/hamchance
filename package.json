@@ -33,7 +33,7 @@
     "@babel/core": "7.18.5",
     "@babel/runtime": "7.18.3",
     "@jest/types": "28.1.1",
-    "@mdx-js/react": "2.1.1",
+    "@mdx-js/react": "2.1.2",
     "@storybook/addon-actions": "6.5.9",
     "@storybook/addon-docs": "6.5.9",
     "@storybook/addon-essentials": "6.5.9",
