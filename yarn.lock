@@ -2635,34 +2635,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/changelog-github@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "@changesets/changelog-github@npm:0.4.4"
-  dependencies:
-    "@changesets/get-github-info": ^0.5.0
-    "@changesets/types": ^5.0.0
-    dotenv: ^8.1.0
-  checksum: 86db486d90d7bd58c5a38c5cf10b0814806ba0cdc0aa7808121b5fb7bee1961ee8365e4abdba6cab02aa3481522cc98577be7e31ae1ef2e3f84a99cfb747adbd
-  languageName: node
-  linkType: hard
-
-"@changesets/get-github-info@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@changesets/get-github-info@npm:0.5.0"
-  dependencies:
-    dataloader: ^1.4.0
-    node-fetch: ^2.5.0
-  checksum: 9867a787532cafe6d0bee579e882c93a815fc9a2b5843d5b476d8115b2cdbc3aa8000a8504ac18932793a6f0a0cdb97fc20f8f82c05d10bec6f1a3df9b97981b
-  languageName: node
-  linkType: hard
-
-"@changesets/types@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@changesets/types@npm:5.0.0"
-  checksum: b494cd3d6508ecff8903afdbc0bb4a001df7c6bf5657c8c78f97b974cf48ee790d64d2381321de6b8fb961217ebe12d600b786a634d0c91073369ddbb410bb4d
-  languageName: node
-  linkType: hard
-
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -2905,15 +2877,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icons-pack/react-simple-icons@npm:4.7.2":
-  version: 4.7.2
-  resolution: "@icons-pack/react-simple-icons@npm:4.7.2"
-  dependencies:
-    "@changesets/changelog-github": ^0.4.4
-    prop-types: ^15.7.2
+"@icons-pack/react-simple-icons@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@icons-pack/react-simple-icons@npm:5.1.2"
   peerDependencies:
-    react: ^16.13 || ^17
-  checksum: 86dfa8be64897cfeb174db6098b79316e8785055339264fd54a7e7be653c5a085b80694202fc6a51d124c201a0b657a2f43463af3dd7ca89cf73f9902ff8aa5d
+    react: ^16.13 || ^17 || ^18
+  checksum: f862f89a35d7747451abbe880d4020f602f44e2d178362e761320bb0e71ee99156c8d8652102854b1abfcb053035c5995f490b5d350cf8b9d7911eefbd074d55
   languageName: node
   linkType: hard
 
@@ -8392,13 +8361,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dataloader@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "dataloader@npm:1.4.0"
-  checksum: e2c93d43afde68980efc0cd9ff48e9851116e27a9687f863e02b56d46f7e7868cc762cd6dcbaf4197e1ca850a03651510c165c2ae24b8e9843fd894002ad0e20
-  languageName: node
-  linkType: hard
-
 "debug@npm:2.6.9, debug@npm:^2.2.0, debug@npm:^2.3.3, debug@npm:^2.6.0, debug@npm:^2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
@@ -8788,7 +8750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^8.0.0, dotenv@npm:^8.1.0":
+"dotenv@npm:^8.0.0":
   version: 8.6.0
   resolution: "dotenv@npm:8.6.0"
   checksum: 38e902c80b0666ab59e9310a3d24ed237029a7ce34d976796349765ac96b8d769f6df19090f1f471b77a25ca391971efde8a1ea63bb83111bd8bec8e5cc9b2cd
@@ -10548,7 +10510,7 @@ fsevents@^1.2.7:
     "@emotion/react": 11.9.3
     "@emotion/server": 11.4.0
     "@emotion/styled": 11.9.3
-    "@icons-pack/react-simple-icons": 4.7.2
+    "@icons-pack/react-simple-icons": 5.1.2
     "@jest/types": 28.1.1
     "@mdx-js/react": 2.1.2
     "@mui/icons-material": 5.8.4
@@ -13735,7 +13697,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.5.0, node-fetch@npm:^2.6.7":
+"node-fetch@npm:^2.6.1":
+  version: 2.6.6
+  resolution: "node-fetch@npm:2.6.6"
+  dependencies:
+    whatwg-url: ^5.0.0
+  checksum: ee8290626bdb73629c59722b75dcf4b9b6a67c1ed7eb9102e368479c4a13b56a48c2bb3ad71571e378e98c8b2c64c820e11f9cd39e4b8557dd138ad571ef9a42
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -13746,15 +13717,6 @@ fsevents@^1.2.7:
     encoding:
       optional: true
   checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
-  languageName: node
-  linkType: hard
-
-"node-fetch@npm:^2.6.1":
-  version: 2.6.6
-  resolution: "node-fetch@npm:2.6.6"
-  dependencies:
-    whatwg-url: ^5.0.0
-  checksum: ee8290626bdb73629c59722b75dcf4b9b6a67c1ed7eb9102e368479c4a13b56a48c2bb3ad71571e378e98c8b2c64c820e11f9cd39e4b8557dd138ad571ef9a42
   languageName: node
   linkType: hard
 
