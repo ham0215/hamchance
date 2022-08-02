@@ -2769,7 +2769,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/cache@npm:11.10.0, @emotion/cache@npm:^11.10.0":
+"@emotion/cache@npm:11.10.1":
+  version: 11.10.1
+  resolution: "@emotion/cache@npm:11.10.1"
+  dependencies:
+    "@emotion/memoize": ^0.8.0
+    "@emotion/sheet": ^1.2.0
+    "@emotion/utils": ^1.2.0
+    "@emotion/weak-memoize": ^0.3.0
+    stylis: 4.0.13
+  checksum: 950203c5a447c107a189042178fdf43b2e699f579e2d7cd9f39cb99ee2b1f20d84bb1ed653d2737a1adb79756c1f747783875ee76ccb547357f5aa9cd5ce63ee
+  languageName: node
+  linkType: hard
+
+"@emotion/cache@npm:^11.10.0":
   version: 11.10.0
   resolution: "@emotion/cache@npm:11.10.0"
   dependencies:
@@ -10690,7 +10703,7 @@ fsevents@^1.2.7:
   dependencies:
     "@babel/core": 7.18.10
     "@babel/runtime": 7.18.9
-    "@emotion/cache": 11.10.0
+    "@emotion/cache": 11.10.1
     "@emotion/react": 11.10.0
     "@emotion/server": 11.10.0
     "@emotion/styled": 11.10.0
