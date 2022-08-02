@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/core", "npm:7.18.10"],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["@emotion/cache", "npm:11.10.0"],\
+            ["@emotion/cache", "npm:11.10.1"],\
             ["@emotion/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
             ["@emotion/server", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
             ["@emotion/styled", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
@@ -5553,6 +5553,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@emotion-cache-npm-11.10.0-47fba73556-60786e3108.zip/node_modules/@emotion/cache/",\
           "packageDependencies": [\
             ["@emotion/cache", "npm:11.10.0"],\
+            ["@emotion/memoize", "npm:0.8.0"],\
+            ["@emotion/sheet", "npm:1.2.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
+            ["@emotion/weak-memoize", "npm:0.3.0"],\
+            ["stylis", "npm:4.0.13"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:11.10.1", {\
+          "packageLocation": "./.yarn/cache/@emotion-cache-npm-11.10.1-db7d50c323-950203c5a4.zip/node_modules/@emotion/cache/",\
+          "packageDependencies": [\
+            ["@emotion/cache", "npm:11.10.1"],\
             ["@emotion/memoize", "npm:0.8.0"],\
             ["@emotion/sheet", "npm:1.2.0"],\
             ["@emotion/utils", "npm:1.2.0"],\
@@ -15741,7 +15753,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hamchance", "workspace:."],\
             ["@babel/core", "npm:7.18.10"],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["@emotion/cache", "npm:11.10.0"],\
+            ["@emotion/cache", "npm:11.10.1"],\
             ["@emotion/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
             ["@emotion/server", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
             ["@emotion/styled", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.0"],\
