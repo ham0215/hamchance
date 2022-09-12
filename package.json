@@ -23,8 +23,8 @@
     "@emotion/styled": "11.10.4",
     "@icons-pack/react-simple-icons": "5.5.0",
     "@mui/icons-material": "5.10.3",
-    "@mui/material": "5.10.4",
-    "@mui/system": "5.10.4",
+    "@mui/material": "5.10.5",
+    "@mui/system": "5.10.5",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
