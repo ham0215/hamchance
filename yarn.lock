@@ -2996,12 +2996,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icons-pack/react-simple-icons@npm:5.8.0":
-  version: 5.8.0
-  resolution: "@icons-pack/react-simple-icons@npm:5.8.0"
+"@icons-pack/react-simple-icons@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@icons-pack/react-simple-icons@npm:5.9.0"
   peerDependencies:
     react: ^16.13 || ^17 || ^18
-  checksum: d60bccfc0d34136e6ee6bdcf19bca62422668cd88f419dc5644f7adda74a60e3c01fb88e06e1cd124c7e8497fff82b2beeeb3fceaa7a50cbc94c7c99ecc67df2
+  checksum: 7b351ea6a719668a94fe1f6d8d75fa1221562dea5b43df4a757ed9470c71391359fb464754640ebb03059ea88ebfe84f2a9419f8e4a9fc9fe8a2746d8a0b399a
   languageName: node
   linkType: hard
 
@@ -10818,7 +10818,7 @@ fsevents@^1.2.7:
     "@emotion/react": 11.10.4
     "@emotion/server": 11.10.0
     "@emotion/styled": 11.10.4
-    "@icons-pack/react-simple-icons": 5.8.0
+    "@icons-pack/react-simple-icons": 5.9.0
     "@jest/types": 29.1.2
     "@mdx-js/react": 2.1.4
     "@mui/icons-material": 5.10.6
