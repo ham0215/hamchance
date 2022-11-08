@@ -11198,7 +11198,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],\
             ["@types/webpack", "npm:4.41.32"],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["make-dir", "npm:3.1.0"],\
             ["schema-utils", "npm:2.7.1"],\
             ["webpack", "virtual:ba7c55df87cb4eee09b55f2cb337f5f7d1e257889311eec09c0dc7ba8c88257bf29c9dcc60cdc856505b29dacf9445be9c84f3045192f615a9e06c07523300bd#npm:4.46.0"]\
@@ -11219,7 +11219,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],\
             ["@types/webpack", null],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["make-dir", "npm:3.1.0"],\
             ["schema-utils", "npm:2.7.1"],\
             ["webpack", "virtual:ba7c55df87cb4eee09b55f2cb337f5f7d1e257889311eec09c0dc7ba8c88257bf29c9dcc60cdc856505b29dacf9445be9c84f3045192f615a9e06c07523300bd#npm:4.46.0"]\
@@ -11240,7 +11240,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],\
             ["@types/webpack", null],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["make-dir", "npm:3.1.0"],\
             ["schema-utils", "npm:2.7.1"],\
             ["webpack", null]\
@@ -13045,7 +13045,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["camelcase", "npm:5.3.1"],\
             ["cssesc", "npm:3.0.0"],\
             ["icss-utils", "npm:4.1.1"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["normalize-path", "npm:3.0.0"],\
             ["postcss", "npm:7.0.39"],\
             ["postcss-modules-extract-imports", "npm:2.0.0"],\
@@ -16302,7 +16302,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/tapable", "npm:1.0.8"],\
             ["@types/webpack", "npm:4.41.32"],\
             ["html-minifier-terser", "npm:5.1.1"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["lodash", "npm:4.17.21"],\
             ["pretty-error", "npm:2.1.2"],\
             ["tapable", "npm:1.1.3"],\
@@ -18520,10 +18520,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["loader-utils", [\
-        ["npm:1.4.0", {\
-          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.0-a56254a277-d150b15e7a.zip/node_modules/loader-utils/",\
+        ["npm:1.4.1", {\
+          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.1-91a9c6b986-ea0b648cba.zip/node_modules/loader-utils/",\
           "packageDependencies": [\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["big.js", "npm:5.2.2"],\
             ["emojis-list", "npm:3.0.0"],\
             ["json5", "npm:1.0.1"]\
@@ -24440,7 +24440,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-scope", "npm:4.0.3"],\
             ["json-parse-better-errors", "npm:1.0.2"],\
             ["loader-runner", "npm:2.4.0"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.1"],\
             ["memory-fs", "npm:0.4.1"],\
             ["micromatch", "npm:3.1.10"],\
             ["mkdirp", "npm:0.5.5"],\
