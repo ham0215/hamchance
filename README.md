@@ -13,6 +13,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 `yarn build`, `yarn lint`, `yarn test:ci`, `yarn prettier` is running on GitHub Actions.
 
+# Certificate for localhost
+
+```
+$ brew install mkcert
+$ mkcert -install
+$ mkcert localhost
+```
+
 # Storybook
 
 ```
