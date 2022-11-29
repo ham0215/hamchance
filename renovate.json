@@ -1,12 +1,23 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["after 1am and before 11pm every weekday"],
+  "labels": ["dependencies"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true
+    },
+    {
+      "groupName": "emotion",
+      "matchPackageNames": ["@emotion/cache", "@emotion/react", "@emotion/server", "@emotion/styled"]
+    },
+    {
+      "groupName": "mui",
+      "matchPackagePrefixes": ["@mui"]
     }
   ]
 }
