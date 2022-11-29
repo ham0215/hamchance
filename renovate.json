@@ -18,6 +18,11 @@
     {
       "groupName": "mui",
       "matchPackagePrefixes": ["@mui"]
+    },
+    {
+      "groupName": "icons-pack",
+      "matchPackageNames": ["@icons-pack/react-simple-icons"],
+      "allowedVersions": "^5.11.0"
     }
   ]
 }
