@@ -5844,7 +5844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@humanwhocodes/config-array", "npm:0.11.6"],\
             ["@humanwhocodes/object-schema", "npm:1.2.1"],\
             ["debug", "virtual:569a25513afb6a24dfed8c5a30a481623293e0360f4b156e464840d4caead450805a6a0e63416cee33f850b619b3920e00801a8b5031df983b570ea9dd38b09f#npm:4.3.2"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14523,7 +14523,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has", "npm:1.0.3"],\
             ["jsx-ast-utils", "npm:3.2.1"],\
             ["language-tags", "npm:1.0.5"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -15372,7 +15372,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:2.4.2"],\
             ["eslint", null],\
             ["micromatch", "npm:3.1.10"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["semver", "npm:5.7.1"],\
             ["tapable", "npm:1.1.3"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
@@ -15410,7 +15410,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:9.1.0"],\
             ["glob", "npm:7.2.0"],\
             ["memfs", "npm:3.4.0"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["schema-utils", "npm:2.7.0"],\
             ["semver", "npm:7.3.5"],\
             ["tapable", "npm:1.1.3"],\
@@ -15448,7 +15448,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:9.1.0"],\
             ["glob", "npm:7.2.0"],\
             ["memfs", "npm:3.4.0"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["schema-utils", "npm:2.7.0"],\
             ["semver", "npm:7.3.5"],\
             ["tapable", "npm:1.1.3"],\
@@ -15800,7 +15800,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs.realpath", "npm:1.0.0"],\
             ["inflight", "npm:1.0.6"],\
             ["inherits", "npm:2.0.4"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["once", "npm:1.4.0"],\
             ["path-is-absolute", "npm:1.0.1"]\
           ],\
@@ -15813,7 +15813,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs.realpath", "npm:1.0.0"],\
             ["inflight", "npm:1.0.6"],\
             ["inherits", "npm:2.0.4"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["once", "npm:1.4.0"],\
             ["path-is-absolute", "npm:1.0.1"]\
           ],\
@@ -19274,14 +19274,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimatch", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/minimatch-npm-3.0.4-6e76f51c23-66ac295f8a.zip/node_modules/minimatch/",\
-          "packageDependencies": [\
-            ["minimatch", "npm:3.0.4"],\
-            ["brace-expansion", "npm:1.1.11"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
           "packageDependencies": [\
@@ -19659,7 +19651,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/node-dir-npm-0.1.17-e25963e120-29de9560e5.zip/node_modules/node-dir/",\
           "packageDependencies": [\
             ["node-dir", "npm:0.1.17"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -23517,7 +23509,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["test-exclude", "npm:6.0.0"],\
             ["@istanbuljs/schema", "npm:0.1.3"],\
             ["glob", "npm:7.2.0"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
