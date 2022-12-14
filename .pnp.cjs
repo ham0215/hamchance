@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.5"],\
             ["@icons-pack/react-simple-icons", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@jest/types", "npm:29.3.1"],\
-            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.1.5"],\
+            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.2.1"],\
             ["@mui/icons-material", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@mui/material", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@mui/system", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
@@ -6349,10 +6349,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:2.1.5", {\
-          "packageLocation": "./.yarn/cache/@mdx-js-react-npm-2.1.5-1e4a29c853-e47fb7086a.zip/node_modules/@mdx-js/react/",\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/@mdx-js-react-npm-2.2.1-4655499d67-4462dad1d7.zip/node_modules/@mdx-js/react/",\
           "packageDependencies": [\
-            ["@mdx-js/react", "npm:2.1.5"]\
+            ["@mdx-js/react", "npm:2.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
@@ -6369,10 +6369,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.1.5", {\
-          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-9f036a7405/0/cache/@mdx-js-react-npm-2.1.5-1e4a29c853-e47fb7086a.zip/node_modules/@mdx-js/react/",\
+        ["virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-fa212ab232/0/cache/@mdx-js-react-npm-2.2.1-4655499d67-4462dad1d7.zip/node_modules/@mdx-js/react/",\
           "packageDependencies": [\
-            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.1.5"],\
+            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.2.1"],\
             ["@types/mdx", "npm:2.0.1"],\
             ["@types/react", "npm:18.0.26"],\
             ["react", "npm:18.2.0"]\
@@ -16025,7 +16025,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:11.10.5"],\
             ["@icons-pack/react-simple-icons", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@jest/types", "npm:29.3.1"],\
-            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.1.5"],\
+            ["@mdx-js/react", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:2.2.1"],\
             ["@mui/icons-material", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@mui/material", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
             ["@mui/system", "virtual:864201397f7d3ed933495c558588f978208ad3dc919cb4529b7b006f289e265efa68e7b11221e170fa9cf34e6fb33102f354114b70bbb4abfd45ad3cd2fef35a#npm:5.11.0"],\
