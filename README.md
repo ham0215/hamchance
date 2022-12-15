@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # CI
 
-`yarn build`, `yarn lint`, `yarn test:ci`, `yarn prettier` is running on GitHub Actions.
+`npm run build`, `npm run lint`, `npm run test:ci`, `npm run prettier` is running on GitHub Actions.
 
 # Certificate for localhost
 
@@ -25,7 +25,7 @@ $ mkcert localhost
 
 ```
 # run in local.
-yarn storybook
+npm run storybook
 ```
 
 ## Deploy
