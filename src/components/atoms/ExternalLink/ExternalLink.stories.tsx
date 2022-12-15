@@ -7,7 +7,7 @@ export default {
   component: ExternalLink,
 } as ComponentMeta<typeof ExternalLink>;
 
-const Template: ComponentStory<typeof ExternalLink> = (args) => <ExternalLink {...args}>Strorybook</ExternalLink>;
+const Template: ComponentStory<typeof ExternalLink> = (args) => <ExternalLink {...args}>Storybook</ExternalLink>;
 
 export const Default = Template.bind({});
 
