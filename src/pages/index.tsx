@@ -1,5 +1,5 @@
-import PageLayout from 'components/templates/PageLayout';
-import Home from 'components/organisms/Home';
+import PageLayout from 'components/layouts/PageLayout';
+import Home from 'components/features/Home';
 
 export default function HomePage() {
   return (
