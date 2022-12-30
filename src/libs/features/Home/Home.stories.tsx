@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Home from '.';
+import { Home } from '.';
 
 export default {
   title: 'organisms/Home',

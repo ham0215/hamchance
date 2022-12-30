@@ -1,4 +1,4 @@
-import PageLayout from '.';
+import { PageLayout } from '.';
 import { render } from '@testing-library/react';
 
 describe('Home', () => {

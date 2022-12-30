@@ -5,9 +5,9 @@ import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import { Twitter, Github, Qiita, Speakerdeck, Zenn, Linkedin, Facebook } from '@icons-pack/react-simple-icons';
-import ProductLink from './ProductLink';
+import { ProductLink } from './ProductLink';
 
-export default function Home() {
+export function Home() {
   return (
     <Container>
       <Title>Hamchance.com</Title>
