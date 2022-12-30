@@ -1,4 +1,4 @@
-import Home from '.';
+import { Home } from './Home.component';
 import { render, screen } from '@testing-library/react';
 
 describe('Home', () => {

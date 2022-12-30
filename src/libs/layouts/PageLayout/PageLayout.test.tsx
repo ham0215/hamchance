@@ -1,7 +1,7 @@
-import PageLayout from '.';
+import { PageLayout } from './PageLayout.layout';
 import { render } from '@testing-library/react';
 
-describe('Home', () => {
+describe('PageLayout', () => {
   it('snapshot testing', () => {
     const { asFragment } = render(
       <PageLayout>

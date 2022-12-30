@@ -6,7 +6,7 @@ import { AppBar, IconButton, Toolbar, useTheme } from '@mui/material';
 import { Link } from 'libs/ui/Link';
 import { TogglePaletteModeContext } from 'providers/PaletteModeProvider';
 
-export default function Header() {
+export function Header() {
   const theme = useTheme();
   const togglePaletteMode = useContext(TogglePaletteModeContext);
 

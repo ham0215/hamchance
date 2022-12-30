@@ -10,7 +10,7 @@ type Props = {
   children: ReactNode;
 };
 
-export default function ProductLayout({ href, productName, name, children }: Props) {
+export function ProductLink({ href, productName, name, children }: Props) {
   return (
     <Grid item xs={12}>
       <ExternalLink href={href}>

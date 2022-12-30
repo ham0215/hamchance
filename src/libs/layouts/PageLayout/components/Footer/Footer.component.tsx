@@ -1,7 +1,7 @@
 import Typography from '@mui/material/Typography';
-import { Container } from './styles';
+import { Container } from './Footer.styles';
 
-export default function Footer() {
+export function Footer() {
   return (
     <Container>
       <Typography variant="body2">
