@@ -37,7 +37,7 @@ export default function Home() {
                 <Zenn color="#3EA8FF" size={60} />
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
-                <Image src="/static/images/note.svg" alt="note" width="60px" height="60px" />
+                <Image src="/static/images/note2.svg" alt="note" width="60px" height="60px" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
                 <Linkedin color="#2867B2" size={60} />
