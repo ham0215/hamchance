@@ -30,6 +30,12 @@ module.exports = {
     'jest/expect-expect': 'off',
     'jest/require-top-level-describe': 'error',
     'jest/no-disabled-tests': 'off',
-    'no-console': 'error'
+    'no-console': 'error',
+    'jest/consistent-test-it': [
+      "error",
+      {
+        "fn": "it"
+      }
+    ]
   }
 };

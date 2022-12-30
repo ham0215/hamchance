@@ -9,7 +9,7 @@ describe('Home', () => {
     });
   });
 
-  test('snapshot testing', () => {
+  it('snapshot testing', () => {
     const { asFragment } = render(<Home />);
     expect(asFragment()).toMatchSnapshot();
   });
