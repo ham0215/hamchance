@@ -49,7 +49,7 @@ exports[`PageLayout snapshot testing 1`] = `
     <p
       class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
     >
-      Copyright © Ham 2022.
+      Copyright © Ham 2023.
     </p>
   </footer>
 </DocumentFragment>
