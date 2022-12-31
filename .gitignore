@@ -32,3 +32,6 @@ npm-debug.log*
 .vercel
 
 .dist
+
+# storybook
+storybook-static
