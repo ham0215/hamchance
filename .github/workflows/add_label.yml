@@ -13,3 +13,4 @@ jobs:
       - name: Add label
         run: |
           echo ${{ github.event.pull_request.body }}
+          echo ${{ github.event.pull_request.body }}
