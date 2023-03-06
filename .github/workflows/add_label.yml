@@ -1,0 +1,16 @@
+name: Add label
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+env:
+  TZ: "Asia/Tokyo"
+jobs:
+  label:
+    name: Add label
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add label
+        run: |
+          echo ${{ github }}
+          echo ${{ github.event.pull_request }}
