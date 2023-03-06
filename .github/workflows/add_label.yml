@@ -13,4 +13,13 @@ jobs:
       - name: Add label
         run: |
           echo ${{ github.event.pull_request.body }}
-          echo ${{ github.event.pull_request.body }}
+      - uses: andymckay/labeler@1.0.2
+        if: ${{ contains(github.event.pull_request.body, 'issues') }}
+        with:
+          add-labels: "label1"
+          ignore-if-labeled: true
+      - uses: andymckay/labeler@1.0.2
+        if: ${{ contains(github.event.pull_request.body, 'Jenova') }}
+        with:
+          add-labels: "label2"
+          ignore-if-labeled: true
