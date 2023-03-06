@@ -10,9 +10,6 @@ jobs:
     name: Add label
     runs-on: ubuntu-latest
     steps:
-      - name: Add label
-        run: |
-          echo ${{ github.event.pull_request.body }}
       - uses: andymckay/labeler@1.0.2
         if: ${{ contains(github.event.pull_request.body, 'issues') }}
         with:
