@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: andymckay/labeler@1.0.4
-        if: ${{ contains(github.event.pull_request.body, 'issues') }}
+        if: ${{ contains(github.event.pull_request.body, 'bug') }}
         with:
           add-labels: "bug"
           ignore-if-labeled: true
       - uses: andymckay/labeler@1.0.4
-        if: ${{ contains(github.event.pull_request.body, 'Jenova') }}
+        if: ${{ contains(github.event.pull_request.body, 'invalid') }}
         with:
           add-labels: "invalid"
           ignore-if-labeled: true
