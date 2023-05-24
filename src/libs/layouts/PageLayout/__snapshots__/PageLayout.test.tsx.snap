@@ -12,7 +12,7 @@ exports[`PageLayout snapshot testing 1`] = `
         class="MuiTypography-root MuiTypography-h6 css-mdmrp0-MuiTypography-root"
       >
         <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1n8yj6x-MuiTypography-root-MuiLink-root"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-9lisvk-MuiTypography-root-MuiLink-root"
           href="/"
         >
           Hamchance.com
