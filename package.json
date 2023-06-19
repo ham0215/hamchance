@@ -53,7 +53,7 @@
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
     "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-jest": "27.2.1",
+    "eslint-plugin-jest": "27.2.2",
     "eslint-plugin-storybook": "0.6.12",
     "html-webpack-plugin": "5.5.3",
     "identity-obj-proxy": "3.0.0",
