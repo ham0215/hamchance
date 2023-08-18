@@ -61,6 +61,6 @@ export function Home() {
           </CardContent>
         </Card>
       </Profile>
-    </Container >
+    </Container>
   );
 }
