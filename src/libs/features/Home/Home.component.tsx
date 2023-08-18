@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import { SiGithub, SiQiita, SiSpeakerdeck, SiZenn, SiLinkedin, SiFacebook } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiQiita, SiSpeakerdeck, SiZenn, SiLinkedin, SiFacebook, SiX } from '@icons-pack/react-simple-icons';
 import { ProductLink } from './ProductLink';
 
 export function Home() {
@@ -22,7 +22,7 @@ export function Home() {
           <CardContent sx={{ p: 4 }}>
             <Grid container spacing={4}>
               <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215">
-                <Image src="/static/images/x.png" alt="x" width="60" height="60" />
+                <SiX color="black" size={60} />
               </ProductLink>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
                 <SiGithub color="black" size={60} />

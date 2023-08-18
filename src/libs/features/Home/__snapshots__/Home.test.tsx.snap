@@ -73,17 +73,20 @@ exports[`Home snapshot testing 1`] = `
                   <div
                     class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
                   >
-                    <img
-                      alt="x"
-                      data-nimg="1"
-                      decoding="async"
+                    <svg
+                      fill="black"
                       height="60"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fstatic%2Fimages%2Fx.png&w=128&q=75"
-                      srcset="/_next/image?url=%2Fstatic%2Fimages%2Fx.png&w=64&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fx.png&w=128&q=75 2x"
-                      style="color: transparent;"
+                      viewBox="0 0 24 24"
                       width="60"
-                    />
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>
+                        X
+                      </title>
+                      <path
+                        d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                      />
+                    </svg>
                   </div>
                   <div
                     class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
