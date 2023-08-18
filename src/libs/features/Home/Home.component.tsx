@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import { Twitter, Github, Qiita, Speakerdeck, Zenn, Linkedin, Facebook } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiQiita, SiSpeakerdeck, SiZenn, SiLinkedin, SiFacebook, SiX } from '@icons-pack/react-simple-icons';
 import { ProductLink } from './ProductLink';
 
 export function Home() {
@@ -21,32 +21,32 @@ export function Home() {
           />
           <CardContent sx={{ p: 4 }}>
             <Grid container spacing={4}>
-              <ProductLink href="https://twitter.com/hamchance0215" productName="Twitter" name="@hamchance0215">
-                <Twitter color="#1DA1F2" size={60} />
+              <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215">
+                <SiX color="black" size={60} />
               </ProductLink>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
-                <Github color="black" size={60} />
+                <SiGithub color="black" size={60} />
               </ProductLink>
               <ProductLink href="https://qiita.com/ham0215" productName="Qiita" name="@ham0215">
-                <Qiita color="#55C500" size={60} />
+                <SiQiita color="#55C500" size={60} />
               </ProductLink>
               <ProductLink href="https://speakerdeck.com/ham0215" productName="Speaker Deck" name="ham0215">
-                <Speakerdeck color="#009287" size={60} />
+                <SiSpeakerdeck color="#009287" size={60} />
               </ProductLink>
               <ProductLink href="https://zenn.dev/hamchance" productName="Zenn" name="@hamchance">
-                <Zenn color="#3EA8FF" size={60} />
+                <SiZenn color="#3EA8FF" size={60} />
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
                 <Image src="/static/images/note2.svg" alt="note" width="60" height="60" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
-                <Linkedin color="#2867B2" size={60} />
+                <SiLinkedin color="#2867B2" size={60} />
               </ProductLink>
               <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
                 <Image src="/static/images/wantedly.svg" alt="wantedly" width="60" height="60" />
               </ProductLink>
               <ProductLink href="https://www.facebook.com/naoto.hamada.9" productName="Facebook" name="naoto.hamada">
-                <Facebook color="#3b5998" size={60} />
+                <SiFacebook color="#3b5998" size={60} />
               </ProductLink>
               <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
                 <Image src="/static/images/youtrust.avif" alt="youtrust" width="60" height="60" />
