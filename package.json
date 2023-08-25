@@ -61,6 +61,6 @@
     "jest-environment-jsdom": "29.6.4",
     "local-ssl-proxy": "^2.0.0",
     "prettier": "3.0.2",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   }
 }
