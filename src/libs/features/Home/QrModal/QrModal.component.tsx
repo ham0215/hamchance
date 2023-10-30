@@ -12,7 +12,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: 340,
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 4,
@@ -24,7 +24,7 @@ export function QrModal({ open, onClose }: Props) {
   return (
     <Modal open={open} onClose={onClose} aria-labelledby="X QR code">
       <Box sx={style}>
-        <Image src="/static/images/x-qr.png" alt="QR" width="320" height="320" />
+        <Image src="/static/images/x-qr.png" alt="QR" width="280" height="280" />
       </Box>
     </Modal>
   );

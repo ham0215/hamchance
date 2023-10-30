@@ -35,12 +35,12 @@ exports[`ProductLink when set onClickQr, then QR code will be displayed 1`] = `
     </a>
   </div>
   <div
-    class="MuiGrid-root MuiGrid-item css-pv8kf-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
   >
     <div>
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
         data-testid="QrCode2Icon"
         focusable="false"
         viewBox="0 0 24 24"

@@ -30,9 +30,9 @@ export function ProductLink({ href, productName, name, onClickQr, children }: Pr
         </ExternalLink>
       </Grid>
       {onClickQr && (
-        <Grid item alignItems="center">
+        <Grid item>
           <div onClick={onClickQr}>
-            <QrCode2Icon fontSize="large" />
+            <QrCode2Icon fontSize="medium" />
           </div>
         </Grid>
       )}
