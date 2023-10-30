@@ -56,7 +56,7 @@ exports[`Home snapshot testing 1`] = `
           class="MuiCardContent-root css-o8l425-MuiCardContent-root"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
@@ -75,9 +75,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="black"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -106,12 +106,12 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item css-pv8kf-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
             >
               <div>
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
                   data-testid="QrCode2Icon"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -139,9 +139,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="black"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -186,9 +186,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="#55C500"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -233,9 +233,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="#009287"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -280,9 +280,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="#3EA8FF"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -329,11 +329,11 @@ exports[`Home snapshot testing 1`] = `
                       alt="note"
                       data-nimg="1"
                       decoding="async"
-                      height="60"
+                      height="50"
                       loading="lazy"
                       src="/static/images/note2.svg"
                       style="color: transparent;"
-                      width="60"
+                      width="50"
                     />
                   </div>
                   <div
@@ -370,9 +370,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="#2867B2"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -419,11 +419,11 @@ exports[`Home snapshot testing 1`] = `
                       alt="wantedly"
                       data-nimg="1"
                       decoding="async"
-                      height="60"
+                      height="50"
                       loading="lazy"
                       src="/static/images/wantedly.svg"
                       style="color: transparent;"
-                      width="60"
+                      width="50"
                     />
                   </div>
                   <div
@@ -460,9 +460,9 @@ exports[`Home snapshot testing 1`] = `
                   >
                     <svg
                       fill="#3b5998"
-                      height="60"
+                      height="50"
                       viewBox="0 0 24 24"
-                      width="60"
+                      width="50"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>
@@ -509,12 +509,12 @@ exports[`Home snapshot testing 1`] = `
                       alt="youtrust"
                       data-nimg="1"
                       decoding="async"
-                      height="60"
+                      height="50"
                       loading="lazy"
                       src="/_next/image?url=%2Fstatic%2Fimages%2Fyoutrust.avif&w=128&q=75"
                       srcset="/_next/image?url=%2Fstatic%2Fimages%2Fyoutrust.avif&w=64&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fyoutrust.avif&w=128&q=75 2x"
                       style="color: transparent;"
-                      width="60"
+                      width="50"
                     />
                   </div>
                   <div
@@ -553,12 +553,12 @@ exports[`Home snapshot testing 1`] = `
                       alt="connpass"
                       data-nimg="1"
                       decoding="async"
-                      height="60"
+                      height="50"
                       loading="lazy"
                       src="/_next/image?url=%2Fstatic%2Fimages%2Fconnpass.png&w=128&q=75"
                       srcset="/_next/image?url=%2Fstatic%2Fimages%2Fconnpass.png&w=64&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fconnpass.png&w=128&q=75 2x"
                       style="color: transparent;"
-                      width="60"
+                      width="50"
                     />
                   </div>
                   <div
@@ -597,12 +597,12 @@ exports[`Home snapshot testing 1`] = `
                       alt="lapras"
                       data-nimg="1"
                       decoding="async"
-                      height="60"
+                      height="50"
                       loading="lazy"
                       src="/_next/image?url=%2Fstatic%2Fimages%2Flapras.png&w=128&q=75"
                       srcset="/_next/image?url=%2Fstatic%2Fimages%2Flapras.png&w=64&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Flapras.png&w=128&q=75 2x"
                       style="color: transparent;"
-                      width="60"
+                      width="50"
                     />
                   </div>
                   <div
