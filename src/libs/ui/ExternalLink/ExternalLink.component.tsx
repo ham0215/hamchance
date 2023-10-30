@@ -1,7 +1,7 @@
 import Link from '@mui/material/Link';
 import { PropsWithChildren } from 'react';
 
-type Props = { href: string; };
+type Props = { href: string };
 
 export function ExternalLink({ href, children }: PropsWithChildren<Props>) {
   return (

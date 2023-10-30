@@ -31,8 +31,8 @@ export function ProductLink({ href, productName, name, onClickQr, children }: Pr
       </Grid>
       {onClickQr && (
         <Grid item alignItems="center">
-          <div onClick={() => undefined}>
-            <QrCode2Icon fontSize='large' />
+          <div onClick={onClickQr}>
+            <QrCode2Icon fontSize="large" />
           </div>
         </Grid>
       )}
