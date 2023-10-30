@@ -1,5 +1,6 @@
-import { PageLayout } from './PageLayout.layout';
 import { render } from '@testing-library/react';
+
+import { PageLayout } from './PageLayout.layout';
 
 describe('PageLayout', () => {
   it('snapshot testing', () => {

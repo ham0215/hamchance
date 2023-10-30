@@ -1,9 +1,9 @@
-import Head from 'next/head';
-import { AppProps } from 'next/app';
-import ThemeProvider from 'providers/ThemeProvider';
-import PaletteModeProvider from 'providers/PaletteModeProvider';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import { createEmotionCache } from 'libs/utils/createEmotionCache';
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+import PaletteModeProvider from 'providers/PaletteModeProvider';
+import ThemeProvider from 'providers/ThemeProvider';
 
 const clientSideEmotionCache = createEmotionCache();
 
