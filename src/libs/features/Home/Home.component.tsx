@@ -26,7 +26,12 @@ export function Home() {
           />
           <CardContent sx={{ p: 4 }}>
             <Grid container spacing={4}>
-              <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215" onClickQr={handleOpenQrModal}>
+              <ProductLink
+                href="https://twitter.com/hamchance0215"
+                productName="X"
+                name="@hamchance0215"
+                onClickQr={handleOpenQrModal}
+              >
                 <SiX color="black" size={60} />
               </ProductLink>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">

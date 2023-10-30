@@ -17,16 +17,12 @@ const style = {
   boxShadow: 24,
   p: 4,
   display: 'flex',
-  justifyContent: 'center'
+  justifyContent: 'center',
 };
 
 export function QrModal({ open, onClose }: Props) {
   return (
-    <Modal
-      open={open}
-      onClose={onClose}
-      aria-labelledby="X QR code"
-    >
+    <Modal open={open} onClose={onClose} aria-labelledby="X QR code">
       <Box sx={style}>
         <Image src="/static/images/x-qr.png" alt="QR" width="320" height="320" />
       </Box>
