@@ -7,6 +7,7 @@ const createJestConfig = nextJest({
 // Jestのカスタム設定を設置する場所。従来のプロパティはここで定義。
 const customJestConfig = {
   testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
     '^components/(.*)$': '<rootDir>/src/components/$1',
     '^libs/(.*)$': '<rootDir>/src/libs/$1',
