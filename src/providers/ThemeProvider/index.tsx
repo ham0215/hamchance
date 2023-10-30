@@ -1,12 +1,12 @@
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { PaletteModeContext } from 'providers/PaletteModeProvider';
-import { ReactNode, useContext } from 'react';
+import { PropsWithChildren, useContext } from 'react';
 
 import darkTheme from './darkTheme';
 import lightTheme from './lightTheme';
 
-export default function HamThemeProvider({ children }: { children: ReactNode }) {
+export default function HamThemeProvider({ children }: PropsWithChildren) {
   const paletteMode = useContext(PaletteModeContext);
   const theme = paletteMode === 'dark' ? darkTheme : lightTheme;
 
