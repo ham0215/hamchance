@@ -1,5 +1,6 @@
-import { Home } from './Home.component';
 import { render, screen } from '@testing-library/react';
+
+import { Home } from './Home.component';
 
 describe('Home', () => {
   it('renders a heading', async () => {

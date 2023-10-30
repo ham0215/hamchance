@@ -1,5 +1,5 @@
-import { styled } from '@mui/material/styles';
 import CardBase from '@mui/material/Card';
+import { styled } from '@mui/material/styles';
 
 export const Container = styled('div')({
   background: '#151515 url("/static/images/yarigadake.jpg") no-repeat fixed center bottom',

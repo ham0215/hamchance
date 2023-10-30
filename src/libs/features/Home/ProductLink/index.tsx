@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { ExternalLink } from 'libs/ui/ExternalLink';
+import { ReactNode } from 'react';
 
 type Props = {
   href: string;

@@ -1,10 +1,11 @@
-import Image from 'next/image';
-import { Container, Title, Profile, SubTitle, Card } from './Home.styles';
-import Grid from '@mui/material/Grid';
+import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiX, SiZenn } from '@icons-pack/react-simple-icons';
 import Avatar from '@mui/material/Avatar';
-import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import { SiGithub, SiQiita, SiSpeakerdeck, SiZenn, SiLinkedin, SiFacebook, SiX } from '@icons-pack/react-simple-icons';
+import CardHeader from '@mui/material/CardHeader';
+import Grid from '@mui/material/Grid';
+import Image from 'next/image';
+
+import { Card, Container, Profile, SubTitle, Title } from './Home.styles';
 import { ProductLink } from './ProductLink';
 
 export function Home() {

@@ -1,5 +1,5 @@
-import { createContext, ReactNode, useCallback, useEffect, useState } from 'react';
 import { PaletteMode } from '@mui/material';
+import { createContext, ReactNode, useCallback, useEffect, useState } from 'react';
 
 export const PaletteModeContext = createContext<PaletteMode>('light');
 export const TogglePaletteModeContext = createContext<(() => void) | undefined>(undefined);
