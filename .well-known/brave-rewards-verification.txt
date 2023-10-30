@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: hamchance.com
+Token: f203bab569fec0671928b714368c4db019dfc830524257527054f684ccc51933
