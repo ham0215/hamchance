@@ -1,14 +1,19 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { StoryObj, Meta } from '@storybook/react';
 
 import { PageLayout } from './PageLayout.layout';
 
-export default {
-  title: 'templates/PageLayout',
+type Component = typeof PageLayout;
+type Story = StoryObj<Component>;
+
+const args = {
+  children: 'Contents',
+};
+
+const meta: Meta<Component> = {
+  title: 'layouts/Contents',
   component: PageLayout,
-} as ComponentMeta<typeof PageLayout>;
+  args,
+};
 
-const Template: ComponentStory<typeof PageLayout> = () => <PageLayout>Contents</PageLayout>;
-
-export const Default = Template.bind({});
-
-Default.args = {};
+export default meta;
+export const Default: Story = {};

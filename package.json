@@ -14,8 +14,8 @@
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
     "test": "jest --watch",
     "test:ci": "jest --ci",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "storybook dev -p 6006 --https --ssl-cert ./localhost.pem --ssl-key ./localhost-key.pem ",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@emotion/cache": "11.11.0",
@@ -39,8 +39,7 @@
     "@storybook/addon-docs": "7.5.2",
     "@storybook/addon-essentials": "7.5.2",
     "@storybook/addon-links": "7.5.2",
-    "@storybook/builder-webpack5": "7.5.2",
-    "@storybook/manager-webpack5": "6.5.16",
+    "@storybook/nextjs": "7.5.2",
     "@storybook/react": "7.5.2",
     "@testing-library/jest-dom": "6.1.4",
     "@testing-library/react": "14.0.0",
@@ -61,6 +60,7 @@
     "jest-environment-jsdom": "29.7.0",
     "local-ssl-proxy": "^2.0.0",
     "prettier": "3.0.3",
+    "storybook": "7.5.2",
     "typescript": "5.2.2"
   }
 }
