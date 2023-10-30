@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "$(capture).test.ts, $(capture).test.tsx",
+    "*.tsx": "$(capture).test.tsx",
+    "*.component.tsx": "$(capture).styles.ts, $(capture).stories.tsx",
+    "*.layout.tsx": "$(capture).styles.ts, $(capture).stories.tsx"
+  }
+}
