@@ -1,16 +1,21 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { StoryObj, Meta } from '@storybook/react';
 
 import { ExternalLink } from './ExternalLink.component';
 
-export default {
-  title: 'atoms/ExternalLink',
-  component: ExternalLink,
-} as ComponentMeta<typeof ExternalLink>;
+type Component = typeof ExternalLink;
+type Story = StoryObj<Component>;
 
-const Template: ComponentStory<typeof ExternalLink> = (args) => <ExternalLink {...args}>Storybook</ExternalLink>;
-
-export const Default = Template.bind({});
-
-Default.args = {
+const args = {
   href: 'https://storybook.js.org/',
+  prefetch: false,
+  children: 'Storybook',
 };
+
+const meta: Meta<Component> = {
+  title: 'ui/ExternalLink',
+  component: ExternalLink,
+  args,
+};
+
+export default meta;
+export const Default: Story = {};
