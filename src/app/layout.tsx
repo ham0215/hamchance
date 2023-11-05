@@ -57,6 +57,6 @@ export default function RootLayout({
           </ThemeRegistry>
         </PaletteModeProvider>
       </body>
-    </html >
+    </html>
   );
 }
