@@ -1,3 +1,5 @@
+'use client';
+
 import { PaletteMode } from '@mui/material';
 import { createContext, PropsWithChildren, useCallback, useEffect, useState } from 'react';
 
