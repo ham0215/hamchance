@@ -68,11 +68,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="black"
                       height="46"
@@ -88,16 +86,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       X
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       @hamchance0215
                     </p>
@@ -132,11 +128,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="black"
                       height="46"
@@ -152,16 +146,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       GitHub
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -179,11 +171,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="#55C460"
                       height="46"
@@ -199,18 +189,55 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       Qiita
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       @ham0215
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                href="https://note.com/hamchance"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
+                >
+                  <div>
+                    <img
+                      alt="note"
+                      data-nimg="1"
+                      decoding="async"
+                      height="46"
+                      loading="lazy"
+                      src="/static/images/note2.svg"
+                      style="color: transparent;"
+                      width="46"
+                    />
+                  </div>
+                  <div>
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                    >
+                      Note
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                    >
+                      @hamchance
                     </p>
                   </div>
                 </div>
@@ -226,11 +253,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="#009287"
                       height="46"
@@ -246,16 +271,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       Speaker Deck
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -273,11 +296,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="#3EA8FF"
                       height="46"
@@ -293,16 +314,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       Zenn
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       @hamchance
                     </p>
@@ -315,39 +334,35 @@ exports[`Home snapshot testing 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
-                href="https://note.com/hamchance"
+                href="https://sizu.me/ham"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <img
-                      alt="note"
+                      alt="しずかなインターネット"
                       data-nimg="1"
                       decoding="async"
                       height="46"
                       loading="lazy"
-                      src="/static/images/note2.svg"
+                      src="/static/images/sizu.svg"
                       style="color: transparent;"
                       width="46"
                     />
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
-                      Note
+                      しずかなインターネット
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
-                      @hamchance
+                      ham
                     </p>
                   </div>
                 </div>
@@ -363,11 +378,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="#2867B2"
                       height="46"
@@ -383,16 +396,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       LinkedIn
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -410,11 +421,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <img
                       alt="wantedly"
                       data-nimg="1"
@@ -426,16 +435,14 @@ exports[`Home snapshot testing 1`] = `
                       width="46"
                     />
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       Wantedly
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       hamchance
                     </p>
@@ -453,11 +460,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <svg
                       fill="#3b5998"
                       height="46"
@@ -473,16 +478,14 @@ exports[`Home snapshot testing 1`] = `
                       />
                     </svg>
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       Facebook
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       naoto.hamada
                     </p>
@@ -500,11 +503,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <img
                       alt="youtrust"
                       data-nimg="1"
@@ -517,16 +518,14 @@ exports[`Home snapshot testing 1`] = `
                       width="46"
                     />
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       YOUTRUST
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham
                     </p>
@@ -544,11 +543,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <img
                       alt="connpass"
                       data-nimg="1"
@@ -561,16 +558,14 @@ exports[`Home snapshot testing 1`] = `
                       width="46"
                     />
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       connpass
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -588,11 +583,9 @@ exports[`Home snapshot testing 1`] = `
                 target="_blank"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                  class="MuiStack-root css-1xcvc1q-MuiStack-root"
                 >
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <img
                       alt="lapras"
                       data-nimg="1"
@@ -605,16 +598,14 @@ exports[`Home snapshot testing 1`] = `
                       width="46"
                     />
                   </div>
-                  <div
-                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-                  >
+                  <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       LAPRAS
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
                     >
                       ham
                     </p>
