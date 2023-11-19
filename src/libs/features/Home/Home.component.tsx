@@ -40,14 +40,17 @@ export function Home() {
               <ProductLink href="https://qiita.com/ham0215" productName="Qiita" name="@ham0215">
                 <SiQiita color="#55C460" size={46} />
               </ProductLink>
+              <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
+                <Image src="/static/images/note2.svg" alt="note" width="46" height="46" />
+              </ProductLink>
               <ProductLink href="https://speakerdeck.com/ham0215" productName="Speaker Deck" name="ham0215">
                 <SiSpeakerdeck color="#009287" size={46} />
               </ProductLink>
               <ProductLink href="https://zenn.dev/hamchance" productName="Zenn" name="@hamchance">
                 <SiZenn color="#3EA8FF" size={46} />
               </ProductLink>
-              <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
-                <Image src="/static/images/note2.svg" alt="note" width="46" height="46" />
+              <ProductLink href="https://sizu.me/ham" productName="しずかなインターネット" name="ham">
+                <Image src="/static/images/sizu.svg" alt="しずかなインターネット" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
                 <SiLinkedin color="#2867B2" size={46} />
