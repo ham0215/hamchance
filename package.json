@@ -23,9 +23,9 @@
     "@emotion/server": "11.11.0",
     "@emotion/styled": "11.11.0",
     "@icons-pack/react-simple-icons": "9.1.0",
-    "@mui/icons-material": "5.14.18",
-    "@mui/material": "5.14.18",
-    "@mui/system": "5.14.18",
+    "@mui/icons-material": "5.14.19",
+    "@mui/material": "5.14.19",
+    "@mui/system": "5.14.19",
     "next": "14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
