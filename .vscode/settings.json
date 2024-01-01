@@ -6,5 +6,9 @@
     "*.tsx": "$(capture).test.tsx",
     "*.component.tsx": "$(capture).styles.ts, $(capture).stories.tsx",
     "*.layout.tsx": "$(capture).styles.ts, $(capture).stories.tsx"
-  }
+  },
+  "cSpell.words": [
+    "Bluesky",
+    "bsky"
+  ]
 }

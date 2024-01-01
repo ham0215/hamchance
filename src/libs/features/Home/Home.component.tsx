@@ -70,6 +70,13 @@ export function Home() {
               <ProductLink href="https://lapras.com/public/ham" productName="LAPRAS" name="ham">
                 <Image src="/static/images/lapras.png" alt="lapras" width="46" height="46" />
               </ProductLink>
+              <ProductLink
+                href="https://bsky.app/profile/hamchance.bsky.social"
+                productName="Bluesky"
+                name="@hamchance.bsky.social"
+              >
+                <Image src="/static/images/bluesky.jpg" alt="bluesky" width="46" height="46" />
+              </ProductLink>
             </Grid>
           </CardContent>
         </Card>
