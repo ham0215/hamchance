@@ -18,7 +18,7 @@ jobs:
         with:
           script: |
             const holidayJp = require('@holiday-jp/holiday_jp');
-            const today = new Date(2024, 5, 1);
+            const today = new Date();
             console.log(today);
             if (holidayJp.isHoliday(today)) {
               throw new Error('祝日はSKIP');
