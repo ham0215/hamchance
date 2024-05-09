@@ -35,12 +35,12 @@
     "@babel/runtime": "7.24.5",
     "@jest/types": "29.6.3",
     "@mdx-js/react": "3.0.1",
-    "@storybook/addon-actions": "7.6.17",
-    "@storybook/addon-docs": "7.6.17",
-    "@storybook/addon-essentials": "7.6.17",
-    "@storybook/addon-links": "7.6.17",
-    "@storybook/nextjs": "7.6.17",
-    "@storybook/react": "7.6.17",
+    "@storybook/addon-actions": "7.6.19",
+    "@storybook/addon-docs": "7.6.19",
+    "@storybook/addon-essentials": "7.6.19",
+    "@storybook/addon-links": "7.6.19",
+    "@storybook/nextjs": "7.6.19",
+    "@storybook/react": "7.6.19",
     "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "14.3.1",
     "@testing-library/user-event": "14.5.2",
@@ -63,7 +63,7 @@
     "jest-environment-jsdom": "29.7.0",
     "local-ssl-proxy": "^2.0.0",
     "prettier": "3.2.5",
-    "storybook": "7.6.17",
+    "storybook": "7.6.19",
     "typescript": "5.4.5"
   }
 }
