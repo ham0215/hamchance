@@ -36,11 +36,11 @@
     "@jest/types": "29.6.3",
     "@mdx-js/react": "3.1.0",
     "@storybook/addon-actions": "7.6.20",
-    "@storybook/addon-docs": "7.6.20",
-    "@storybook/addon-essentials": "7.6.20",
+    "@storybook/addon-docs": "8.6.12",
+    "@storybook/addon-essentials": "8.6.12",
     "@storybook/addon-links": "7.6.20",
-    "@storybook/nextjs": "7.6.20",
-    "@storybook/react": "7.6.20",
+    "@storybook/nextjs": "8.6.12",
+    "@storybook/react": "8.6.12",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
@@ -63,7 +63,7 @@
     "jest-environment-jsdom": "29.7.0",
     "local-ssl-proxy": "2.0.5",
     "prettier": "3.5.3",
-    "storybook": "7.6.20",
+    "storybook": "8.6.12",
     "typescript": "5.8.3"
   }
 }
