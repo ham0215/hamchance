@@ -46,7 +46,7 @@
     "@testing-library/user-event": "14.6.1",
     "@types/jest": "29.5.14",
     "@types/node": "22.15.24",
-    "@types/react": "18.3.22",
+    "@types/react": "18.3.23",
     "@typescript-eslint/eslint-plugin": "8.32.1",
     "@typescript-eslint/parser": "8.32.1",
     "babel-loader": "9.2.1",
