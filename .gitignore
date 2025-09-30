@@ -28,6 +28,8 @@ npm-debug.log*
 .env.test.local
 .env.production.local
 
+*.local.json
+
 # vercel
 .vercel
 
