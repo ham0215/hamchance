@@ -1,68 +1,69 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Home snapshot testing 1`] = `
 <DocumentFragment>
   <div
-    class="css-nlqsmz"
+    class="css-1siqnk7"
   >
     <h1
-      class="css-10w2dmp"
+      class="css-avxzv6"
     >
       Hamchance.com
     </h1>
     <div
-      class="css-khvsip"
+      class="css-jdteb5"
     >
       登山とジョギング、子育てと株取引とお酒で忙しいWebエンジニアのアウトプット記録
     </div>
     <div
-      class="css-gsb3fd"
+      class="css-1cxy7zb"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1sklvgf-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1tddwb9-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
       >
         <div
-          class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+          class="MuiCardHeader-root css-149tc0y-MuiCardHeader-root"
         >
           <div
-            class="MuiCardHeader-avatar css-1ssile9-MuiCardHeader-avatar"
+            class="MuiCardHeader-avatar css-1r9wl67-MuiCardHeader-avatar"
           >
             <div
-              class="MuiAvatar-root MuiAvatar-circular css-1hpz50q-MuiAvatar-root"
+              class="MuiAvatar-root MuiAvatar-circular css-62crhu-MuiAvatar-root"
             >
               <img
                 alt="ham"
-                class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
                 src="/static/images/ham.svg"
               />
             </div>
           </div>
           <div
-            class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+            class="MuiCardHeader-content css-1jkp9bu-MuiCardHeader-content"
           >
             <span
-              class="MuiTypography-root MuiTypography-body2 MuiCardHeader-title css-et1ao3-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 MuiCardHeader-title css-7ctihp-MuiTypography-root"
             >
               Naoto Hamada
             </span>
             <span
-              class="MuiTypography-root MuiTypography-body2 MuiCardHeader-subheader css-83ijpv-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 MuiCardHeader-subheader css-1a1whku-MuiTypography-root"
             >
               Software Engineer
             </span>
           </div>
         </div>
         <div
-          class="MuiCardContent-root css-2awovp-MuiCardContent-root"
+          class="MuiCardContent-root css-kacebu-MuiCardContent-root"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
           >
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://twitter.com/hamchance0215"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -88,12 +89,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       X
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       @hamchance0215
                     </p>
@@ -102,27 +103,27 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <div>
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
                   data-testid="QrCode2Icon"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M15 21h-2v-2h2v2zm-2-7h-2v5h2v-5zm8-2h-2v4h2v-4zm-2-2h-2v2h2v-2zM7 12H5v2h2v-2zm-2-2H3v2h2v-2zm7-5h2V3h-2v2zm-7.5-.5v3h3v-3h-3zM9 9H3V3h6v6zm-4.5 7.5v3h3v-3h-3zM9 21H3v-6h6v6zm7.5-16.5v3h3v-3h-3zM21 9h-6V3h6v6zm-2 10v-3h-4v2h2v3h4v-2h-2zm-2-7h-4v2h4v-2zm-4-2H7v2h2v2h2v-2h2v-2zm1-1V7h-2V5h-2v4h4zM6.75 5.25h-1.5v1.5h1.5v-1.5zm0 12h-1.5v1.5h1.5v-1.5zm12-12h-1.5v1.5h1.5v-1.5z"
+                    d="M15 21h-2v-2h2zm-2-7h-2v5h2zm8-2h-2v4h2zm-2-2h-2v2h2zM7 12H5v2h2zm-2-2H3v2h2zm7-5h2V3h-2zm-7.5-.5v3h3v-3zM9 9H3V3h6zm-4.5 7.5v3h3v-3zM9 21H3v-6h6zm7.5-16.5v3h3v-3zM21 9h-6V3h6zm-2 10v-3h-4v2h2v3h4v-2zm-2-7h-4v2h4zm-4-2H7v2h2v2h2v-2h2zm1-1V7h-2V5h-2v4zM6.75 5.25h-1.5v1.5h1.5zm0 12h-1.5v1.5h1.5zm12-12h-1.5v1.5h1.5z"
                   />
                 </svg>
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://github.com/ham0215"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -148,12 +149,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       GitHub
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -162,10 +163,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://qiita.com/ham0215"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -191,12 +192,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Qiita
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       @ham0215
                     </p>
@@ -205,10 +206,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://note.com/hamchance"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -230,12 +231,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Note
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       @hamchance
                     </p>
@@ -244,10 +245,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://speakerdeck.com/ham0215"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -273,12 +274,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Speaker Deck
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -287,10 +288,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://zenn.dev/hamchance"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -316,12 +317,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Zenn
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       @hamchance
                     </p>
@@ -330,10 +331,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://sizu.me/ham"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -355,12 +356,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       しずかなインターネット
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham
                     </p>
@@ -369,10 +370,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://www.linkedin.com/in/ham0215/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -398,12 +399,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       LinkedIn
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -412,10 +413,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://www.wantedly.com/id/hamchance"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -437,12 +438,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Wantedly
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       hamchance
                     </p>
@@ -451,10 +452,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://www.facebook.com/naoto.hamada.9"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -480,12 +481,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Facebook
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       naoto.hamada
                     </p>
@@ -494,10 +495,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://youtrust.jp/users/ham"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -520,12 +521,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       YOUTRUST
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham
                     </p>
@@ -534,10 +535,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://connpass.com/user/ham0215/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -560,12 +561,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       connpass
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham0215
                     </p>
@@ -574,10 +575,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://hamchance.hatenablog.jp/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -599,12 +600,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       はてなブログ
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       hamchance0215
                     </p>
@@ -613,10 +614,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://findy-code.io/share_profiles/C1wCB4TKPb3By"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -639,12 +640,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Findy
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       hamada
                     </p>
@@ -653,10 +654,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://lapras.com/public/ham"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -679,12 +680,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       LAPRAS
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       ham
                     </p>
@@ -693,10 +694,10 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
             >
               <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
                 href="https://bsky.app/profile/hamchance.bsky.social"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -719,12 +720,12 @@ exports[`Home snapshot testing 1`] = `
                   </div>
                   <div>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       Bluesky
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
                     >
                       @hamchance.bsky.social
                     </p>
