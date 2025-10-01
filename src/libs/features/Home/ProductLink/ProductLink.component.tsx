@@ -15,7 +15,7 @@ type Props = {
 export function ProductLink({ href, productName, name, onClickQr, children }: PropsWithChildren<Props>) {
   return (
     <>
-      <Grid item xs={10}>
+      <Grid size={10}>
         <ExternalLink href={href}>
           <Stack direction="row" spacing={4}>
             <div>{children}</div>
@@ -31,7 +31,7 @@ export function ProductLink({ href, productName, name, onClickQr, children }: Pr
         </ExternalLink>
       </Grid>
       {onClickQr && (
-        <Grid item>
+        <Grid size="auto">
           <div onClick={onClickQr}>
             <QrCode2Icon fontSize="medium" />
           </div>

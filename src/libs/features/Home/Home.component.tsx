@@ -32,34 +32,54 @@ export function Home() {
                 name="@hamchance0215"
                 onClickQr={handleOpenQrModal}
               >
-                <SiX color="black" size={46} />
+                <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
               </ProductLink>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
-                <SiGithub color="black" size={46} />
+                <SiGithub color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
               </ProductLink>
               <ProductLink href="https://qiita.com/ham0215" productName="Qiita" name="@ham0215">
-                <SiQiita color="#55C460" size={46} />
+                <SiQiita
+                  color="#55C460"
+                  size={46}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                />
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
                 <Image src="/static/images/note2.svg" alt="note" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://speakerdeck.com/ham0215" productName="Speaker Deck" name="ham0215">
-                <SiSpeakerdeck color="#009287" size={46} />
+                <SiSpeakerdeck
+                  color="#009287"
+                  size={46}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                />
               </ProductLink>
               <ProductLink href="https://zenn.dev/hamchance" productName="Zenn" name="@hamchance">
-                <SiZenn color="#3EA8FF" size={46} />
+                <SiZenn color="#3EA8FF" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
               </ProductLink>
               <ProductLink href="https://sizu.me/ham" productName="しずかなインターネット" name="ham">
                 <Image src="/static/images/sizu.svg" alt="しずかなインターネット" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
-                <SiLinkedin color="#2867B2" size={46} />
+                <SiLinkedin
+                  color="#2867B2"
+                  size={46}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                />
               </ProductLink>
               <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
                 <Image src="/static/images/wantedly.svg" alt="wantedly" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://www.facebook.com/naoto.hamada.9" productName="Facebook" name="naoto.hamada">
-                <SiFacebook color="#3b5998" size={46} />
+                <SiFacebook
+                  color="#3b5998"
+                  size={46}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                />
               </ProductLink>
               <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
                 <Image src="/static/images/youtrust.avif" alt="youtrust" width="46" height="46" />
@@ -70,7 +90,7 @@ export function Home() {
               <ProductLink href="https://hamchance.hatenablog.jp/" productName="はてなブログ" name="hamchance0215">
                 <Image src="/static/images/hatenablog.svg" alt="はてなブログ" width="46" height="46" />
               </ProductLink>
-              <ProductLink href="https://findy-code.io/share_profiles/C1wCB4TKPb3By" productName="Findy" name="hamada">
+              <ProductLink href="https://findy-code.io/skills-share/2XRMHItDvoLRN" productName="Findy" name="hamada">
                 <Image src="/static/images/findy.jpg" alt="findy" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://lapras.com/public/ham" productName="LAPRAS" name="ham">
