@@ -1,12 +1,12 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`ProductLink when set onClickQr, then QR code will be displayed 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-13i4rnv-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
   >
     <a
-      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
       href="https://hamchance.com"
       rel="noopener noreferrer"
       target="_blank"
@@ -17,12 +17,12 @@ exports[`ProductLink when set onClickQr, then QR code will be displayed 1`] = `
         <div />
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
           >
             hamchance
           </p>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
           >
             @ham
           </p>
@@ -31,12 +31,12 @@ exports[`ProductLink when set onClickQr, then QR code will be displayed 1`] = `
     </a>
   </div>
   <div
-    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto css-1hef13s-MuiGrid-root"
   >
     <div>
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
         data-testid="QrCode2Icon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -53,10 +53,10 @@ exports[`ProductLink when set onClickQr, then QR code will be displayed 1`] = `
 exports[`ProductLink when set onClickQr, then QR code will be not displayed 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-13i4rnv-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
   >
     <a
-      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-19qjfsi-MuiTypography-root-MuiLink-root"
+      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
       href="https://hamchance.com"
       rel="noopener noreferrer"
       target="_blank"
@@ -67,12 +67,12 @@ exports[`ProductLink when set onClickQr, then QR code will be not displayed 1`] 
         <div />
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
           >
             hamchance
           </p>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-jrj0v0-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
           >
             @ham
           </p>

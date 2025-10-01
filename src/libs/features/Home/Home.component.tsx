@@ -90,7 +90,7 @@ export function Home() {
               <ProductLink href="https://hamchance.hatenablog.jp/" productName="はてなブログ" name="hamchance0215">
                 <Image src="/static/images/hatenablog.svg" alt="はてなブログ" width="46" height="46" />
               </ProductLink>
-              <ProductLink href="https://findy-code.io/share_profiles/C1wCB4TKPb3By" productName="Findy" name="hamada">
+              <ProductLink href="https://findy-code.io/skills-share/2XRMHItDvoLRN" productName="Findy" name="hamada">
                 <Image src="/static/images/findy.jpg" alt="findy" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://lapras.com/public/ham" productName="LAPRAS" name="ham">
