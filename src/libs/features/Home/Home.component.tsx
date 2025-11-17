@@ -87,9 +87,6 @@ export function Home() {
               <ProductLink href="https://connpass.com/user/ham0215/" productName="connpass" name="ham0215">
                 <Image src="/static/images/connpass.png" alt="connpass" width="46" height="46" />
               </ProductLink>
-              <ProductLink href="https://hamchance.hatenablog.jp/" productName="はてなブログ" name="hamchance0215">
-                <Image src="/static/images/hatenablog.svg" alt="はてなブログ" width="46" height="46" />
-              </ProductLink>
               <ProductLink href="https://findy-code.io/skills-share/2XRMHItDvoLRN" productName="Findy" name="hamada">
                 <Image src="/static/images/findy.jpg" alt="findy" width="46" height="46" />
               </ProductLink>
