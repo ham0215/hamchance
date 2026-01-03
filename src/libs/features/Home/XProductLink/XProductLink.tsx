@@ -11,7 +11,7 @@ export function XProductLink() {
         <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
       </ProductLink>
       <Grid size="auto">
-        <QrButtonContainer />
+        <QrButtonContainer src="/static/images/x-qr.png" alt="X QR code" />
       </Grid>
     </>
   );
