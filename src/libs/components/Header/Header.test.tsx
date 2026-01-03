@@ -1,11 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import React from 'react';
+import { createContext } from 'react';
 
 import { Header } from './Header';
 
 // Mock the TogglePaletteModeContext with a proper React context
 jest.mock('providers/PaletteModeProvider', () => ({
-  TogglePaletteModeContext: React.createContext(jest.fn()),
+  TogglePaletteModeContext: createContext(jest.fn()),
 }));
 
 describe('Header', () => {
