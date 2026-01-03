@@ -1,10 +1,12 @@
 import { useCallback, useState } from 'react';
 
-export function HomePresenter() {
+export function useQrButtonPresenter() {
   const [openQrModal, setOpenQrModal] = useState(false);
+
   const handleOpenQrModal = useCallback(() => {
     setOpenQrModal(true);
   }, []);
+
   const handleCloseQrModal = useCallback(() => {
     setOpenQrModal(false);
   }, []);
