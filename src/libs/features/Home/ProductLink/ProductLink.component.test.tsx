@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import { ProductLink } from './ProductLink.component';
+import { ProductLink } from './ProductLink';
 
 describe('ProductLink', () => {
   it('renders product link with correct content', () => {
