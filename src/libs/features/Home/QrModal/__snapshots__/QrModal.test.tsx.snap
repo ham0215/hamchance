@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`QrModal snapshot testing - closed 1`] = `<DocumentFragment />`;
+
+exports[`QrModal snapshot testing - open 1`] = `<DocumentFragment />`;
