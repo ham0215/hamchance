@@ -16,7 +16,7 @@ exports[`QrModal snapshot testing - open 1`] = `
     aria-hidden="true"
   />
   <div
-    aria-labelledby="X QR code"
+    aria-labelledby="QR code modal"
     class="MuiModal-root css-1g04pbp-MuiModal-root"
     role="presentation"
   >
@@ -34,13 +34,13 @@ exports[`QrModal snapshot testing - open 1`] = `
       tabindex="-1"
     >
       <img
-        alt="QR"
+        alt="QR Code"
         data-nimg="1"
         decoding="async"
         height="280"
         loading="lazy"
-        src="/_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=640&q=75"
-        srcset="/_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=384&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=640&q=75 2x"
+        src="/_next/image?url=%2Ftest-qr.png&w=640&q=75"
+        srcset="/_next/image?url=%2Ftest-qr.png&w=384&q=75 1x, /_next/image?url=%2Ftest-qr.png&w=640&q=75 2x"
         style="color: transparent;"
         width="280"
       />

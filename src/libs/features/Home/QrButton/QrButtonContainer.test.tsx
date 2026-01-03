@@ -4,15 +4,17 @@ import userEvent from '@testing-library/user-event';
 import { QrButtonContainer } from './QrButtonContainer';
 
 describe('QrButtonContainer', () => {
+  const testSrc = '/test-qr.png';
+
   it('renders QR button', () => {
-    render(<QrButtonContainer />);
+    render(<QrButtonContainer src={testSrc} />);
 
     expect(screen.getByRole('button', { name: /show qr code/i })).toBeInTheDocument();
   });
 
   it('opens modal when button is clicked', async () => {
     const user = userEvent.setup();
-    render(<QrButtonContainer />);
+    render(<QrButtonContainer src={testSrc} />);
 
     const button = screen.getByRole('button', { name: /show qr code/i });
     await user.click(button);
@@ -22,7 +24,7 @@ describe('QrButtonContainer', () => {
 
   it('closes modal when modal close is triggered', async () => {
     const user = userEvent.setup();
-    render(<QrButtonContainer />);
+    render(<QrButtonContainer src={testSrc} />);
 
     const button = screen.getByRole('button', { name: /show qr code/i });
     await user.click(button);

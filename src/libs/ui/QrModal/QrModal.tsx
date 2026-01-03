@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 type Props = {
   open: boolean;
+  src: string;
+  alt?: string;
   onClose?: () => void;
 };
 
@@ -20,11 +22,11 @@ const style = {
   justifyContent: 'center',
 };
 
-export function QrModal({ open, onClose }: Props) {
+export function QrModal({ open, src, alt = 'QR Code', onClose }: Props) {
   return (
-    <Modal open={open} onClose={onClose} aria-labelledby="X QR code">
+    <Modal open={open} onClose={onClose} aria-labelledby="QR code modal">
       <Box sx={style}>
-        <Image src="/static/images/x-qr.png" alt="QR" width="280" height="280" />
+        <Image src={src} alt={alt} width="280" height="280" />
       </Box>
     </Modal>
   );
