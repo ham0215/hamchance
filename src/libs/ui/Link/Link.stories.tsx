@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/nextjs';
 
-import { Link } from './Link.component';
+import { Link } from './Link';
 
 type Component = typeof Link;
 type Story = StoryObj<Component>;

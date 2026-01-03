@@ -1,1 +1,1 @@
-export * from './XProductLink.component';
+export * from './XProductLink';

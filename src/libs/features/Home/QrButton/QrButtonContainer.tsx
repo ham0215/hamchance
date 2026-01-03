@@ -1,7 +1,7 @@
 'use client';
 
 import { QrModal } from '../QrModal';
-import { QrButton } from './QrButton.component';
+import { QrButton } from './QrButton';
 import { useQrButtonPresenter } from './QrButtonPresenter';
 
 export function QrButtonContainer() {

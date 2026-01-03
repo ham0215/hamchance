@@ -1,1 +1,1 @@
-export * from './ExternalLink.component';
+export * from './ExternalLink';

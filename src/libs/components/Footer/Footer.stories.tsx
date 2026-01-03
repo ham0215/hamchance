@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/nextjs';
 
-import { Footer } from './Footer.component';
+import { Footer } from './Footer';
 
 type Component = typeof Footer;
 type Story = StoryObj<Component>;

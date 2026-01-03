@@ -1,2 +1,2 @@
-export * from './QrButton.component';
+export * from './QrButton';
 export * from './QrButtonContainer';

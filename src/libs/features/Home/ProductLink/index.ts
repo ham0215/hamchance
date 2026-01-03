@@ -1,1 +1,1 @@
-export * from './ProductLink.component';
+export * from './ProductLink';

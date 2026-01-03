@@ -1,1 +1,1 @@
-export * from './QrModal.component';
+export * from './QrModal';
