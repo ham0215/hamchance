@@ -60,7 +60,7 @@ exports[`Home snapshot testing 1`] = `
             class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
           >
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -103,7 +103,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto css-1hef13s-MuiGrid-root"
             >
               <div>
                 <svg
@@ -120,7 +120,7 @@ exports[`Home snapshot testing 1`] = `
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -163,7 +163,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -206,7 +206,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -245,7 +245,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -288,7 +288,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -331,7 +331,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -370,7 +370,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -413,7 +413,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -452,7 +452,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -495,7 +495,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -535,7 +535,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -575,7 +575,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -614,11 +614,11 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
-                href="https://findy-code.io/share_profiles/C1wCB4TKPb3By"
+                href="https://findy-code.io/skills-share/2XRMHItDvoLRN"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -654,7 +654,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
@@ -694,7 +694,7 @@ exports[`Home snapshot testing 1`] = `
               </a>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
