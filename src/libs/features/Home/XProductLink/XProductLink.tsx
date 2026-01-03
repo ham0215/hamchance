@@ -1,8 +1,8 @@
 import { SiX } from '@icons-pack/react-simple-icons';
 import Grid from '@mui/material/Grid';
+import { QrModalButton } from 'libs/ui/QrModalButton';
 
 import { ProductLink } from '../ProductLink';
-import { QrButtonContainer } from '../QrButton';
 
 export function XProductLink() {
   return (
@@ -11,7 +11,7 @@ export function XProductLink() {
         <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
       </ProductLink>
       <Grid size="auto">
-        <QrButtonContainer src="/static/images/x-qr.png" alt="X QR code" />
+        <QrModalButton src="/static/images/x-qr.png" alt="X QR code" />
       </Grid>
     </>
   );
