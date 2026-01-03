@@ -1,8 +1,9 @@
 import { SiX } from '@icons-pack/react-simple-icons';
 import Grid from '@mui/material/Grid';
 
+import { QrButtonContainer } from 'libs/ui/QrModal';
+
 import { ProductLink } from '../ProductLink';
-import { QrButtonContainer } from '../QrButton';
 
 export function XProductLink() {
   return (

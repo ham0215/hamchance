@@ -1,9 +1,8 @@
 'use client';
 
-import { QrModal } from 'libs/ui/QrModal';
-
 import { QrButton } from './QrButton';
 import { useQrButtonPresenter } from './QrButtonPresenter';
+import { QrModal } from './QrModal';
 
 type Props = {
   src: string;
