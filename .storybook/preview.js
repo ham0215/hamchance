@@ -20,3 +20,4 @@ export const decorators = [
     </PaletteModeProvider>
   ),
 ];
+export const tags = ['autodocs'];
