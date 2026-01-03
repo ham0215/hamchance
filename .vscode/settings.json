@@ -2,8 +2,8 @@
   "editor.formatOnSave": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "*.ts": "$(capture).test.ts",
-    "*.tsx": "$(capture).test.tsx, $(capture).stories.tsx, $(capture).component.test.tsx"
+    "*.ts": "$(capture).test.ts, $(capture).test.tsx",
+    "*.tsx": "$(capture).test.tsx, $(capture).stories.tsx, $(capture).styles.ts"
   },
   "cSpell.words": [
     "Bluesky",
