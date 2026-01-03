@@ -1,20 +1,12 @@
 'use client';
 
 import QrCode2Icon from '@mui/icons-material/QrCode2';
-import { useCallback, useState } from 'react';
 
 import { QrModal } from '../QrModal';
+import { useQrButtonPresenter } from './QrButtonPresenter';
 
 export function QrButton() {
-  const [openQrModal, setOpenQrModal] = useState(false);
-
-  const handleOpenQrModal = useCallback(() => {
-    setOpenQrModal(true);
-  }, []);
-
-  const handleCloseQrModal = useCallback(() => {
-    setOpenQrModal(false);
-  }, []);
+  const { openQrModal, handleOpenQrModal, handleCloseQrModal } = useQrButtonPresenter();
 
   return (
     <>
