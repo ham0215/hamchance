@@ -1,19 +1,13 @@
-'use client';
-
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 
-import { QrModal } from '../QrModal';
-import { useQrButtonPresenter } from './QrButtonPresenter';
+type Props = {
+  onClick: () => void;
+};
 
-export function QrButton() {
-  const { openQrModal, handleOpenQrModal, handleCloseQrModal } = useQrButtonPresenter();
-
+export function QrButton({ onClick }: Props) {
   return (
-    <>
-      <div onClick={handleOpenQrModal}>
-        <QrCode2Icon fontSize="medium" />
-      </div>
-      <QrModal open={openQrModal} onClose={handleCloseQrModal} />
-    </>
+    <div onClick={onClick}>
+      <QrCode2Icon fontSize="medium" />
+    </div>
   );
 }
