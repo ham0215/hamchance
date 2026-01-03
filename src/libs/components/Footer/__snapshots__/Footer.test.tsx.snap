@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer snapshot testing 1`] = `
+<DocumentFragment>
+  <footer
+    class="css-1wbkctp"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+    >
+      Copyright © Ham 2000.
+    </p>
+  </footer>
+</DocumentFragment>
+`;

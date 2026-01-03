@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`QrModal snapshot testing - closed 1`] = `
+<body
+  style=""
+>
+  <div />
+</body>
+`;
+
+exports[`QrModal snapshot testing - open 1`] = `
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
+  <div
+    aria-hidden="true"
+  />
+  <div
+    aria-labelledby="X QR code"
+    class="MuiModal-root css-1g04pbp-MuiModal-root"
+    role="presentation"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root MuiModal-backdrop css-4nmryk-MuiBackdrop-root-MuiModal-backdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-testid="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiBox-root css-z3tx4l"
+      tabindex="-1"
+    >
+      <img
+        alt="QR"
+        data-nimg="1"
+        decoding="async"
+        height="280"
+        loading="lazy"
+        src="/_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=640&q=75"
+        srcset="/_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=384&q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fx-qr.png&w=640&q=75 2x"
+        style="color: transparent;"
+        width="280"
+      />
+    </div>
+    <div
+      data-testid="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
