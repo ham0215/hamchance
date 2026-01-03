@@ -1,0 +1,1 @@
+export { QrModalButton } from './QrModalButton';

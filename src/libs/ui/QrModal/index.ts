@@ -1,1 +1,0 @@
-export { QrButtonContainer } from './QrButtonContainer';

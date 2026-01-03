@@ -9,7 +9,7 @@ type Props = {
   alt?: string;
 };
 
-export function QrButtonContainer({ src, alt }: Props) {
+export function QrModalButton({ src, alt }: Props) {
   const { openQrModal, handleOpenQrModal, handleCloseQrModal } = useQrButtonPresenter();
 
   return (
