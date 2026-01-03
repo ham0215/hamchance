@@ -1,17 +1,17 @@
-import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiX, SiZenn } from '@icons-pack/react-simple-icons';
+'use client';
+
+import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiZenn } from '@icons-pack/react-simple-icons';
 import Avatar from '@mui/material/Avatar';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
 
-import { HomePresenter } from './Home.presenter';
 import { Card, Container, Profile, SubTitle, Title } from './Home.styles';
 import { ProductLink } from './ProductLink';
-import { QrModal } from './QrModal';
+import { XProductLink } from './XProductLink';
 
 export function Home() {
-  const { openQrModal, handleOpenQrModal, handleCloseQrModal } = HomePresenter();
 
   return (
     <Container>
@@ -26,14 +26,7 @@ export function Home() {
           />
           <CardContent sx={{ p: 2 }}>
             <Grid container spacing={2}>
-              <ProductLink
-                href="https://twitter.com/hamchance0215"
-                productName="X"
-                name="@hamchance0215"
-                onClickQr={handleOpenQrModal}
-              >
-                <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
-              </ProductLink>
+              <XProductLink />
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
                 <SiGithub color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
               </ProductLink>
@@ -107,7 +100,6 @@ export function Home() {
           </CardContent>
         </Card>
       </Profile>
-      <QrModal open={openQrModal} onClose={handleCloseQrModal} />
     </Container>
   );
 }
