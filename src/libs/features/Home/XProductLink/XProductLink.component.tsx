@@ -10,7 +10,7 @@ export function XProductLink() {
   return (
     <>
       <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215">
-        <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+        <SiX color="black" size={46} />
       </ProductLink>
       <Grid size="auto">
         <QrButton />
