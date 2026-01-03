@@ -1,4 +1,5 @@
 import QrCode2Icon from '@mui/icons-material/QrCode2';
+import IconButton from '@mui/material/IconButton';
 
 type Props = {
   onClick: () => void;
@@ -6,8 +7,8 @@ type Props = {
 
 export function QrButton({ onClick }: Props) {
   return (
-    <div onClick={onClick}>
+    <IconButton onClick={onClick} aria-label="Show QR code">
       <QrCode2Icon fontSize="medium" />
-    </div>
+    </IconButton>
   );
 }
