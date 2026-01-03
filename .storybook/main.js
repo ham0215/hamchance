@@ -12,19 +12,12 @@ module.exports = {
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
 
-  addons: [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials"
-  ],
+  addons: ["@storybook/addon-links", "@storybook/addon-docs"],
 
   framework: {
     name: "@storybook/nextjs",
     options: {}
   },
 
-  staticDirs: ['../public'],
-
-  docs: {
-    autodocs: true
-  }
+  staticDirs: ['../public']
 }
