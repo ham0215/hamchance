@@ -1,4 +1,4 @@
-import ThemeProvider from 'providers/ThemeProvider';
+import { ThemeRegistry } from 'providers/ThemeProvider';
 import PaletteModeProvider from 'providers/PaletteModeProvider';
 
 export const parameters = {
@@ -14,9 +14,9 @@ export const parameters = {
 export const decorators = [
   (Story) => (
     <PaletteModeProvider>
-      <ThemeProvider>
+      <ThemeRegistry options={{ key: 'mui' }}>
         <Story />
-      </ThemeProvider>
+      </ThemeRegistry>
     </PaletteModeProvider>
   ),
 ];
