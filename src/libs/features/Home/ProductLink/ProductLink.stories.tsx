@@ -14,7 +14,7 @@ const args = {
 };
 
 const meta: Meta<Component> = {
-  title: 'features/ProductLink',
+  title: 'features/Home/ProductLink',
   component: ProductLink,
   args,
 };

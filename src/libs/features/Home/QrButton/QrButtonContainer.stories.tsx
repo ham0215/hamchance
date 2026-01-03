@@ -8,7 +8,7 @@ type Story = StoryObj<Component>;
 const args = {};
 
 const meta: Meta<Component> = {
-  title: 'features/QrButtonContainer',
+  title: 'features/Home/QrButtonContainer',
   component: QrButtonContainer,
   args,
 };

@@ -11,7 +11,7 @@ const args = {
 };
 
 const meta: Meta<Component> = {
-  title: 'features/QrModal',
+  title: 'features/Home/QrModal',
   component: QrModal,
   args,
 };

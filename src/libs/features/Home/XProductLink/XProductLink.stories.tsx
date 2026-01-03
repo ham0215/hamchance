@@ -8,7 +8,7 @@ type Story = StoryObj<Component>;
 const args = {};
 
 const meta: Meta<Component> = {
-  title: 'features/XProductLink',
+  title: 'features/Home/XProductLink',
   component: XProductLink,
   args,
 };

@@ -10,7 +10,7 @@ const args = {
 };
 
 const meta: Meta<Component> = {
-  title: 'features/QrButton',
+  title: 'features/Home/QrButton',
   component: QrButton,
   args,
 };
