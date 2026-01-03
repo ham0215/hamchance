@@ -6,6 +6,7 @@ type Component = typeof QrButton;
 type Story = StoryObj<Component>;
 
 const args = {
+  // eslint-disable-next-line no-console
   onClick: () => console.log('QR button clicked'),
 };
 

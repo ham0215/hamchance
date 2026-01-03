@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/nextjs';
 import { SiGithub } from '@icons-pack/react-simple-icons';
+import { Meta, StoryObj } from '@storybook/nextjs';
 
 import { ProductLink } from './ProductLink';
 
