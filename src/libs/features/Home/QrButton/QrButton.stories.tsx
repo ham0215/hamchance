@@ -5,15 +5,12 @@ import { QrButton } from './QrButton';
 type Component = typeof QrButton;
 type Story = StoryObj<Component>;
 
-const args = {
-  // eslint-disable-next-line no-console
-  onClick: () => console.log('QR button clicked'),
-};
-
 const meta: Meta<Component> = {
   title: 'features/Home/QrButton',
   component: QrButton,
-  args,
+  argTypes: {
+    onClick: { action: 'clicked' },
+  },
 };
 
 export default meta;
