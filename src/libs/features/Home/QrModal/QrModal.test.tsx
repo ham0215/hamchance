@@ -17,12 +17,12 @@ describe('QrModal', () => {
   });
 
   it('snapshot testing - open', () => {
-    const { asFragment } = render(<QrModal open={true} />);
-    expect(asFragment()).toMatchSnapshot();
+    const { baseElement } = render(<QrModal open={true} />);
+    expect(baseElement).toMatchSnapshot();
   });
 
   it('snapshot testing - closed', () => {
-    const { asFragment } = render(<QrModal open={false} />);
-    expect(asFragment()).toMatchSnapshot();
+    const { baseElement } = render(<QrModal open={false} />);
+    expect(baseElement).toMatchSnapshot();
   });
 });

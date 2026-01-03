@@ -11,13 +11,6 @@ describe('Link', () => {
     expect(link).toHaveAttribute('href', '/about');
   });
 
-  it('renders with prefetch disabled by default', () => {
-    render(<Link href="/about">About</Link>);
-
-    const link = screen.getByRole('link', { name: 'About' });
-    expect(link).toBeInTheDocument();
-  });
-
   it('snapshot testing', () => {
     const { asFragment } = render(<Link href="/about">About</Link>);
     expect(asFragment()).toMatchSnapshot();
