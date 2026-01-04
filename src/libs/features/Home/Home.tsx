@@ -1,15 +1,15 @@
 'use client';
 
-import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiZenn } from '@icons-pack/react-simple-icons';
+import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiX, SiZenn } from '@icons-pack/react-simple-icons';
 import Avatar from '@mui/material/Avatar';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import Grid from '@mui/material/Grid';
+import { QrModalButton } from 'libs/ui/QrModalButton';
 import Image from 'next/image';
 
 import { Card, Container, Profile, SubTitle, Title } from './Home.styles';
 import { ProductLink } from './ProductLink';
-import { XProductLink } from './XProductLink';
 
 export function Home() {
   return (
@@ -25,7 +25,12 @@ export function Home() {
           />
           <CardContent sx={{ p: 2 }}>
             <Grid container spacing={2}>
-              <XProductLink />
+              <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215">
+                <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+              </ProductLink>
+              <Grid size="auto">
+                <QrModalButton src="/static/images/x-qr.png" alt="X QR code" />
+              </Grid>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
                 <SiGithub color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
               </ProductLink>
