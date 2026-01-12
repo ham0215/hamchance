@@ -31,8 +31,8 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@babel/core": "7.28.5",
-    "@babel/runtime": "7.28.4",
+    "@babel/core": "7.28.6",
+    "@babel/runtime": "7.28.6",
     "@eslint/js": "9.39.2",
     "@jest/types": "30.2.0",
     "@mdx-js/react": "3.1.1",
