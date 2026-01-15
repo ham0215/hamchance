@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6.0.1
-      - uses: actions/setup-node@v6.1.0
+      - uses: actions/setup-node@v6.2.0
         with:
           node-version-file: '.tool-versions'
       - run: npm install @holiday-jp/holiday_jp
