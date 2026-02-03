@@ -1,0 +1,1 @@
+import{j as n}from"./iframe-qJdNnFXF.js";import{L as o}from"./Link-Cl3glV3s.js";function t({href:r,children:e}){return n.jsx(o,{href:r,color:"inherit",underline:"none",target:"_blank",rel:"noopener noreferrer",children:e})}t.__docgenInfo={description:"",methods:[],displayName:"ExternalLink",props:{href:{required:!0,tsType:{name:"string"},description:""}}};export{t as E};
