@@ -27,8 +27,8 @@
     "@mui/material": "7.3.8",
     "@mui/system": "7.3.8",
     "next": "14.2.35",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@babel/core": "7.29.0",
@@ -43,7 +43,7 @@
     "@testing-library/user-event": "14.6.1",
     "@types/jest": "30.0.0",
     "@types/node": "24.11.0",
-    "@types/react": "18.3.28",
+    "@types/react": "19.2.14",
     "@typescript-eslint/eslint-plugin": "8.56.1",
     "@typescript-eslint/parser": "8.56.1",
     "babel-loader": "10.0.0",
@@ -51,7 +51,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jest": "29.15.0",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-storybook": "10.2.13",
     "eslint-plugin-unused-imports": "4.4.1",
