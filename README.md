@@ -1,6 +1,6 @@
 # Hamchance.com
 
-This is ham's portfolio.
+This is ham's portfolio site.
 
 Update!!!!!!!!!
 
