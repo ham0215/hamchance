@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.29.0",
-    "@babel/runtime": "7.28.6",
+    "@babel/runtime": "7.29.2",
     "@eslint/js": "9.39.4",
     "@jest/types": "30.3.0",
     "@mdx-js/react": "3.1.1",
