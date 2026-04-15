@@ -61,7 +61,7 @@
     "jest": "30.3.0",
     "jest-environment-jsdom": "30.3.0",
     "local-ssl-proxy": "2.0.5",
-    "prettier": "3.8.2",
+    "prettier": "3.8.3",
     "storybook": "10.3.5",
     "typescript": "5.9.3",
     "@storybook/nextjs-vite": "10.3.5",
