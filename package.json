@@ -43,7 +43,7 @@
     "@testing-library/user-event": "14.6.1",
     "@types/jest": "30.0.0",
     "@types/node": "24.12.4",
-    "@types/react": "18.3.28",
+    "@types/react": "18.3.29",
     "@typescript-eslint/eslint-plugin": "8.59.4",
     "@typescript-eslint/parser": "8.59.4",
     "babel-loader": "10.1.1",
