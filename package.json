@@ -63,7 +63,7 @@
     "local-ssl-proxy": "2.0.5",
     "prettier": "3.9.5",
     "storybook": "10.5.3",
-    "typescript": "5.9.3",
+    "typescript": "7.0.2",
     "@storybook/nextjs-vite": "10.5.3",
     "vite": "^7.0.0"
   }
