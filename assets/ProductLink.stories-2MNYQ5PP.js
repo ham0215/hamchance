@@ -1,0 +1,5 @@
+import{j as o}from"./iframe-gXIZeSJf.js";import{P as t,S as a}from"./ProductLink-CfsBkNTW.js";import"./preload-helper-PPVm8Dsz.js";import"./ExternalLink-CBxRRfU_.js";import"./Link-DXBdI6I5.js";import"./isFocusVisible-CA8ItJ8C.js";import"./createSimplePaletteValueFilter-CtPA_8eN.js";import"./Typography-woFDd3he.js";const s={href:"https://github.com/example",productName:"GitHub",name:"@example",children:o.jsx(a,{color:"black",size:46,onPointerEnterCapture:void 0,onPointerLeaveCapture:void 0})},g={title:"features/Home/ProductLink",component:t,args:s},e={},r={args:{name:"@verylongusernamethatmightoverflow"}},h=["Default","WithLongName"];e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"{}",...e.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  args: {
+    name: '@verylongusernamethatmightoverflow'
+  }
+}`,...r.parameters?.docs?.source}}};export{e as Default,r as WithLongName,h as __namedExportsOrder,g as default};
