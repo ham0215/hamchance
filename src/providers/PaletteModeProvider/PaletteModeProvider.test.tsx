@@ -76,17 +76,33 @@ describe('PaletteModeProvider when storage is unavailable', () => {
     jest.restoreAllMocks();
   });
 
+  it('keeps the last read mode when storage becomes unreadable', () => {
+    localStorage.setItem('paletteMode', 'dark');
+    const { unmount } = renderWithProvider();
+    expect(screen.getByRole('button')).toHaveTextContent('dark');
+    unmount();
+
+    jest.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
+      throw new Error('SecurityError');
+    });
+    renderWithProvider();
+    expect(screen.getByRole('button')).toHaveTextContent('dark');
+  });
+
+  // 直前のケースでストレージ不可の判定が残るため、初期値ではなく切り替わること自体を検証する
   it('still toggles the mode when saving fails', () => {
     jest.spyOn(Storage.prototype, 'setItem').mockImplementation(() => {
       throw new Error('QuotaExceededError');
     });
     renderWithProvider();
     const button = screen.getByRole('button');
+    const initial = button.textContent;
+    const toggled = initial === 'dark' ? 'light' : 'dark';
 
     act(() => button.click());
-    expect(button).toHaveTextContent('dark');
+    expect(button).toHaveTextContent(toggled);
 
     act(() => button.click());
-    expect(button).toHaveTextContent('light');
+    expect(button).toHaveTextContent(initial ?? '');
   });
 });

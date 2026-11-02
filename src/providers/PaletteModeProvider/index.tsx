@@ -28,7 +28,9 @@ let memoryMode: PaletteMode = 'light';
 function getSnapshot(): PaletteMode {
   if (!storageUsable) return memoryMode;
   try {
-    return localStorage.getItem(STORAGE_KEY) === 'dark' ? 'dark' : 'light';
+    // 後からストレージが使えなくなっても直前の表示を保てるよう、読めた値をメモリにも写す
+    memoryMode = localStorage.getItem(STORAGE_KEY) === 'dark' ? 'dark' : 'light';
+    return memoryMode;
   } catch {
     storageUsable = false;
     return memoryMode;
