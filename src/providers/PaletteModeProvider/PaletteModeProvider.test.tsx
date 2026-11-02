@@ -66,7 +66,8 @@ describe('PaletteModeProvider', () => {
   });
 });
 
-// ストレージ不可の判定はモジュール内に残り以降のケースへ持ち越されるため、このファイルの最後に置く
+// ストレージ不可の判定はモジュール内に残り以降のケースへ持ち越されるため、このファイルの最後に置く。
+// 書き込み失敗は判定が残っていると経路を通らないので別ファイル（storageWriteFailure.test.tsx）で検証する
 describe('PaletteModeProvider when storage is unavailable', () => {
   beforeEach(() => {
     localStorage.clear();
@@ -87,22 +88,5 @@ describe('PaletteModeProvider when storage is unavailable', () => {
     });
     renderWithProvider();
     expect(screen.getByRole('button')).toHaveTextContent('dark');
-  });
-
-  // 直前のケースでストレージ不可の判定が残るため、初期値ではなく切り替わること自体を検証する
-  it('still toggles the mode when saving fails', () => {
-    jest.spyOn(Storage.prototype, 'setItem').mockImplementation(() => {
-      throw new Error('QuotaExceededError');
-    });
-    renderWithProvider();
-    const button = screen.getByRole('button');
-    const initial = button.textContent;
-    const toggled = initial === 'dark' ? 'light' : 'dark';
-
-    act(() => button.click());
-    expect(button).toHaveTextContent(toggled);
-
-    act(() => button.click());
-    expect(button).toHaveTextContent(initial ?? '');
   });
 });
