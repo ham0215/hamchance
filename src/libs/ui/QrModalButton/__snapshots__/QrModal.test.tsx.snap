@@ -39,8 +39,7 @@ exports[`QrModal snapshot testing - open 1`] = `
         decoding="async"
         height="280"
         loading="lazy"
-        src="/_next/image?url=%2Ftest-qr.png&w=640&q=75"
-        srcset="/_next/image?url=%2Ftest-qr.png&w=384&q=75 1x, /_next/image?url=%2Ftest-qr.png&w=640&q=75 2x"
+        src="/test-qr.png"
         style="color: transparent;"
         width="280"
       />

@@ -10,7 +10,7 @@ const args = {
   href: 'https://github.com/example',
   productName: 'GitHub',
   name: '@example',
-  children: <SiGithub color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
+  children: <SiGithub color="black" size={46} />,
 };
 
 const meta: Meta<Component> = {

@@ -1,6 +1,7 @@
 'use client';
 
-import { SiFacebook, SiGithub, SiLinkedin, SiQiita, SiSpeakerdeck, SiX, SiZenn } from '@icons-pack/react-simple-icons';
+import { SiFacebook, SiGithub, SiQiita, SiSpeakerdeck, SiX, SiZenn } from '@icons-pack/react-simple-icons';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Avatar from '@mui/material/Avatar';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
@@ -26,57 +27,38 @@ export function Home() {
           <CardContent sx={{ p: 2 }}>
             <Grid container spacing={2}>
               <ProductLink href="https://twitter.com/hamchance0215" productName="X" name="@hamchance0215">
-                <SiX color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+                <SiX color="black" size={46} />
               </ProductLink>
               <Grid size="auto">
                 <QrModalButton src="/static/images/x-qr.png" alt="X QR code" />
               </Grid>
               <ProductLink href="https://github.com/ham0215" productName="GitHub" name="ham0215">
-                <SiGithub color="black" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+                <SiGithub color="black" size={46} />
               </ProductLink>
               <ProductLink href="https://qiita.com/ham0215" productName="Qiita" name="@ham0215">
-                <SiQiita
-                  color="#55C460"
-                  size={46}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
+                <SiQiita color="#55C460" size={46} />
               </ProductLink>
               <ProductLink href="https://note.com/hamchance" productName="Note" name="@hamchance">
                 <Image src="/static/images/note2.svg" alt="note" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://speakerdeck.com/ham0215" productName="Speaker Deck" name="ham0215">
-                <SiSpeakerdeck
-                  color="#009287"
-                  size={46}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
+                <SiSpeakerdeck color="#009287" size={46} />
               </ProductLink>
               <ProductLink href="https://zenn.dev/hamchance" productName="Zenn" name="@hamchance">
-                <SiZenn color="#3EA8FF" size={46} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+                <SiZenn color="#3EA8FF" size={46} />
               </ProductLink>
               <ProductLink href="https://sizu.me/ham" productName="しずかなインターネット" name="ham">
                 <Image src="/static/images/sizu.svg" alt="しずかなインターネット" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://www.linkedin.com/in/ham0215/" productName="LinkedIn" name="ham0215">
-                <SiLinkedin
-                  color="#2867B2"
-                  size={46}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
+                {/* Simple Icons はブランド側の要請で LinkedIn を収録から外したため MUI のアイコンで代替する */}
+                <LinkedInIcon sx={{ color: '#2867B2', fontSize: 46 }} />
               </ProductLink>
               <ProductLink href="https://www.wantedly.com/id/hamchance" productName="Wantedly" name="hamchance">
                 <Image src="/static/images/wantedly.svg" alt="wantedly" width="46" height="46" />
               </ProductLink>
               <ProductLink href="https://www.facebook.com/naoto.hamada.9" productName="Facebook" name="naoto.hamada">
-                <SiFacebook
-                  color="#3b5998"
-                  size={46}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
+                <SiFacebook color="#3b5998" size={46} />
               </ProductLink>
               <ProductLink href="https://youtrust.jp/users/ham" productName="YOUTRUST" name="ham">
                 <Image src="/static/images/youtrust.avif" alt="youtrust" width="46" height="46" />

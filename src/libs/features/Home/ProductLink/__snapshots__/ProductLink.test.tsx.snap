@@ -6,7 +6,7 @@ exports[`ProductLink renders product link with correct content 1`] = `
     class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-10 css-r13beu-MuiGrid-root"
   >
     <a
-      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
+      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-tb1mf-MuiTypography-root-MuiLink-root"
       href="https://hamchance.com"
       rel="noopener noreferrer"
       target="_blank"
@@ -17,12 +17,12 @@ exports[`ProductLink renders product link with correct content 1`] = `
         <div />
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-3grywy-MuiTypography-root"
           >
             hamchance
           </p>
           <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-96s4nc-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-3grywy-MuiTypography-root"
           >
             @ham
           </p>

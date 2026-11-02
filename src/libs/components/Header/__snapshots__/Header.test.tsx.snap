@@ -10,17 +10,17 @@ exports[`Header snapshot testing 1`] = `
       class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-dense css-s3ewxw-MuiToolbar-root"
     >
       <div
-        class="MuiTypography-root MuiTypography-h6 css-lytkkx-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-1bv5yfe-MuiTypography-root"
       >
         <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-tb1mf-MuiTypography-root-MuiLink-root"
           href="/"
         >
           Hamchance.com
         </a>
       </div>
       <button
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-mcxdug-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-vj699s-MuiButtonBase-root-MuiIconButton-root"
         tabindex="0"
         type="button"
       >
