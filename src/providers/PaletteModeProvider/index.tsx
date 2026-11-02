@@ -20,8 +20,29 @@ function subscribe(listener: () => void) {
   };
 }
 
+// ストレージが使えない環境（サイトデータのブロック・容量超過等）ではアクセスが例外になる。
+// 表示状態の正をストレージに置いているため、一度失敗したら以降はメモリの値を正にしてトグルを効かせる
+let storageUsable = true;
+let memoryMode: PaletteMode = 'light';
+
 function getSnapshot(): PaletteMode {
-  return localStorage.getItem(STORAGE_KEY) === 'dark' ? 'dark' : 'light';
+  if (!storageUsable) return memoryMode;
+  try {
+    return localStorage.getItem(STORAGE_KEY) === 'dark' ? 'dark' : 'light';
+  } catch {
+    storageUsable = false;
+    return memoryMode;
+  }
+}
+
+function saveMode(mode: PaletteMode) {
+  memoryMode = mode;
+  if (!storageUsable) return;
+  try {
+    localStorage.setItem(STORAGE_KEY, mode);
+  } catch {
+    storageUsable = false;
+  }
 }
 
 function getServerSnapshot(): PaletteMode {
@@ -33,7 +54,7 @@ export default function PaletteModeProvider({ children }: PropsWithChildren) {
 
   const togglePaletteMode = useCallback(() => {
     const nextMode = mode === 'dark' ? 'light' : 'dark';
-    localStorage.setItem(STORAGE_KEY, nextMode);
+    saveMode(nextMode);
     listeners.forEach((listener) => listener());
   }, [mode]);
 
