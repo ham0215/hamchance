@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-2s6bX4vc.js";import{t}from"./jsx-runtime-BxfXuubT.js";import{i as n,n as r,r as i,t as a}from"./ProductLink-376YIMRP.js";var o,s,c,l,u;function d(){return(d=e((()=>{o=t(),n(),r(),s={title:`features/Home/ProductLink`,component:a,args:{href:`https://github.com/example`,productName:`GitHub`,name:`@example`,children:(0,o.jsx)(i,{color:`black`,size:46})}},c={},l={args:{name:`@verylongusernamethatmightoverflow`}},u=[`Default`,`WithLongName`],c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{}`,...c.parameters?.docs?.source}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    name: '@verylongusernamethatmightoverflow'
+  }
+}`,...l.parameters?.docs?.source}}}})))()}d();export{c as Default,l as WithLongName,u as __namedExportsOrder,s as default};
