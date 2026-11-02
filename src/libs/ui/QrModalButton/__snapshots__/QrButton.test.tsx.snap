@@ -4,7 +4,7 @@ exports[`QrButton snapshot testing 1`] = `
 <DocumentFragment>
   <button
     aria-label="Show QR code"
-    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-53g0n7-MuiButtonBase-root-MuiIconButton-root"
+    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-io3cf4-MuiButtonBase-root-MuiIconButton-root"
     tabindex="0"
     type="button"
   >
