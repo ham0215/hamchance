@@ -6,10 +6,8 @@ type Props = { href: string; prefetch?: boolean };
 
 export function Link({ href, prefetch = false, children }: PropsWithChildren<Props>) {
   return (
-    <NextLink href={href} prefetch={prefetch} passHref legacyBehavior>
-      <MuiLink color="inherit" underline="none">
-        {children}
-      </MuiLink>
-    </NextLink>
+    <MuiLink component={NextLink} href={href} prefetch={prefetch} color="inherit" underline="none">
+      {children}
+    </MuiLink>
   );
 }
