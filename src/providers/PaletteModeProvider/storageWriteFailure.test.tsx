@@ -1,11 +1,11 @@
 import { act, render, screen } from '@testing-library/react';
-import { useContext } from 'react';
+import { use } from 'react';
 
 import PaletteModeProvider, { PaletteModeContext, TogglePaletteModeContext } from '.';
 
 function Consumer() {
-  const mode = useContext(PaletteModeContext);
-  const toggle = useContext(TogglePaletteModeContext);
+  const mode = use(PaletteModeContext);
+  const toggle = use(TogglePaletteModeContext);
   return (
     <button type="button" onClick={toggle}>
       {mode}

@@ -4,10 +4,10 @@ import typescriptParser from '@typescript-eslint/parser';
 import jest from 'eslint-plugin-jest';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import unusedImports from 'eslint-plugin-unused-imports';
-import react from 'eslint-plugin-react';
+import eslintReact from '@eslint-react/eslint-plugin';
 import reactHooks from 'eslint-plugin-react-hooks';
 import storybook from 'eslint-plugin-storybook';
-import importPlugin from 'eslint-plugin-import';
+import importX from 'eslint-plugin-import-x';
 import globals from 'globals';
 
 export default [
@@ -36,19 +36,15 @@ export default [
       jest,
       'simple-import-sort': simpleImportSort,
       'unused-imports': unusedImports,
-      react,
+      ...eslintReact.configs['recommended-typescript'].plugins,
       'react-hooks': reactHooks,
       storybook,
-      import: importPlugin,
-    },
-    settings: {
-      react: {
-        version: 'detect',
-      },
+      'import-x': importX,
     },
     rules: {
       ...typescript.configs.recommended.rules,
-      ...react.configs.recommended.rules,
+      ...eslintReact.configs['recommended-typescript'].rules,
+      ...eslintReact.configs['disable-conflict-eslint-plugin-react-hooks'].rules,
       ...reactHooks.configs.recommended.rules,
       quotes: ['error', 'single'],
       semi: ['error', 'always'],
@@ -61,12 +57,10 @@ export default [
         },
       ],
       'no-console': 'error',
-      'import/no-duplicates': 'error',
+      'import-x/no-duplicates': 'error',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
       'unused-imports/no-unused-imports': 'error',
-      'react/react-in-jsx-scope': 'off',
-      'react/prop-types': 'off',
     },
   },
   {

@@ -4,7 +4,7 @@ import { CacheProvider } from '@emotion/react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { useServerInsertedHTML } from 'next/navigation';
-import { PropsWithChildren, useContext, useState } from 'react';
+import { PropsWithChildren, use, useState } from 'react';
 
 import { PaletteModeContext } from '../PaletteModeProvider';
 import darkTheme from './darkTheme';
@@ -14,7 +14,7 @@ import lightTheme from './lightTheme';
 // https://github.com/emotion-js/emotion/issues/2928#issuecomment-1319747902
 export function ThemeRegistry(props: PropsWithChildren<{ options: Options }>) {
   const { options, children } = props;
-  const paletteMode = useContext(PaletteModeContext);
+  const paletteMode = use(PaletteModeContext);
   const theme = paletteMode === 'dark' ? darkTheme : lightTheme;
 
   const [{ cache, flush }] = useState(() => {
@@ -50,6 +50,8 @@ export function ThemeRegistry(props: PropsWithChildren<{ options: Options }>) {
       <style
         key={cache.key}
         data-emotion={`${cache.key} ${names.join(' ')}`}
+        // emotion が生成した CSS のみを埋め込み、ユーザー入力は含まれない
+        // eslint-disable-next-line @eslint-react/dom-no-dangerously-set-innerhtml
         dangerouslySetInnerHTML={{
           __html: styles,
         }}

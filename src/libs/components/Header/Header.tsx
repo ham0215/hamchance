@@ -6,11 +6,11 @@ import { AppBar, IconButton, Toolbar, useTheme } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import { Link } from 'libs/ui/Link';
 import { TogglePaletteModeContext } from 'providers/PaletteModeProvider';
-import { useContext } from 'react';
+import { use } from 'react';
 
 export function Header() {
   const theme = useTheme();
-  const togglePaletteMode = useContext(TogglePaletteModeContext);
+  const togglePaletteMode = use(TogglePaletteModeContext);
 
   return (
     <AppBar position="static">
