@@ -50,8 +50,7 @@ export function ThemeRegistry(props: PropsWithChildren<{ options: Options }>) {
       <style
         key={cache.key}
         data-emotion={`${cache.key} ${names.join(' ')}`}
-        // emotion が生成した CSS のみを埋め込み、ユーザー入力は含まれない
-        // eslint-disable-next-line @eslint-react/dom-no-dangerously-set-innerhtml
+        // eslint-disable-next-line @eslint-react/dom-no-dangerously-set-innerhtml -- emotion が生成した CSS のみを埋め込み、ユーザー入力は含まれない
         dangerouslySetInnerHTML={{
           __html: styles,
         }}

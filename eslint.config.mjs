@@ -10,6 +10,8 @@ import storybook from 'eslint-plugin-storybook';
 import importX from 'eslint-plugin-import-x';
 import globals from 'globals';
 
+const eslintReactConfig = eslintReact.configs['recommended-typescript'];
+
 export default [
   js.configs.recommended,
   {
@@ -36,14 +38,14 @@ export default [
       jest,
       'simple-import-sort': simpleImportSort,
       'unused-imports': unusedImports,
-      ...eslintReact.configs['recommended-typescript'].plugins,
+      ...eslintReactConfig.plugins,
       'react-hooks': reactHooks,
       storybook,
       'import-x': importX,
     },
     rules: {
       ...typescript.configs.recommended.rules,
-      ...eslintReact.configs['recommended-typescript'].rules,
+      ...eslintReactConfig.rules,
       ...eslintReact.configs['disable-conflict-eslint-plugin-react-hooks'].rules,
       ...reactHooks.configs.recommended.rules,
       quotes: ['error', 'single'],
