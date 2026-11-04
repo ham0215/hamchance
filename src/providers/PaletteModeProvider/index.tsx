@@ -61,8 +61,8 @@ export default function PaletteModeProvider({ children }: PropsWithChildren) {
   }, [mode]);
 
   return (
-    <PaletteModeContext.Provider value={mode}>
-      <TogglePaletteModeContext.Provider value={togglePaletteMode}>{children}</TogglePaletteModeContext.Provider>
-    </PaletteModeContext.Provider>
+    <PaletteModeContext value={mode}>
+      <TogglePaletteModeContext value={togglePaletteMode}>{children}</TogglePaletteModeContext>
+    </PaletteModeContext>
   );
 }
