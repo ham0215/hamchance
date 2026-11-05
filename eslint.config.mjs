@@ -7,7 +7,6 @@ import unusedImports from 'eslint-plugin-unused-imports';
 import eslintReact from '@eslint-react/eslint-plugin';
 import reactHooks from 'eslint-plugin-react-hooks';
 import storybook from 'eslint-plugin-storybook';
-import importX from 'eslint-plugin-import-x';
 import globals from 'globals';
 
 const eslintReactConfig = eslintReact.configs['recommended-typescript'];
@@ -41,7 +40,6 @@ export default [
       ...eslintReactConfig.plugins,
       'react-hooks': reactHooks,
       storybook,
-      'import-x': importX,
     },
     rules: {
       ...typescript.configs.recommended.rules,
@@ -59,7 +57,7 @@ export default [
         },
       ],
       'no-console': 'error',
-      'import-x/no-duplicates': 'error',
+      'no-duplicate-imports': ['error', { allowSeparateTypeImports: true }],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
       'unused-imports/no-unused-imports': 'error',
