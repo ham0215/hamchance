@@ -1,1 +1,0 @@
-import"./react-C7Icd8fu.js";import{Et as e,Ft as t}from"./DocsRenderer-JROSPFPF-Ce8_vide.js";e();export{t as color};
