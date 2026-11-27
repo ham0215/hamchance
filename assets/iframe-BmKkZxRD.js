@@ -1,1 +1,0 @@
-import{t as e}from"./iframe-BPBM4_y3.js";e();
